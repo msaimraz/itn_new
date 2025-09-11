@@ -8,7 +8,7 @@ export default function Header() {
                 className="fixed h-[6rem] md:h-[8rem] left-0 top-0 z-[70] flex justify-between pl-5 md:pl-12 text-white mix-blend-difference">
                 <div className="lg:flex lg:items-center">
                     <Link href="/" className="block w-48 main_logo animated-lg heart-svg-large-wrapper">
-                        <Image className="w-full h-auto block" src="/webImages/logo.png" alt="Pixel Webdesign - Webyrå Stockholm Logotype"
+                        <img className="w-full h-auto block" src="/webImages/logo.png" alt="Pixel Webdesign - Webyrå Stockholm Logotype"
                             width="82" height="47" />
                     </Link>
                     <h1 id="js-heading-one-scroll" className="leading-none relative lg:top-0.5 mt-3 lg:ml-4">
