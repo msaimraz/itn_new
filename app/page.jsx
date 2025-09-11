@@ -60,6 +60,94 @@ export default function Home() {
           ></div>
         </div>
       </section>
+
+      {/* About  */}
+      <section class="py-14 lg:py-20 xl:py-32">
+        <div class="max-w-7xl wider:max-w-[90rem] px-5 xl:px-8 mx-auto flex flex-wrap gap-10 justify-between">
+          <div class="flex flex-col gap-y-6 w-full max-w-[33.5rem] md:gap-y-11">
+            <h2
+              class="0 text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
+              Webbyrån med heltäckande service
+            </h2>
+
+            <div
+              class="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
+              Pixel Webdesign Webbyrå erbjuder allt från nyskapande webbdesign och
+              e-handelslösningar till effektiv marknadsföring och
+              sökmotoroptimering - vi har verktygen och expertisen för att
+              skapa, förbättra och optimera din digitala närvaro. Hos oss får
+              du allt under ett och samma tak. Välkommen till Pixel Webdesign Webbyrå!
+            </div>
+            <div class="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
+              <a href="contact.php" target="_self"
+                class="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                <span> Kontakta oss </span>
+                <span
+                  class="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
+                  <svg class="inline-block" preserveAspectRatio="none" width="22" height="15"
+                    aria-hidden="true">
+                    <use href="webImages/icons.svg#arrow-right">
+                    </use>
+                  </svg>
+                </span>
+              </a>
+              <a href="services.php" target="_self"
+                class="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                <span> Visa alla tjänster </span>
+                <span
+                  class="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
+                  <svg class="inline-block" preserveAspectRatio="none" width="22" height="15"
+                    aria-hidden="true">
+                    <use href="webImages/icons.svg#arrow-right">
+                    </use>
+                  </svg>
+                </span>
+              </a>
+            </div>
+          </div>
+          <ul
+            class="flex flex-col gap-y-10 w-full max-w-[26.75rem] lg:gap-y-[3.25rem] mt-10 md:mt-0 lg:flex-1">
+            <li class="flex items-start gap-x-6 md:gap-x-11">
+              <img width="55" height="55" src="webImages/branding-design-icon.svg"
+                class="block w-8 sm:w-[3.5rem]" alt="" decoding="async" />
+              <div class="flex flex-col gap-y-2.5 md:pt-2.5">
+                <h3 class="text-xl md:text-2xl font-bold">
+                  Branding, UX & UI-design
+                </h3>
+                <p class="md:text-lg">
+                  Vi hjälper er att kommunicera ert varumärke med stil
+                </p>
+              </div>
+            </li>
+            <li class="flex items-start gap-x-6 md:gap-x-11">
+              <img width="55" height="55" src="webImages/webbutveckling-ehandel-icon.svg"
+                class="block w-8 sm:w-[3.5rem]" alt="" decoding="async" />
+              <div class="flex flex-col gap-y-2.5 md:pt-2.5">
+                <h3 class="text-xl md:text-2xl font-bold">
+                  Backend- och frontendutveckling
+                </h3>
+                <p class="md:text-lg">
+                  Vi bygger tekniskt SEO-optimerade hemsidor och stabila
+                  e-handelslösningar
+                </p>
+              </div>
+            </li>
+            <li class="flex items-start gap-x-6 md:gap-x-11">
+              <img width="56" height="56" src="webImages/analys-seo-growth-icon.svg"
+                class="block w-8 sm:w-[3.5rem]" alt="" decoding="async" />
+              <div class="flex flex-col gap-y-2.5 md:pt-2.5">
+                <h3 class="text-xl md:text-2xl font-bold">
+                  Analys, SEO och Growth
+                </h3>
+                <p class="md:text-lg">
+                  Vi tar era affärer till nya höjder med hjälp av SEO, analys
+                  och ökad konvertering
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
     </>
   );
 }
