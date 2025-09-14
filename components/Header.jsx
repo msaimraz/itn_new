@@ -7,7 +7,7 @@ export default function Header() {
             <div
                 className="fixed h-[6rem] md:h-[8rem] left-0 top-0 z-[70] flex justify-between pl-5 md:pl-12 text-white mix-blend-difference">
                 <div className="lg:flex lg:items-center">
-                    <Link href="/" className="block w-48 main_logo animated-lg heart-svg-large-wrapper">
+                    <Link href="/" className="block w-52 main_logo animated-lg heart-svg-large-wrapper">
                         <img className="w-full h-auto block" src="/webImages/logo.png" alt="Pixel Webdesign - Webyrå Stockholm Logotype"
                             width="82" height="47" />
                     </Link>
