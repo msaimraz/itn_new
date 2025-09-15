@@ -67,7 +67,7 @@ export default function Footer() {
                                 <a
                                     target="_blank"
                                     className="js-hover-circle-animation inline-flex items-center hover-child-underline-animation text-inherit"
-                                    href="#"
+                                    href="https://www.facebook.com/itnnovator"
                                     rel="noopener"
                                 >
                                     <span className="child relative inline-block">facebook</span>
@@ -82,7 +82,7 @@ export default function Footer() {
                                 <a
                                     target="_blank"
                                     className="js-hover-circle-animation inline-flex items-center hover-child-underline-animation text-inherit"
-                                    href="#"
+                                    href="https://pk.linkedin.com/company/itnnovator"
                                     rel="noopener"
                                 >
                                     <span className="child relative inline-block">linkedIn</span>
@@ -97,7 +97,7 @@ export default function Footer() {
                                 <a
                                     target="_blank"
                                     className="js-hover-circle-animation inline-flex items-center hover-child-underline-animation text-inherit"
-                                    href="#"
+                                    href="https://www.instagram.com/itnnovator"
                                     rel="noopener"
                                 >
                                     <span className="child relative inline-block">instagram</span>
