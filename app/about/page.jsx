@@ -136,7 +136,7 @@ export default function About() {
                 <img
                   width="750"
                   height="810"
-                  src="webImages/about/pigmenthenrik-750x810.jpg"
+                  src="https://pigment.se/wp-content/uploads/2023/09/pigmenthenrik-750x810.jpg"
                   className=" w-full h-full lg:h-auto object-cover"
                   loading="eager"
                   decoding="async"
