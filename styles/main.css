@@ -796,6 +796,7 @@ strong {
     top: 3rem;
     width: calc(100% - 2rem);
     z-index: -1;
+    background-color: #1fb4dd;
 }
 
 @media screen and (max-width: 767px) {
