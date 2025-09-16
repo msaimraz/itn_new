@@ -3,28 +3,24 @@
 import { useEffect } from 'react';
 import Typed from 'typed.js';
 
+// TypoAnimation.jsx — shorter, IT-focused
 const TypoAnimation = () => {
     useEffect(() => {
-        const el = document.querySelector('.js-typo-animation');
+        const el = document.querySelector(".js-typo-animation");
         if (!el) return;
 
-        const options = {
-            strings: ['glänsa!', 'sticka ut!'],
+        const typed = new Typed(el, {
+            strings: ["innovate!", "scale!"],
             typeSpeed: 100,
             backSpeed: 100,
             startDelay: 150,
             backDelay: 3500,
             loop: true,
             showCursor: true,
-            cursorChar: '|',
-        };
+            cursorChar: "|",
+        });
 
-        new Typed(el, options);
-
-        // Clean up when component unmounts
-        return () => {
-            el && el._typed.destroy();
-        };
+        return () => typed?.destroy();
     }, []);
 
     return <span className="js-typo-animation"></span>;
