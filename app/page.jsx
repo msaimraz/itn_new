@@ -10,18 +10,13 @@ export default function Home() {
   return (
     <>
       {/* Video Banner */}
-      <section
-        className="js-animate-fadein js-hero-block flex items-end min-h-[calc(100svh-5rem)] py-[5.125rem] md:min-h-screen md:h-full md:pt-[6.5rem] md:pb-[8.5rem] lg:pb-[8.5rem] 2xl:pb-[14.5rem]">
+      <section className="js-animate-fadein js-hero-block flex items-end min-h-[calc(100svh-5rem)] py-[5.125rem] md:min-h-screen md:h-full md:pt-[6.5rem] md:pb-[8.5rem] lg:pb-[8.5rem] 2xl:pb-[14.5rem]">
         <div className="js-hero-block--content relative w-full max-w-7xl wider:max-w-[90rem] px-5 xl:px-8 mx-auto">
-          <h2
-            className="w-full leading-none tracking-tight text-[4.375rem] font-[900] mb-4 -ml-[4px] md:mb-6 md:text-[5rem] lg:[font-size:_clamp(16px,calc(12vw),15.5rem)] lg:-ml-[9px]"
-            style={{ mixBlendMode: 'difference' }}>
+          <h2 className="w-full leading-none tracking-tight text-[4.375rem] font-[900] mb-4 -ml-[4px] md:mb-6 md:text-[5rem] lg:[font-size:_clamp(16px,calc(12vw),15.5rem)] lg:-ml-[9px]"
+            style={{ mixBlendMode: "difference" }}>
             <span
               className="bg-gradient-to-t from-[#FFE99A] to-[#A1BDE7] bg-clip-text text-transparent mix-blend-difference sm:whitespace-nowrap [&_.typed-cursor]:font-normal [&_.typed-cursor.typed-cursor--blink]:text-[0]">
-              Dare to<br className="block sm:hidden" />
-              {/* If your component accepts words, use:
-            <TypoAnimation words={['launch faster', 'rank higher', 'automate work']} />
-            Otherwise keep as <TypoAnimation /> and update its source to these strings. */}
+              Våga <br className="block sm:hidden" />
               <TypoAnimation />
             </span>
           </h2>

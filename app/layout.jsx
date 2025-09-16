@@ -93,7 +93,10 @@ export default function RootLayout({ children }) {
           <Footer />
         </div>
         <Script
-          src="/lib/main.js" strategy="afterInteractive"
+          src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+        />
+        <Script
+          src="/lib/main.js"
         />
       </body>
     </html>
