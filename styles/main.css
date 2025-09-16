@@ -742,6 +742,7 @@ strong {
     top: 2rem;
     width: calc(100% - 2rem);
     z-index: -1;
+    background: #FFFFFF;
 }
 
 @media screen and (max-width: 767px) {
@@ -1235,6 +1236,7 @@ strong {
     top: 50%;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
     width: 100%;
+    background: #3442c1
 }
 
 @media (min-width: 768px) {
@@ -7459,4 +7461,7 @@ div#CybotCookiebotDialogPoweredByText {
     .\[\@media\(min-width\:375px\)\]\:flex-row {
         flex-direction: row;
     }
+}
+.heading-color h2{
+    color: #829dff;
 }
