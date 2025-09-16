@@ -9,64 +9,60 @@ export default function Contact() {
               <div className="lg:w-1/2">
                 <div className="lg:max-w-[25.25rem] mb-12 lg:mb-24">
                   <h1 className="mb-5 lg:mb-10 text-4xl md:text-8xl leading-[1.1] font-bold text-white">
-                    Säg hej!
+                    Say hello!
                   </h1>
 
                   <div className="prose text-base md:text-xl lg:text-[1.56rem] font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                    Välkommen att höra av dig till oss på Pigment Webbyrå i
-                    Stockholm.
+                    We’d love to hear from you at <strong>ITnnovator</strong>. Tell us about your goals and we’ll reply with the fastest path to impact.
                   </div>
                 </div>
 
                 <div className="flex flex-row flex-wrap gap-y-8 gap-x-[5.25rem] md:gap-x-[7.25rem] mb-20 lg:mb-0">
                   <div>
                     <h3 className="mb-[0.875rem] text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                      Kontakt
+                      Contact
                     </h3>
                     <p>
-                      <Link
-                        className="inline-block"
-                        href="mailto:info@pigment.se"
-                      >
-                        info@pigment.se
+                      <Link className="inline-block" href="mailto:info@itnnovator.com">
+                        info@itnnovator.com
                       </Link>
                     </p>
                     <p>
-                      <Link className="inline-block" href="tel:+46709535399">
-                        +46 70 953 53 99
+                      <Link className="inline-block" href="tel:+923313775851">
+                        +92&nbsp;331&nbsp;3775851
                       </Link>
                     </p>
                   </div>
+
                   <div>
                     <h3 className="mb-[0.875rem] text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                      Ny förfrågan
+                      New project
                     </h3>
                     <p>
-                      <Link href="mailto:sales@pigment.se">
-                        sales@pigment.se
-                      </Link>
+                      <Link href="mailto:info@itnnovator.com">info@itnnovator.com</Link>
                     </p>
                   </div>
+
                   <div>
                     <h3 className="mb-[0.875rem] text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                      Supportärenden
+                      Support
                     </h3>
                     <p>
-                      <Link href="mailto:support@pigment.se">
-                        support@pigment.se
-                      </Link>
+                      <Link href="mailto:info@itnnovator.com">info@itnnovator.com</Link>
                     </p>
                   </div>
                 </div>
               </div>
+
+              {/* Contact form */}
               <div className="lg:w-1/2">
                 <div>
                   <div className="js-form-heading">
                     <h3 className="mb-[2.375rem] text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                      Kontaktformulär
+                      Contact form
                     </h3>
                   </div>
-                  {/* <!-- gravity form  --> */}
+
                   <div className="py-16 max-w-[30rem]">
                     <div
                       className="gf_browser_unknown gform_wrapper gform-theme gform-theme--foundation gform-theme--framework gform-theme--orbital"
@@ -74,12 +70,7 @@ export default function Contact() {
                       data-form-index="0"
                       id="gform_wrapper_1"
                     >
-                      <form
-                        method="post"
-                        id="gform_1"
-                        action="#"
-                        data-formid="1"
-                      >
+                      <form method="post" id="gform_1" action="#" data-formid="1">
                         <div className="gform-body gform_body">
                           <div
                             id="gform_fields_1"
@@ -89,15 +80,10 @@ export default function Contact() {
                               id="field_1_1"
                               className="gfield gfield--type-text gfield--width-half label-hidden gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
                             >
-                              <label
-                                className="gfield_label gform-field-label"
-                                htmlFor="input_1_1"
-                              >
+                              <label className="gfield_label gform-field-label" htmlFor="input_1_1">
                                 First name
                                 <span className="gfield_required">
-                                  <span className="gfield_required gfield_required_text">
-                                    (Obligatoriskt)
-                                  </span>
+                                  <span className="gfield_required gfield_required_text">(Required)</span>
                                 </span>
                               </label>
                               <div className="ginput_container ginput_container_text">
@@ -106,25 +92,21 @@ export default function Contact() {
                                   id="input_1_1"
                                   type="text"
                                   className="large"
-                                  placeholder="Förnamn"
+                                  placeholder="First name"
                                   aria-required="true"
                                   aria-invalid="false"
                                 />
                               </div>
                             </div>
+
                             <div
                               id="field_1_3"
                               className="gfield gfield--type-text gfield--width-half label-hidden gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
                             >
-                              <label
-                                className="gfield_label gform-field-label"
-                                htmlFor="input_1_3"
-                              >
+                              <label className="gfield_label gform-field-label" htmlFor="input_1_3">
                                 Last name
                                 <span className="gfield_required">
-                                  <span className="gfield_required gfield_required_text">
-                                    (Obligatoriskt)
-                                  </span>
+                                  <span className="gfield_required gfield_required_text">(Required)</span>
                                 </span>
                               </label>
                               <div className="ginput_container ginput_container_text">
@@ -133,25 +115,21 @@ export default function Contact() {
                                   id="input_1_3"
                                   type="text"
                                   className="large"
-                                  placeholder="Efternamn"
+                                  placeholder="Last name"
                                   aria-required="true"
                                   aria-invalid="false"
                                 />
                               </div>
                             </div>
+
                             <div
                               id="field_1_4"
                               className="gfield gfield--type-email gfield--width-half label-hidden gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
                             >
-                              <label
-                                className="gfield_label gform-field-label"
-                                htmlFor="input_1_4"
-                              >
-                                E-mail
+                              <label className="gfield_label gform-field-label" htmlFor="input_1_4">
+                                Email
                                 <span className="gfield_required">
-                                  <span className="gfield_required gfield_required_text">
-                                    (Obligatoriskt)
-                                  </span>
+                                  <span className="gfield_required gfield_required_text">(Required)</span>
                                 </span>
                               </label>
                               <div className="ginput_container ginput_container_email">
@@ -160,25 +138,21 @@ export default function Contact() {
                                   id="input_1_4"
                                   type="email"
                                   className="large"
-                                  placeholder="E-post"
+                                  placeholder="Email"
                                   aria-required="true"
                                   aria-invalid="false"
                                 />
                               </div>
                             </div>
+
                             <div
                               id="field_1_5"
                               className="gfield gfield--type-phone gfield--width-half label-hidden gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
                             >
-                              <label
-                                className="gfield_label gform-field-label"
-                                htmlFor="input_1_5"
-                              >
+                              <label className="gfield_label gform-field-label" htmlFor="input_1_5">
                                 Mobile
                                 <span className="gfield_required">
-                                  <span className="gfield_required gfield_required_text">
-                                    (Obligatoriskt)
-                                  </span>
+                                  <span className="gfield_required gfield_required_text">(Required)</span>
                                 </span>
                               </label>
                               <div className="ginput_container ginput_container_phone">
@@ -187,25 +161,21 @@ export default function Contact() {
                                   id="input_1_5"
                                   type="tel"
                                   className="large"
-                                  placeholder="Telefon"
+                                  placeholder="Phone"
                                   aria-required="true"
                                   aria-invalid="false"
                                 />
                               </div>
                             </div>
+
                             <div
                               id="field_1_6"
                               className="gfield gfield--type-textarea gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
                             >
-                              <label
-                                className="gfield_label gform-field-label"
-                                htmlFor="input_1_6"
-                              >
-                                Meddelande
+                              <label className="gfield_label gform-field-label" htmlFor="input_1_6">
+                                Message
                                 <span className="gfield_required">
-                                  <span className="gfield_required gfield_required_text">
-                                    (Obligatoriskt)
-                                  </span>
+                                  <span className="gfield_required gfield_required_text">(Required)</span>
                                 </span>
                               </label>
                               <div className="ginput_container ginput_container_textarea">
@@ -213,6 +183,7 @@ export default function Contact() {
                                   name="input_6"
                                   id="input_1_6"
                                   className="textarea large"
+                                  placeholder="How can we help?"
                                   aria-required="true"
                                   aria-invalid="false"
                                   rows="10"
@@ -220,6 +191,7 @@ export default function Contact() {
                                 ></textarea>
                               </div>
                             </div>
+
                             <fieldset
                               id="field_1_7"
                               className="gfield gfield--type-consent gfield--type-choice legend-hidden gfield_contains_required field_sublabel_below gfield--no-description field_description_below field_validation_below gfield_visibility_visible"
@@ -227,9 +199,7 @@ export default function Contact() {
                               <legend className="gfield_label gform-field-label gfield_label_before_complex">
                                 Consent
                                 <span className="gfield_required">
-                                  <span className="gfield_required gfield_required_text">
-                                    (Obligatoriskt)
-                                  </span>
+                                  <span className="gfield_required gfield_required_text">(Required)</span>
                                 </span>
                               </legend>
                               <div className="ginput_container ginput_container_consent">
@@ -245,22 +215,14 @@ export default function Contact() {
                                   className="gform-field-label gform-field-label--type-inline gfield_consent_label"
                                   htmlFor="input_1_7_1"
                                 >
-                                  Jag har tagit del av Pigments
-                                  <Link
-                                    className="underline"
-                                    href="../integritetspolicy/index.html"
-                                  >
-                                    integritetspolicy.
+                                  I have read ITnnovator’s{" "}
+                                  <Link className="underline" href="/privacy-policy">
+                                    privacy policy
                                   </Link>
+                                  .
                                 </label>
                                 <input type="hidden" name="input_7.2" />
-
-                                <input
-                                  type="hidden"
-                                  name="input_7.3"
-                                  value="1"
-                                  className="gform_hidden"
-                                />
+                                <input type="hidden" name="input_7.3" value="1" className="gform_hidden" />
                               </div>
                             </fieldset>
                           </div>
@@ -272,49 +234,54 @@ export default function Contact() {
               </div>
             </div>
           </div>
+
+          {/* Locations */}
           <div>
             <h2 className="mb-12 lg:mb-[4.25rem] text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-              Våra kontor
+              Where we work
             </h2>
+
             <div className="md:flex items-start justify-between md:gap-x-8">
               <div className="flex flex-row flex-wrap gap-y-16 mb-16 md:mb-0 w-full">
                 <div className="w-1/2 lg:w-1/4">
                   <h3 className="mb-[0.4375rem] text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-malibu">
-                    Stockholm
+                    Pakistan (Head office)
                   </h3>
-                  <p>Götgatan 60</p>
-                  <p>118 26 Stockholm</p>
-                  <Link href="tel:+46709535399">+46 70 953 53 99</Link>
+                  <p>
+                    <Link href="tel:+923313775851">+92&nbsp;331&nbsp;3775851</Link>
+                  </p>
+                  <Link href="mailto:info@itnnovator.com">info@itnnovator.com</Link>
                 </div>
+
                 <div className="w-1/2 lg:w-1/4">
                   <h3 className="mb-[0.4375rem] text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-malibu">
-                    Kathmandu
+                    Remote (EMEA)
                   </h3>
-                  <p>Thamel, Chaksibari Marg</p>
-                  <p>44600, Kathmandu</p>
-                  <Link href="tel:+9779851353274">+977 9851353274</Link>
+                  <p>By appointment</p>
+                  <Link href="mailto:info@itnnovator.com">info@itnnovator.com</Link>
                 </div>
+
                 <div className="w-1/2 lg:w-1/4">
                   <h3 className="mb-[0.4375rem] text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-malibu">
-                    Dalarna
+                    Remote (Americas)
                   </h3>
-                  <Link href="mailto:info@pigment.se">info@pigment.se</Link>
-                  <br />
-                  <Link href="tel:+4676-0308724">+46 76-160 35 42</Link>
+                  <p>By appointment</p>
+                  <Link href="mailto:info@itnnovator.com">info@itnnovator.com</Link>
                 </div>
+
                 <div className="w-1/2 lg:w-1/4">
                   <h3 className="mb-[0.4375rem] text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-malibu">
-                    Norrköping
+                    Remote (APAC)
                   </h3>
-                  <Link href="mailto:info@pigment.se">info@pigment.se</Link>
-                  <br />
-                  <Link href="tel:+46760308724">+46 76-030 87 24</Link>
+                  <p>By appointment</p>
+                  <Link href="mailto:info@itnnovator.com">info@itnnovator.com</Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </main>
+
     </>
   );
 }
