@@ -4,846 +4,550 @@ export default function Service() {
     <>
       <main className="grow">
         <section className="w-full relative max-w-7xl mx-auto mb-12 px-6 lg:px-8">
+          {/* Breadcrumb */}
           <div className="block md:text-lg mb-6">
             <span>
               <span>
-                <Link href=" https://pigment.se/index.html">Hem</Link>
+                <Link href="/">Home</Link>
               </span>
               /
               <span className="breadcrumb_last" aria-current="page">
-                <strong>Tjänster</strong>
+                <strong>Services</strong>
               </span>
             </span>
           </div>
+
+          {/* Page title */}
           <h1 className="w-full mb-2 text-5xl font-bold md:mb-6 xl:mb-12 md:text-6xl xl:text-8xl">
-            Våra tjänster
+            Our services
           </h1>
+
           <div className="flex flex-col text-white md:flex-row justify-items-center md:gap-x-8 xl:gap-x-12">
+            {/* Text column */}
             <div className="order-2 md:order-1 pt-6 md:p-6 lg:p-12 md:w-[calc(50%_-_(1rem))] xl:w-[calc(50%_-_(1.5rem))] js-animate-fadeinup">
-              <div >
+              <div>
                 <div className="heading-color">
                   <h2
                     className="mb-4 lg:mb-6 text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold"
-                    // style="color: #829dff"
                   >
-                    Skapa tillväxt med skräddarsydda lösningar
+                    Drive growth with tailor-made solutions
                   </h2>
 
                   <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
                     <p>
-                      Vi har musklerna för att erbjuda er ett heltäckande
-                      tjänsteutbud för att lyfta er digitala närvaro till nya
-                      höjder. Vi förstår värdet av varje element och varje steg
-                      i processen, och vi är här för att guida er genom en resa
-                      av framgång och tillväxt.
+                      At <strong>ITnnovator</strong>, we deliver an end-to-end toolkit to elevate your
+                      digital presence—from brand &amp; UX to development, e-commerce, SEO, and growth.
+                      We connect strategy to execution so every sprint moves the metrics that matter.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
+            {/* Image column */}
             <div className="md:w-[calc(50%_-_(1rem))] xl:w-[calc(50%_-_(1.5rem))] relative mt-8 md:mt-0 js-animate-fadeinup flex order-1 md:order-2 flex-col items-center justify-center h-full">
               <picture className="block mx-auto relative overflow-hidden w-full aspect-[25/27] rounded-[1.25rem] md:w-[calc(100%_-_4rem)] xl:w-[calc(100%_-_5rem)]">
                 <img
                   width="750"
                   height="810"
-                  src=" https://pigment.se/wp-content/uploads/2023/10/webbyra-tjanster-750x810.jpg"
+                  src="/webImages/services-hero-750x810.jpg"
                   className="w-full h-full lg:h-auto object-cover"
-                  alt="webbyra-tjanster"
+                  alt="ITnnovator — services overview"
                   loading="eager"
                   decoding="async"
                   sizes="(max-width: 750px) 100vw, 750px"
                 />
               </picture>
-              <div
-                className="image-shadow-top-hero"
-                // style="background-color: #829dff"
-              ></div>
-              <div
-                className="image-shadow-bottom-hero"
-                // style="background-color: #829dff"
-              ></div>
+              <div className="image-shadow-top-hero"></div>
+              <div className="image-shadow-bottom-hero"></div>
             </div>
           </div>
         </section>
+
+        {/* Services grid */}
         <section className="w-full py-14 lg:py-20 xl:py-32">
           <div className="max-w-7xl px-5 xl:px-8 mx-auto">
             <ul className="w-full grid gap-12 sm:grid-cols-2 md:grid-cols-3">
+              {/* Analytics & Insights */}
               <li className="mb-6 md:mb-20">
                 <img
                   width="32"
                   height="32"
-                  src=" https://pigment.se/wp-content/uploads/2023/09/analys.svg"
+                  src="/webImages/services/analysis.svg"
                   className="w-6 sm:w-[2.25rem] mb-6"
-                  alt="img"
+                  alt="Analytics icon"
                   loading="lazy"
                   decoding="async"
                 />
-                <Link
-                  className="js-hover-circle-animation"
-                  target="_self"
-                  href="analys/index.html"
-                >
+                <Link className="js-hover-circle-animation" target="_self" href="/services/analytics">
                   <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                    Analys
+                    Analytics & Insights
                   </h3>
                 </Link>
 
                 <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                  Genom insiktsfull analys identifierar vi möjligheter och
-                  optimeringsvägar som vi tillsammans kan utforska för att
-                  stärka din närvaro och öka din digitala affär.
+                  We uncover growth opportunities with audits, funnels, and product analytics—so effort targets what moves the metrics.
                 </div>
+
                 <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Målgruppsanalys
+                    Audience & user research
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Konkurrensanalys
+                    Competitor benchmarking
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Teknisk analys
+                    Technical/site audit
                   </li>
                 </ul>
+
                 <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                  <Link
-                    href="analys/index.html"
-                    target="_self"
-                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
-                  >
-                    <span> Läs mer om Analys </span>
+                  <Link href="/services/analytics" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                    <span> Read more about Analytics </span>
                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                      <svg
-                        className="inline-block"
-                        preserveAspectRatio="none"
-                        width="22"
-                        height="15"
-                        aria-hidden="true"
-                      >
-                        <use href=" /webImages/icons.svg#arrow-right"></use>
+                      <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
+                        <use href="/webImages/icons.svg#arrow-right"></use>
                       </svg>
                     </span>
                   </Link>
                 </div>
               </li>
+
+              {/* Branding */}
               <li className="mb-6 md:mb-20">
                 <img
                   width="35"
                   height="35"
-                  src=" https://pigment.se/wp-content/uploads/2023/09/branding.svg"
+                  src="/webImages/services/branding.svg"
                   className="w-6 sm:w-[2.25rem] mb-6"
-                  alt="img"
+                  alt="Branding icon"
                   loading="lazy"
                   decoding="async"
                 />
-                <Link
-                  className="js-hover-circle-animation"
-                  target="_self"
-                  href="branding/index.html"
-                >
+                <Link className="js-hover-circle-animation" target="_self" href="/services/branding">
                   <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                     Branding
                   </h3>
                 </Link>
 
-                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                  Bygg starka varumärken med vår expertis inom branding. Vi
-                  omvandlar idéer till starka varumärken som berör och
-                  inspirerar din målgrupp digitalt.
+                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
+                  We craft a clear brand story, visual identity, and guidelines that travel across web, product, and marketing.
                 </div>
+
                 <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Strategi
+                    Strategy
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Identitet
+                    Identity system
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Positionering
+                    Positioning & messaging
                   </li>
                 </ul>
+
                 <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                  <Link
-                    href="branding/index.html"
-                    target="_self"
-                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
-                  >
-                    <span> Läs mer om Branding </span>
+                  <Link href="/services/branding" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                    <span> Read more about Branding </span>
                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                      <svg
-                        className="inline-block"
-                        preserveAspectRatio="none"
-                        width="22"
-                        height="15"
-                        aria-hidden="true"
-                      >
-                        <use href=" /webImages/icons.svg#arrow-right"></use>
+                      <svg className="inline-block" width="22" height="15" aria-hidden="true">
+                        <use href="/webImages/icons.svg#arrow-right"></use>
                       </svg>
                     </span>
                   </Link>
                 </div>
               </li>
+
+              {/* UX & UI Design */}
               <li className="mb-6 md:mb-20">
                 <img
                   width="35"
                   height="35"
-                  src=" https://pigment.se/wp-content/uploads/2023/09/uiuxdesign.svg"
+                  src="/webImages/services/uiuxdesign.svg"
                   className="w-6 sm:w-[2.25rem] mb-6"
-                  alt="img"
+                  alt="UX UI icon"
                   loading="lazy"
                   decoding="async"
                 />
-                <Link
-                  className="js-hover-circle-animation"
-                  target="_self"
-                  href="ux-ui-byra/index.html"
-                >
+                <Link className="js-hover-circle-animation" target="_self" href="/services/ux-ui">
                   <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                     UX & UI Design
                   </h3>
                 </Link>
 
-                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                  Skapa en unik användarupplevelse med våra UX & UI-experter. Vi
-                  omvandlar komplexitet till enkelhet och ger liv åt din
-                  digitala vision.
+                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
+                  We turn complexity into clarity with flows, wireframes, and polished interfaces that convert.
                 </div>
+
                 <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Wireframing och prototyper
+                    Wireframes & prototypes
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Visuell identitet
+                    Visual design system
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Typografi och färgpalett
+                    Motion & micro-interactions
                   </li>
                 </ul>
+
                 <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                  <Link
-                    href="ux-ui-byra/index.html"
-                    target="_self"
-                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
-                  >
-                    <span> Läs mer om UX &amp; UI Design </span>
+                  <Link href="/services/ux-ui" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                    <span> Read more about UX &amp; UI Design </span>
                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                      <svg
-                        className="inline-block"
-                        preserveAspectRatio="none"
-                        width="22"
-                        height="15"
-                        aria-hidden="true"
-                      >
-                        <use href=" /webImages/icons.svg#arrow-right"></use>
+                      <svg className="inline-block" width="22" height="15" aria-hidden="true">
+                        <use href="/webImages/icons.svg#arrow-right"></use>
                       </svg>
                     </span>
                   </Link>
                 </div>
               </li>
+
+              {/* Web Development */}
               <li className="mb-6 md:mb-20">
                 <img
                   width="35"
                   height="35"
-                  src=" https://pigment.se/wp-content/uploads/2023/09/webbutveckling.svg"
+                  src="/webImages/services/webdev.svg"
                   className="w-6 sm:w-[2.25rem] mb-6"
-                  alt="img"
+                  alt="Web development icon"
                   loading="lazy"
                   decoding="async"
                 />
-                <Link
-                  className="js-hover-circle-animation"
-                  target="_self"
-                  href="webbutveckling/index.html"
-                >
+                <Link className="js-hover-circle-animation" target="_self" href="/services/development">
                   <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                    Webbutveckling
+                    Web Development
                   </h3>
                 </Link>
 
-                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                  Med den senaste tekniken och expertis i ryggen skapar vi en
-                  robust plattform som levererar en sömlös upplevelse.
+                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
+                  Modern, secure builds with React/Next.js, Laravel, and headless CMS—optimized for speed and SEO.
                 </div>
+
                 <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Frontendutveckling
+                    Front-end engineering
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Backendutveckling
+                    Back-end & APIs
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    API-Integrationer
+                    Integrations
                   </li>
                 </ul>
+
                 <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                  <Link
-                    href="webbutveckling/index.html"
-                    target="_self"
-                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
-                  >
-                    <span> Läs mer om Webbutveckling </span>
+                  <Link href="/services/development" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                    <span> Read more about Development </span>
                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                      <svg
-                        className="inline-block"
-                        preserveAspectRatio="none"
-                        width="22"
-                        height="15"
-                        aria-hidden="true"
-                      >
-                        <use href=" /webImages/icons.svg#arrow-right"></use>
+                      <svg className="inline-block" width="22" height="15" aria-hidden="true">
+                        <use href="/webImages/icons.svg#arrow-right"></use>
                       </svg>
                     </span>
                   </Link>
                 </div>
               </li>
+
+              {/* E-commerce */}
               <li className="mb-6 md:mb-20">
                 <img
                   width="34"
                   height="34"
-                  src=" https://pigment.se/wp-content/uploads/2023/09/e-handel.svg"
+                  src="/webImages/services/ecommerce.svg"
                   className="w-6 sm:w-[2.25rem] mb-6"
-                  alt="img"
+                  alt="E-commerce icon"
                   loading="lazy"
                   decoding="async"
                 />
-                <Link
-                  className="js-hover-circle-animation"
-                  target="_self"
-                  href="webbyra-e-handel/index.html"
-                >
+                <Link className="js-hover-circle-animation" target="_self" href="/services/ecommerce">
                   <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                    E-handel
+                    E-commerce
                   </h3>
                 </Link>
 
-                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                  Öppna er e-handel med oss där en sömlös, skräddarsydd och
-                  konverteringsdriven e-handelsbutik väntar på er.
+                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
+                  High-converting stores via WooCommerce or custom Laravel with smooth checkout and ops integrations.
                 </div>
+
                 <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    WooCommerce eller Laravell
+                    WooCommerce or Laravel
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Systemintegrationer
+                    System integrations
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Konverteringsdriven design
+                    CRO-driven design
                   </li>
                 </ul>
+
                 <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                  <Link
-                    href="webbyra-e-handel/index.html"
-                    target="_self"
-                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
-                  >
-                    <span> Läs mer om e-handel </span>
+                  <Link href="/services/ecommerce" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                    <span> Read more about E-commerce </span>
                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                      <svg
-                        className="inline-block"
-                        preserveAspectRatio="none"
-                        width="22"
-                        height="15"
-                        aria-hidden="true"
-                      >
-                        <use href=" /webImages/icons.svg#arrow-right"></use>
+                      <svg className="inline-block" width="22" height="15" aria-hidden="true">
+                        <use href="/webImages/icons.svg#arrow-right"></use>
                       </svg>
                     </span>
                   </Link>
                 </div>
               </li>
+
+              {/* Content */}
               <li className="mb-6 md:mb-20">
                 <img
                   width="32"
                   height="32"
-                  src=" https://pigment.se/wp-content/uploads/2023/09/content.svg"
+                  src="/webImages/services/content.svg"
                   className="w-6 sm:w-[2.25rem] mb-6"
-                  alt="img"
+                  alt="Content icon"
                   loading="lazy"
                   decoding="async"
                 />
-                <Link
-                  className="js-hover-circle-animation"
-                  target="_self"
-                  href="content/index.html"
-                >
+                <Link className="js-hover-circle-animation" target="_self" href="/services/content">
                   <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                     Content
                   </h3>
                 </Link>
 
-                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                  Vi producerar målinriktat innehåll som berör din målgrupp och
-                  förmedlar din vision på ett övertygande sätt. Allt från
-                  drönarfilmer till SEO-optimerade texter.
+                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
+                  Performance content—from landing copy to docs—SEO-ready and on-brand across channels.
                 </div>
+
                 <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Innehållsstrategi
+                    Content strategy
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    SEO-Optimering
+                    SEO content
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Sociala Medier
+                    Social & video
                   </li>
                 </ul>
+
                 <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                  <Link
-                    href="content/index.html"
-                    target="_self"
-                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
-                  >
-                    <span> Läs mer om Content </span>
+                  <Link href="/services/content" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                    <span> Read more about Content </span>
                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                      <svg
-                        className="inline-block"
-                        preserveAspectRatio="none"
-                        width="22"
-                        height="15"
-                        aria-hidden="true"
-                      >
-                        <use href=" /webImages/icons.svg#arrow-right"></use>
+                      <svg className="inline-block" width="22" height="15" aria-hidden="true">
+                        <use href="/webImages/icons.svg#arrow-right"></use>
                       </svg>
                     </span>
                   </Link>
                 </div>
               </li>
+
+              {/* SEO */}
               <li className="mb-6 md:mb-20">
                 <img
                   width="35"
                   height="35"
-                  src=" https://pigment.se/wp-content/uploads/2023/09/seo.svg"
+                  src="/webImages/services/seo.svg"
                   className="w-6 sm:w-[2.25rem] mb-6"
-                  alt="img"
+                  alt="SEO icon"
                   loading="lazy"
                   decoding="async"
                 />
-                <Link
-                  className="js-hover-circle-animation"
-                  target="_self"
-                  href="seo-byra-stockholm/index.html"
-                >
+                <Link className="js-hover-circle-animation" target="_self" href="/services/seo">
                   <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                    Sökmotoroptimering
+                    Search Engine Optimization
                   </h3>
                 </Link>
 
-                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                  Med vår sökmotoroptimering hjälper vi din webbplats att
-                  klättra i sökresultaten och nå de potentiella kunder som söker
-                  efter det du erbjuder.
+                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
+                  Technical, on-page, and authority growth guided by analytics and Core Web Vitals.
                 </div>
+
                 <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    SEO-audit
+                    SEO audit
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Analys av sökord, konkurrenter etc
+                    Keyword & competitor research
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    On-page optimering
+                    On-page optimization
                   </li>
                 </ul>
+
                 <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                  <Link
-                    href="seo-byra-stockholm/index.html"
-                    target="_self"
-                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
-                  >
-                    <span> Läs mer om SEO </span>
+                  <Link href="/services/seo" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                    <span> Read more about SEO </span>
                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                      <svg
-                        className="inline-block"
-                        preserveAspectRatio="none"
-                        width="22"
-                        height="15"
-                        aria-hidden="true"
-                      >
-                        <use href=" /webImages/icons.svg#arrow-right"></use>
+                      <svg className="inline-block" width="22" height="15" aria-hidden="true">
+                        <use href="/webImages/icons.svg#arrow-right"></use>
                       </svg>
                     </span>
                   </Link>
                 </div>
               </li>
+
+              {/* Growth */}
               <li className="mb-6 md:mb-20">
                 <img
                   width="35"
                   height="36"
-                  src=" https://pigment.se/wp-content/uploads/2023/09/growth-1.svg"
+                  src="/webImages/services/growth.svg"
                   className="w-6 sm:w-[2.25rem] mb-6"
-                  alt="img"
+                  alt="Growth icon"
                   loading="lazy"
                   decoding="async"
                 />
-                <Link
-                  className="js-hover-circle-animation"
-                  target="_self"
-                  href="growth/index.html"
-                >
+                <Link className="js-hover-circle-animation" target="_self" href="/services/growth">
                   <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                     Growth
                   </h3>
                 </Link>
 
-                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                  Genom noggrann analys av data arbetar vi för att digitalt öka
-                  din trafik, konverteringar och affärstillväxt.
+                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
+                  Experimentation, analytics, and paid media to grow traffic, conversion, and LTV.
                 </div>
+
                 <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                       <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Affärsanalys och planering
+                    Analytics & planning
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Konverteringsoptimering
+                    Conversion optimization
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Betald marknadsföring (PPC)
+                    Paid acquisition (PPC)
                   </li>
                 </ul>
+
                 <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                  <Link
-                    href="growth/index.html"
-                    target="_self"
-                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
-                  >
-                    <span> Läs mer om Growth </span>
+                  <Link href="/services/growth" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                    <span> Read more about Growth </span>
                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                      <svg
-                        className="inline-block"
-                        preserveAspectRatio="none"
-                        width="22"
-                        height="15"
-                        aria-hidden="true"
-                      >
-                        <use href=" /webImages/icons.svg#arrow-right"></use>
+                      <svg className="inline-block" width="22" height="15" aria-hidden="true">
+                        <use href="/webImages/icons.svg#arrow-right"></use>
                       </svg>
                     </span>
                   </Link>
                 </div>
               </li>
+
+              {/* Care & Support */}
               <li className="mb-6 md:mb-20">
                 <img
                   width="32"
                   height="32"
-                  src=" https://pigment.se/wp-content/uploads/2023/09/forvaltning.svg"
+                  src="/webImages/services/maintenance.svg"
                   className="w-6 sm:w-[2.25rem] mb-6"
-                  alt="img"
+                  alt="Care & Support icon"
                   loading="lazy"
                   decoding="async"
                 />
-                <Link
-                  className="js-hover-circle-animation"
-                  target="_self"
-                  href="forvaltning/index.html"
-                >
+                <Link className="js-hover-circle-animation" target="_self" href="/services/care-support">
                   <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                    Förvaltning
+                    Care & Support
                   </h3>
                 </Link>
 
-                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                  Vi lämnar dig inte när din webbplats är live. Vår dedikerade
-                  förvaltningsgrupp ser till att allt fortsätter att fungera
-                  smidigt, varje dag, varje vecka!
+                <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
+                  Proactive monitoring, updates, and support so your stack stays fast, secure, and reliable.
                 </div>
+
                 <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Teknisk underhåll
+                    Technical maintenance
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Säkerhet och skydd
+                    Security & backups
                   </li>
                   <li className="flex font-bold mb-3 text-base md:text-lg">
-                    <svg
-                      className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4"
-                      preserveAspectRatio="none"
-                      width="19"
-                      height="19"
-                      viewBox="0 0 19 19"
-                      aria-hidden="true"
-                    >
-                      <use href=" /webImages/icons.svg#ticker"></use>
+                    <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
-                    Snabb support
+                    Fast support
                   </li>
                 </ul>
+
                 <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                  <Link
-                    href="forvaltning/index.html"
-                    target="_self"
-                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
-                  >
-                    <span> Läs mer om Förvaltning </span>
+                  <Link href="/services/care-support" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                    <span> Read more about Care & Support </span>
                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                      <svg
-                        className="inline-block"
-                        preserveAspectRatio="none"
-                        width="22"
-                        height="15"
-                        aria-hidden="true"
-                      >
-                        <use href=" /webImages/icons.svg#arrow-right"></use>
+                      <svg className="inline-block" width="22" height="15" aria-hidden="true">
+                        <use href="/webImages/icons.svg#arrow-right"></use>
                       </svg>
                     </span>
                   </Link>
@@ -852,62 +556,59 @@ export default function Service() {
             </ul>
           </div>
         </section>
-        <section >
+
+        <section aria-label="Porträtt av Henrik på Pigment">
           <div className="relative mx-6 lg:mx-0">
-            <div className="relative flex items-center lg:max-w-[79.75rem] mx-auto">
-              <img
-                width="2000"
-                height="1137"
-                src=" https://pigment.se/wp-content/uploads/2023/09/pigmenthenrik.jpg"
-                className="w-full h-auto object-contain rounded-[1.25rem]"
-                alt="img"
+            <div className="relative flex items-center lg:max-w-[79.75rem] mx-auto rounded-[1.25rem] overflow-hidden">
+              <img  src="https://pigment.se/wp-content/uploads/2023/09/pigmenthenrik.jpg"
+                width={2000}
+                height={1137}
+                alt="Henrik på Pigment – porträtt"
+                className="w-full h-full object-cover aspect-[2000/1137]"
+                loading="eager"            // if above the fold; switch to "lazy" if not
                 decoding="async"
-                sizes="(max-width: 2000px) 100vw, 2000px"
+                fetchpriority="high"       // helps LCP when hero
+                sizes="(max-width: 1024px) 100vw, 79.75rem"
               />
-              <div className="absolute inset-0 rounded-[1.25rem]"></div>
+              <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/20" />
             </div>
           </div>
         </section>
+
+
         <section className="py-14 lg:py-20 xl:py-32">
           <div className="max-w-7xl px-5 xl:px-8 mx-auto">
             <div className="mx-auto max-w-[780px] prose-editor">
               <h2 className="mb-5 lg:mb-10 text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-                När magkänslan inte räcker
+                When intuition isn’t enough
               </h2>
 
               <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit prose-h2:text-inherit prose-h2:text-3xl prose-h2:leading-tight md:prose-h2:text-[3.25rem] md:prose-h2:leading-[1.23] prose-h2:font-bold prose-h2:mb-[0.5em] prose-h3:text-inherit prose-h3:text-2xl prose-h3:leading-tight md:prose-h3:text-[2.18rem] md:prose-h3:leading-[1.4] prose-h3:font-bold prose-h3:mb-[0.9em] prose-h4:text-inherit prose-h4:text-xl prose-h4:leading-tight md:prose-h4:text-2xl md:prose-h4:leading-tight prose-h4:font-bold prose-h4:mb-[0.9em] prose-h5:text-inherit prose-h5:text-lg prose-h5:leading-tight md:prose-h5:text-xl md:prose-h5:leading-tight prose-h5:font-bold prose-h5:mb-[0.9em] prose-h6:text-inherit prose-h6:text-base prose-h6:leading-tight md:prose-h6:text-lg md:prose-h6:leading-tight prose-h6:font-bold prose-h6:mb-[0.9em] prose-blockquote:text-white">
                 <p>
-                  När det gäller din webbnärvaro krävs det mer än bara en snygg
-                  design. Hos Pigment
-                  <Link href=" https://pigment.se/index.html">Webbyrå</Link>
-                  förstår vi vikten av en holistisk strategi. Vi kombinerar
-                  djupgående
-                  <Link href="seo-byra-stockholm/index.html">SEO</Link>-analys
-                  och datadrivna processer med expertis inom UX/UI,
-                  <Link href="webbutveckling/index.html">webbutveckling</Link>,
-                  och Growth för att skapa webbplatser som inte bara ser bra ut,
-                  utan även presterar på topp och genererar mätbara resultat.
+                  Great websites need more than looks. At itnnovator we pair AI-driven insight with{' '}
+                  <Link href="/seo">SEO</Link>, UX/UI, and{' '}
+                  <Link href="/development">web development</Link> to build experiences that load fast,
+                  convert better, and scale with your business.
                 </p>
                 <p>
-                  Att välja Pigment innebär att välja en partner som arbetar
-                  sida vid sida med dig för att realisera din digitala vision.
-                  Tillsammans utformar vi en webbplats som reflekterar ditt
-                  varumärke samtidigt som den attraherar, engagerar och
-                  omvandlar dina besökare till kunder.
+                  Choosing itnnovator means a partner, not just a vendor. We co-create the roadmap,
+                  test and iterate, and keep decisions anchored in data so visitors turn into customers.
                 </p>
                 <p>
-                  Vänta inte – låt oss sätta din webbplats på kartan och på
-                  toppen av sökresultaten. Ta steget mot mätbar digital framgång
-                  med Pigment Webbyrå redan idag.
+                  Don’t guess—get results. Let’s put your brand on the map and at the top of search.
+                  <br />
+                  <Link href="/contact">Start a project →</Link>
                 </p>
               </div>
             </div>
           </div>
         </section>
+
+
         <section className="py-14 lg:py-20 xl:py-32">
           <div className="max-w-7xl px-5 xl:px-8 mx-auto flex text-center flex-col gap-y-10 md:gap-y-20">
             <h2 className="0 text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white text-center">
-              Vi har hjälpt fler än 250 kunder.
+              Itnnovator has helped over 250 clients.
             </h2>
             <div className="js-logo-ticker flex items-center gap-x-10 md:gap-y-20 opacity-0 md:gap-x-0 md:flex-wrap md:justify-center md:opacity-100">
               <div className="js-logo-item flex justify-center items-center shrink-0 md:basis-auto md:shrink md:w-[20%] xl:w-[16.66%]">
@@ -1057,6 +758,8 @@ export default function Service() {
             </div>
           </div>
         </section>
+
+
         <section className="js-animate-fadeinup mx-auto px-6 xl:px-8 max-w-4xl text-center py-14 lg:py-20 xl:py-32">
           <div className="w-[12rem] md:w-[15rem] lg:w-[18rem] mx-auto mb-10">
             <img
@@ -1064,31 +767,29 @@ export default function Service() {
               height="296"
               src=" https://pigment.se/wp-content/uploads/2023/10/webbyra-stockholm-personal-sergio-637x637.jpeg"
               className="w-full h-auto rounded-full"
-              alt="webbyra-stockholm-personal-sergio"
+              alt="Itnnovator — your digital partner"
               decoding="async"
               sizes="(max-width: 296px) 100vw, 296px"
             />
           </div>
+
           <h2 className="mb-[0.7em] lg:mb-[0.9em] text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-            Behöver ni en fantastisk fullservicebyrå?
+            Looking for a results-driven full-service partner?
           </h2>
 
           <div className="prose max-w-none text-base md:text-xl lg:text-[1.56rem] font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
             <p>
-              <Link
-                href="https://cal.com/sergio-tenconi"
-                target="_blank"
-                rel="noopener"
-              >
-                Boka in ett första möte med Sergio här!
+              <Link href="https://itnnovator.com/contact" target="_blank" rel="noopener">
+                Book your first meeting with the Itnnovator team
               </Link>
+              .
               <br />
-              Ring honom på <Link href="tel:070-953 53 99">070-953 53 99</Link>
-              eller maila
-              <Link href="mailto:sergio@pigment.se">sergio@pigment.se</Link>
+              Prefer email? Reach us at{" "}
+              <Link href="mailto:info@itnnovator.com">info@itnnovator.com</Link>.
             </p>
           </div>
         </section>
+
       </main>
     </>
   );

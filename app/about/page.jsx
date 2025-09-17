@@ -384,7 +384,7 @@ export default function About() {
               <Link href="#" target="_blank" rel="noopener">Book a discovery call with our founder</Link>
               <br />
               Prefer a direct line? <Link href="tel:+923313775851">+92&nbsp;331&nbsp;3775851</Link> ·
-              or email <Link href="mailto:info@itnnovator.com">hello@itnnovator.com</Link>
+              or email <Link href="mailto:info@itnnovator.com">info@itnnovator.com</Link>
             </p>
           </div>
         </section>
