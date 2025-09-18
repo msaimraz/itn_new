@@ -11,7 +11,7 @@
 :before {
     border: 0 solid #e5e7eb;
     box-sizing: border-box;
-} 
+}
 
 :after,
 :before {
@@ -7014,7 +7014,7 @@ div#CybotCookiebotDialogPoweredByText {
     }
 
     .lg\:\[font-size\:_clamp\(16px\2c calc\(12vw\)\2c 15\.5rem\)\] {
-        font-size: clamp(16px, 12vw, 15.5rem);
+        font-size: clamp(16px, 10vw, 15.5rem);
     }
 
     .before\:lg\:-top-\[1\.5rem\]:before {
@@ -7462,6 +7462,7 @@ div#CybotCookiebotDialogPoweredByText {
         flex-direction: row;
     }
 }
-.heading-color h2{
+
+.heading-color h2 {
     color: #829dff;
 }
