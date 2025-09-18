@@ -113,7 +113,7 @@ export default function Servicedetail() {
                 <img
                   width="750"
                   height="810"
-                  src="https://pigment.se/uploads/2023/10/webbyra-analys-750x810.jpg"
+                  src="/webImages/servicedetail/webbyra-analys-1200x1296.jpg"
                   className=" w-full h-full lg:h-auto object-cover"
                   alt="webbyra-analys"
                   loading="eager"
@@ -169,7 +169,7 @@ export default function Servicedetail() {
                         <img
                           width="950"
                           height="699"
-                          src="https://pigment.se/uploads/2023/10/analys-process-2-950x699.jpg"
+                          src="/webImages/servicedetail/analys-process-2-637x469.jpg"
                           className="js-scroll-img-no-bg"
                           alt="analys-process-2"
                           loading="lazy"
@@ -191,7 +191,7 @@ export default function Servicedetail() {
                         <img
                           width="950"
                           height="699"
-                          src="https://pigment.se/uploads/2023/10/analys-process-1-950x699.jpg"
+                          src="/webImages/servicedetail/analys-process-1-637x469.jpg"
                           className="js-scroll-img-no-bg"
                           alt="analys-process-1"
                           loading="lazy"
@@ -213,7 +213,7 @@ export default function Servicedetail() {
                         <img
                           width="950"
                           height="699"
-                          src="https://pigment.se/uploads/2023/10/analys-process-4-950x699.jpg"
+                          src="/webImages/servicedetail/analys-process-4-637x469.jpg"
                           className="js-scroll-img-no-bg"
                           alt="analys-process-4"
                           loading="lazy"
@@ -256,7 +256,7 @@ export default function Servicedetail() {
                     <img
                       width="950"
                       height="699"
-                      src="https://pigment.se/uploads/2023/10/analys-process-2-950x699.jpg"
+                      src="/webImages/servicedetail/analys-process-2-950x699.jpg"
                       className="w-full h-auto rounded-[0.9rem] md:rounded-[1.25rem] lg:rounded-[1.75rem]"
                       alt="analys-process-2"
                       loading="lazy"
@@ -290,7 +290,7 @@ export default function Servicedetail() {
                     <img
                       width="950"
                       height="699"
-                      src="https://pigment.se/uploads/2023/10/analys-process-1-950x699.jpg"
+                      src="/webImages/servicedetail/analys-process-1-950x699.jpg"
                       className="w-full h-auto rounded-[0.9rem] md:rounded-[1.25rem] lg:rounded-[1.75rem]"
                       alt="analys-process-1"
                       loading="lazy"
@@ -324,7 +324,7 @@ export default function Servicedetail() {
                     <img
                       width="950"
                       height="699"
-                      src="https://pigment.se/uploads/2023/10/analys-process-4-950x699.jpg"
+                      src="/webImages/servicedetail/analys-process-4-950x699.jpg"
                       className="w-full h-auto rounded-[0.9rem] md:rounded-[1.25rem] lg:rounded-[1.75rem]"
                       alt="analys-process-4"
                       loading="lazy"
@@ -381,7 +381,7 @@ export default function Servicedetail() {
                 <img
                   width="1031"
                   height="586"
-                  src="https://pigment.se/wp-content/uploads/2023/10/webbyra-analys-1200x1296.jpg"
+                  src="/webImages/servicedetail/webbyra-stockholm-personal-analys-2-1700x966.jpg"
                   className="rounded-[1.25rem] shadow-[0_20px_60px_-0_rgba(0,0,0,0.25)]"
                   loading="lazy"
                   decoding="async"
@@ -636,7 +636,7 @@ export default function Servicedetail() {
             <img
               width="296"
               height="296"
-              src="https://pigment.se/uploads/2023/10/webbyra-stockholm-personal-sergio-296x296.jpg"
+              src="/webImages/servicedetail/webbyra-stockholm-personal-sergio-637x637.jpeg"
               className="w-full h-auto rounded-full"
               alt="Your Itnnovator team"
               decoding="async"
