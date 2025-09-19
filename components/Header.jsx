@@ -109,47 +109,11 @@ export default function Header() {
 
                                             <ul className="w-full ml-[8rem] md:ml-0 py-0">
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">Analysis</Link>
+                                                    <Link href="#" className="hover:text-white">Web Devlopment</Link>
                                                     <span
                                                         className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
                                                     >
-                                                        – Data-driven processes
-                                                    </span>
-                                                </li>
-
-                                                <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">Branding</Link>
-                                                    <span
-                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
-                                                    >
-                                                        – Brand systems that scale
-                                                    </span>
-                                                </li>
-
-                                                <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">UX / UI Design</Link>
-                                                    <span
-                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
-                                                    >
-                                                        – Design that converts
-                                                    </span>
-                                                </li>
-
-                                                <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">Content</Link>
-                                                    <span
-                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
-                                                    >
-                                                        – Content that engages
-                                                    </span>
-                                                </li>
-
-                                                <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">Web Development</Link>
-                                                    <span
-                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
-                                                    >
-                                                        – Frontend, Backend, Full-stack
+                                                        – Custom website development
                                                     </span>
                                                 </li>
 
@@ -158,7 +122,7 @@ export default function Header() {
                                                     <span
                                                         className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
                                                     >
-                                                        – WooCommerce and Laravel
+                                                        – Online store development
                                                     </span>
                                                 </li>
 
@@ -167,7 +131,43 @@ export default function Header() {
                                                     <span
                                                         className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
                                                     >
-                                                        – Rank higher, sell more
+                                                        – Search engine optimization
+                                                    </span>
+                                                </li>
+
+                                                <li className="py-1 group/item">
+                                                    <Link href="#" className="hover:text-white">Product Design</Link>
+                                                    <span
+                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
+                                                    >
+                                                        – Intuitive UX & UI design
+                                                    </span>
+                                                </li>
+
+                                                <li className="py-1 group/item">
+                                                    <Link href="#" className="hover:text-white">Brand Systems</Link>
+                                                    <span
+                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transitionall duration-500 ease-in-out"
+                                                    >
+                                                        – Scalable logos & visual identity
+                                                    </span>
+                                                </li>
+
+                                                <li className="py-1 group/item">
+                                                    <Link href="#" className="hover:text-white">Strategy</Link>
+                                                    <span
+                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
+                                                    >
+                                                        – In-depth analysis & planning
+                                                    </span>
+                                                </li>
+
+                                                <li className="py-1 group/item">
+                                                    <Link href="#" className="hover:text-white">Content</Link>
+                                                    <span
+                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
+                                                    >
+                                                        – Strategic storytelling & copywriting
                                                     </span>
                                                 </li>
 
@@ -176,7 +176,7 @@ export default function Header() {
                                                     <span
                                                         className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
                                                     >
-                                                        – Convert better
+                                                        – Data-driven marketing & leads
                                                     </span>
                                                 </li>
 
@@ -185,7 +185,7 @@ export default function Header() {
                                                     <span
                                                         className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
                                                     >
-                                                        – Fast support & reliability
+                                                        – Ongoing support & management
                                                     </span>
                                                 </li>
                                             </ul>
@@ -305,7 +305,6 @@ export default function Header() {
                     </div>
                 </nav>
             </header>
-
         </>
     );
 }

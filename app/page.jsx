@@ -69,21 +69,20 @@ export default function Home() {
       <section className="py-14 lg:py-20 xl:py-32">
         <div className="max-w-7xl wider:max-w-[90rem] px-5 xl:px-8 mx-auto flex flex-wrap gap-10 justify-between">
           <div className="flex flex-col gap-y-6 w-full max-w-[33.5rem] md:gap-y-11">
-            <h2
-              className="0 text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-              Full-service digital partner
-            </h2>
+            <h1 className="text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
+              Your End-to-End Digital Solutions Partner | ITnnovator
+            </h1>
 
             <div
               className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-              ITnnovator delivers everything from modern web design and e-commerce to performance marketing and SEO.
-              We plan, build, and optimize your digital presence—end to end, under one roof. Welcome to ITnnovator.
+              <p>ITnnovator is your dedicated team for <strong>comprehensive digital growth</strong>. We specialize in crafting results-driven online experiences, from <strong>custom web development</strong> and high-converting <strong>e-commerce stores on Shopify & WooCommerce</strong> to strategic <strong>SEO</strong> and <strong>data-driven digital marketing</strong> that generates qualified leads.</p>
+              <p>Our full-service approach means we handle your entire digital presence—<strong>strategy, design, development, and growth</strong>—ensuring a seamless, powerful, and scalable solution tailored to your business goals. Partner with us to build, launch, and grow your digital future.</p>
             </div>
 
             <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
               <a href="contact.php" target="_self"
                 className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
-                <span> Contact us </span>
+                <span> Start Your Project </span>
                 <span
                   className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
@@ -94,7 +93,7 @@ export default function Home() {
 
               <a href="services.php" target="_self"
                 className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
-                <span> View all services </span>
+                <span> Explore Our Services </span>
                 <span
                   className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
@@ -108,34 +107,33 @@ export default function Home() {
           <ul className="flex flex-col gap-y-10 w-full max-w-[26.75rem] lg:gap-y-[3.25rem] mt-10 md:mt-0 lg:flex-1">
             <li className="flex items-start gap-x-6 md:gap-x-11">
               <img width="55" height="55" src="webImages/branding-design-icon.svg"
-                className="block w-8 sm:w-[3.5rem]" alt="Branding & Design icon" decoding="async" />
+                className="block w-8 sm:w-[3.5rem]" alt="ITnnovator Branding and UI/UX Design Services - Create a memorable brand" decoding="async" />
               <div className="flex flex-col gap-y-2.5 md:pt-2.5">
-                <h3 className="text-xl md:text-2xl font-bold">Branding, UX & UI Design</h3>
-                <p className="md:text-lg">We help you express your brand with clear, conversion-focused design.</p>
+                <h2 className="text-xl md:text-2xl font-bold">Brand & Digital Design</h2>
+                <p className="md:text-lg">We build memorable brand identities and intuitive UI/UX designs that engage users and drive conversions for your business.</p>
               </div>
             </li>
 
             <li className="flex items-start gap-x-6 md:gap-x-11">
               <img width="55" height="55" src="webImages/webbutveckling-ehandel-icon.svg"
-                className="block w-8 sm:w-[3.5rem]" alt="Web & E-commerce icon" decoding="async" />
+                className="block w-8 sm:w-[3.5rem]" alt="ITnnovator Web Development & E-commerce - Fast, secure websites and online stores" decoding="async" />
               <div className="flex flex-col gap-y-2.5 md:pt-2.5">
-                <h3 className="text-xl md:text-2xl font-bold">Backend & Frontend Development</h3>
-                <p className="md:text-lg">We build fast, SEO-ready websites and stable e-commerce.</p>
+                <h2 className="text-xl md:text-2xl font-bold">Web & E-commerce Development</h2>
+                <p className="md:text-lg">Our developers build fast, secure, and scalable websites and e-commerce solutions on WordPress, Shopify, and modern stacks.</p>
               </div>
             </li>
 
             <li className="flex items-start gap-x-6 md:gap-x-11">
               <img width="56" height="56" src="webImages/analys-seo-growth-icon.svg"
-                className="block w-8 sm:w-[3.5rem]" alt="Analytics & SEO icon" decoding="async" />
+                className="block w-8 sm:w-[3.5rem]" alt="ITnnovator SEO & Digital Marketing - Grow your traffic and leads" decoding="async" />
               <div className="flex flex-col gap-y-2.5 md:pt-2.5">
-                <h3 className="text-xl md:text-2xl font-bold">Analytics, SEO & Growth</h3>
-                <p className="md:text-lg">We lift results with SEO, analytics, and better conversion.</p>
+                <h2 className="text-xl md:text-2xl font-bold">SEO & Digital Marketing</h2>
+                <p className="md:text-lg">We amplify your online visibility with expert SEO strategies and targeted digital marketing campaigns that deliver measurable growth and ROI.</p>
               </div>
             </li>
           </ul>
         </div>
       </section>
-
 
       {/* Cases */}
       <HomeCases />
@@ -156,7 +154,7 @@ export default function Home() {
                 height="530"
                 src="webImages/hemsidor-wordpress-900x530.png"
                 className="w-full h-auto rounded-xl"
-                alt=""
+                alt="ITnnovator WordPress Development - Custom, fast, and scalable websites built by experts."
               />
             </figure>
           </div>
@@ -164,20 +162,19 @@ export default function Home() {
           <div className="py-6 md:w-1/2 w-full flex md:flex-1 md:shrink-0 lg:max-w-[28.75rem] only:mx-auto only:py-0">
             <div className="flex flex-col gap-y-3 md:gap-y-[2.37rem] my-auto text-white">
               <h2 className="0 text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-                Everything in Web Development
+                End-to-End Web Development
               </h2>
 
-              <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                From the first line of code to a polished launch—we handle every step. Get a custom, fast, and secure site
-                that scales. Unlock your digital potential with ITnnovator at your side.
+              <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white">
+                <p>From strategy to launch, we build fast, secure, and scalable custom websites on WordPress, Shopify, and modern frameworks. Unlock your digital potential with ITnnovator as your technical partner.</p>
               </div>
 
               <a
-                href="#"
+                href="/web-development"
                 target="_self"
                 className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
               >
-                <span> Learn about Web Development </span>
+                <span> See Our Development Process </span>
                 <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                     <use href="webImages/icons.svg#arrow-right"></use>
@@ -200,7 +197,7 @@ export default function Home() {
                 height="546"
                 src="webImages/e-handel-woocomerce-900x546.png"
                 className="w-full h-auto rounded-xl"
-                alt="WooCommerce e-commerce"
+                alt="ITnnovator WooCommerce Development - Scalable online stores with secure payments and seamless WordPress integration."
               />
             </figure>
           </div>
@@ -208,21 +205,19 @@ export default function Home() {
           <div className="py-6 md:w-1/2 w-full flex md:flex-1 md:shrink-0 lg:max-w-[28.75rem] only:mx-auto only:py-0">
             <div className="flex flex-col gap-y-3 md:gap-y-[2.37rem] my-auto text-white">
               <h2 className="0 text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-                WooCommerce E-commerce
+                Scalable WooCommerce Solutions
               </h2>
 
-              <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                For stores that don’t need a fully custom backend, WooCommerce is a smart, scalable choice. It integrates
-                seamlessly with WordPress so you can sell products and services with secure payments, flexible shipping and
-                tax rules, and a rich ecosystem of add-ons.
+              <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white">
+                <p>Launch a powerful online store with WooCommerce. We build scalable e-commerce platforms with seamless WordPress integration, secure payments, and flexible shipping—perfect for growing businesses.</p>
               </div>
 
               <a
-                href="#"
+                href="/e-commerce"
                 target="_self"
                 className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
               >
-                <span> Custom e-commerce </span>
+                <span> Build Your Online Store </span>
                 <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                     <use href="webImages/icons.svg#arrow-right"></use>
@@ -232,7 +227,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section >
 
 
       {/* Applications in Laravel */}
@@ -245,7 +240,7 @@ export default function Home() {
                 height="553"
                 src="webImages/laravel-applikationer-900x553.png"
                 className="w-full h-auto rounded-xl"
-                alt="Custom Laravel applications by ITnnovator"
+                alt="ITnnovator Custom Application Development - Secure, scalable web applications and APIs built by experts."
               />
             </figure>
           </div>
@@ -253,19 +248,19 @@ export default function Home() {
           <div className="py-6 md:w-1/2 w-full flex md:flex-1 md:shrink-0 lg:max-w-[28.75rem] only:mx-auto only:py-0">
             <div className="flex flex-col gap-y-3 md:gap-y-[2.37rem] my-auto text-white">
               <h2 className="0 text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-                Laravel Applications
+                Custom Web Applications
               </h2>
 
-              <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                ITnnovator builds secure, scalable apps with Laravel—API-first backends, customer portals, booking systems, and internal tools. We use queues, events, and robust auth to keep things fast and safe, and integrate CRMs, payment gateways, and third-party services without friction. From MVP to enterprise, we ship clean code and clear documentation.
+              <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white">
+                <p>We build secure, scalable custom applications—from API backends and customer portals to booking systems and internal tools. Our experts deliver clean code, seamless third-party integrations, and robust solutions tailored to your business needs.</p>
               </div>
 
               <a
-                href="#"
+                href="/custom-development"
                 target="_self"
                 className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
               >
-                <span> Learn about Laravel development </span>
+                <span> Start Your Project </span>
                 <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                     <use href="webImages/icons.svg#arrow-right"></use>
@@ -288,7 +283,7 @@ export default function Home() {
                 height="473"
                 src="webImages/seo-byra-stockholm-1200x630.jpeg"
                 className="w-full h-auto rounded-xl"
-                alt="SEO strategy and optimization"
+                alt="ITnnovator SEO Services - Technical SEO, content strategy, and growth optimization for higher rankings"
               />
             </figure>
           </div>
@@ -296,19 +291,19 @@ export default function Home() {
           <div className="py-6 md:w-1/2 w-full flex md:flex-1 md:shrink-0 lg:max-w-[28.75rem] only:mx-auto only:py-0">
             <div className="flex flex-col gap-y-3 md:gap-y-[2.37rem] my-auto text-white">
               <h2 className="0 text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-                SEO &amp; Growth
+                SEO & Growth Marketing
               </h2>
 
-              <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                Technical SEO, content, and UX working together. We fix architecture, speed/Core Web Vitals, schema, and internal linking—then build search-driven content. Roadmaps tie every sprint to pipeline and ROI.
+              <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white">
+                <p>Drive sustainable growth with our full-funnel SEO strategy. We optimize technical performance, create search-driven content, and build authority to increase your visibility, traffic, and conversions.</p>
               </div>
 
               <a
-                href="#"
+                href="/seo-services"
                 target="_self"
                 className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
               >
-                <span> Explore SEO </span>
+                <span> Boost Your Visibility </span>
                 <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                     <use href="webImages/icons.svg#arrow-right"></use>
@@ -320,6 +315,7 @@ export default function Home() {
         </div>
       </section>
 
+
       {/* Data-driven web agency */}
       <section className="py-14 lg:py-20 xl:py-32" style={{ background: "#000000" }}>
         <div className="max-w-7xl px-6 xl:px-8 mx-auto md:gap-x-14 xl:gap-x-20 flex-col flex md:flex-row justify-end md:flex-row-reverse md:pl-6">
@@ -330,7 +326,7 @@ export default function Home() {
                 height="473"
                 src="webImages/digital-driven-byra-1200x630.jpeg"
                 className="w-full h-auto rounded-xl"
-                alt="Data-driven digital agency"
+                alt="ITnnovator Data-Driven Digital Agency - Analytics, conversion optimization, and growth strategies"
               />
             </figure>
           </div>
@@ -338,19 +334,19 @@ export default function Home() {
           <div className="py-6 md:w-1/2 w-full flex md:flex-1 md:shrink-0 lg:max-w-[28.75rem] only:mx-auto only:py-0">
             <div className="flex flex-col gap-y-3 md:gap-y-[2.37rem] my-auto text-white">
               <h2 className="0 text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-                Data-driven web agency
+                Data-Driven Digital Strategy
               </h2>
 
-              <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                We use analytics to design and optimize every experience—research, tracking plans, experiments, and reporting—so your site converts better and scales with confidence. Welcome to ITnnovator.
+              <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white">
+                <p>We leverage analytics and insights to design and optimize every digital experience. From research and tracking to experiments and reporting—we ensure your website converts better and scales with confidence.</p>
               </div>
 
               <a
-                href="#"
+                href="/data-analytics"
                 target="_self"
                 className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
               >
-                <span> Learn about Analysis </span>
+                <span> Optimize Your Performance </span>
                 <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                     <use href="webImages/icons.svg#arrow-right"></use>
@@ -373,7 +369,7 @@ export default function Home() {
                 height="473"
                 src="webImages/data-driven-webbyra-900x473.jpg"
                 className="w-full h-auto rounded-xl"
-                alt="WordPress experts — ITnnovator"
+                alt="ITnnovator WordPress Experts - Custom corporate sites, WooCommerce stores, and membership platforms"
               />
             </figure>
           </div>
@@ -381,19 +377,19 @@ export default function Home() {
           <div className="py-6 md:w-1/2 w-full flex md:flex-1 md:shrink-0 lg:max-w-[28.75rem] only:mx-auto only:py-0">
             <div className="flex flex-col gap-y-3 md:gap-y-[2.37rem] my-auto text-white">
               <h2 className="0 text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-                Leaders in WordPress
+                WordPress Excellence
               </h2>
 
-              <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                ITnnovator is a WordPress-first studio. We’ve built corporate sites, WooCommerce stores, and membership/subscription platforms. Our engineers, designers, and SEO specialists ship component libraries, custom plugins, and headless builds—with speed, security, and accessibility baked in.
+              <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white">
+                <p>As WordPress specialists, we build powerful corporate sites, e-commerce stores, and membership platforms. Our team delivers custom solutions with optimized performance, security, and scalability built into every project.</p>
               </div>
 
               <a
-                href="#"
+                href="/wordpress-development"
                 target="_self"
                 className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
               >
-                <span> Learn more about WordPress </span>
+                <span> View WordPress Projects </span>
                 <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                     <use href="webImages/icons.svg#arrow-right"></use>
@@ -407,13 +403,13 @@ export default function Home() {
 
 
       {/* Our Offer */}
-      <OurOffer />
+      < OurOffer />
 
       {/* CTA */}
-      <CTA />
+      < CTA />
 
       {/* Our services */}
-      <OurServices />
+      < OurServices />
 
     </>
   );

@@ -9,30 +9,6 @@ export default function OurServices() {
                 <a className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white" href="#">
                     <div className="flex items-center w-full px-[7%] md:px-[10%]">
                         <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                            Analysis
-                        </div>
-                    </div>
-                </a>
-
-                <a className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white" href="#">
-                    <div className="flex items-center w-full px-[7%] md:px-[10%]">
-                        <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                            Branding
-                        </div>
-                    </div>
-                </a>
-
-                <a className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white" href="#">
-                    <div className="flex items-center w-full px-[7%] md:px-[10%]">
-                        <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                            UX / UI Design
-                        </div>
-                    </div>
-                </a>
-
-                <a className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white" href="#">
-                    <div className="flex items-center w-full px-[7%] md:px-[10%]">
-                        <div className="js-hover-circle-animation flex flex-row items-center justify-center">
                             Web Development
                         </div>
                     </div>
@@ -41,15 +17,7 @@ export default function OurServices() {
                 <a className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white" href="#">
                     <div className="flex items-center w-full px-[7%] md:px-[10%]">
                         <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                            E-commerce
-                        </div>
-                    </div>
-                </a>
-
-                <a className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white" href="#">
-                    <div className="flex items-center w-full px-[7%] md:px-[10%]">
-                        <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                            Content
+                            E-commerce Stores
                         </div>
                     </div>
                 </a>
@@ -65,7 +33,7 @@ export default function OurServices() {
                 <a className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white" href="#">
                     <div className="flex items-center w-full px-[7%] md:px-[10%]">
                         <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                            Growth
+                            UI/UX Design
                         </div>
                     </div>
                 </a>
@@ -73,7 +41,39 @@ export default function OurServices() {
                 <a className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white" href="#">
                     <div className="flex items-center w-full px-[7%] md:px-[10%]">
                         <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                            Care &amp; Support
+                            Brand Identity
+                        </div>
+                    </div>
+                </a>
+
+                <a className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white" href="#">
+                    <div className="flex items-center w-full px-[7%] md:px-[10%]">
+                        <div className="js-hover-circle-animation flex flex-row items-center justify-center">
+                            Digital Strategy
+                        </div>
+                    </div>
+                </a>
+
+                <a className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white" href="#">
+                    <div className="flex items-center w-full px-[7%] md:px-[10%]">
+                        <div className="js-hover-circle-animation flex flex-row items-center justify-center">
+                            Content Marketing
+                        </div>
+                    </div>
+                </a>
+
+                <a className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white" href="#">
+                    <div className="flex items-center w-full px-[7%] md:px-[10%]">
+                        <div className="js-hover-circle-animation flex flex-row items-center justify-center">
+                            Lead Generation
+                        </div>
+                    </div>
+                </a>
+
+                <a className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white" href="#">
+                    <div className="flex items-center w-full px-[7%] md:px-[10%]">
+                        <div className="js-hover-circle-animation flex flex-row items-center justify-center">
+                            Website Management
                         </div>
                     </div>
                 </a>

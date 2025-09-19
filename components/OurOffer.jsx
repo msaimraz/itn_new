@@ -2,9 +2,8 @@ export default function OurOffer() {
     return (
         <>
             <div className="js-scroll-heading-bg">
-                <h2
-                    className="mb-[0.7em] lg:mb-[0.9em] text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-                    Our Offer
+                <h2 className="mb-[0.7em] lg:mb-[0.9em] text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
+                    Our Services
                 </h2>
             </div>
 
@@ -19,7 +18,7 @@ export default function OurOffer() {
                         </div>
 
                         <div className="relative h-screen mr-auto md:px-20 flex items-center justify-center md:w-[60%]">
-                            {/* 1 */}
+                            {/* 1 - Strategy & Analysis */}
                             <div className="js-scroll-block-photo hidden md:block md:absolute md:w-[100%] h-[100%]">
                                 <div className="flex items-center flex-col justify-center h-full pr-12 pt-12 pb-12 pl-20">
                                     <div className="relative js-scroll-img-no-bg-wrap js-scroll-img-wide-bg-wrap">
@@ -29,7 +28,7 @@ export default function OurOffer() {
                                                 height="699"
                                                 src="webImages/webbyra-ui-ux-design-950x699.jpg"
                                                 className="js-scroll-img-no-bg"
-                                                alt="UX & UI design — ITnnovator"
+                                                alt="ITnnovator Strategy & Analysis - Data-driven digital strategy and research services"
                                                 loading="lazy"
                                                 decoding="async"
                                             />
@@ -40,7 +39,7 @@ export default function OurOffer() {
                                 </div>
                             </div>
 
-                            {/* 2 */}
+                            {/* 2 - Web Development */}
                             <div className="js-scroll-block-photo hidden md:block md:absolute md:w-[100%] h-[100%]">
                                 <div className="flex items-center flex-col justify-center h-full pr-12 pt-12 pb-12 pl-20">
                                     <div className="relative js-scroll-img-no-bg-wrap js-scroll-img-wide-bg-wrap">
@@ -50,7 +49,7 @@ export default function OurOffer() {
                                                 height="699"
                                                 src="webImages/webbyra-e-handel-950x699.jpg"
                                                 className="js-scroll-img-no-bg"
-                                                alt="E-commerce development — ITnnovator"
+                                                alt="ITnnovator Web Development - Custom websites and e-commerce solutions"
                                                 loading="lazy"
                                                 decoding="async"
                                             />
@@ -61,7 +60,7 @@ export default function OurOffer() {
                                 </div>
                             </div>
 
-                            {/* 3 */}
+                            {/* 3 - Growth & Optimization */}
                             <div className="js-scroll-block-photo hidden md:block md:absolute md:w-[100%] h-[100%]">
                                 <div className="flex items-center flex-col justify-center h-full pr-12 pt-12 pb-12 pl-20">
                                     <div className="relative js-scroll-img-no-bg-wrap js-scroll-img-wide-bg-wrap">
@@ -71,7 +70,7 @@ export default function OurOffer() {
                                                 height="699"
                                                 src="webImages/webbyra-growth-950x699.jpg"
                                                 className="js-scroll-img-no-bg"
-                                                alt="Growth & optimization — ITnnovator"
+                                                alt="ITnnovator Growth Marketing - SEO and conversion rate optimization services"
                                                 loading="lazy"
                                                 decoding="async"
                                             />
@@ -102,7 +101,7 @@ export default function OurOffer() {
                 {/* content rail */}
                 <div className="relative md:w-[40%] w-full md:ml-auto z-[1]">
                     <div className="js-scroll-block-content-wrapper js-scroll-block-content-wrapper-bg w-full md:w-[80%] mr-32">
-                        {/* 01 */}
+                        {/* 01 - Strategy & Analysis */}
                         <div className="js-scroll-block-content">
                             <div className="max-w-md">
                                 <div className="md:hidden relative block mx-auto">
@@ -113,7 +112,7 @@ export default function OurOffer() {
                                         height="699"
                                         src="webImages/webbyra-ui-ux-design-950x699.jpg"
                                         className="w-full h-auto rounded-[0.9rem] md:rounded-[1.25rem] lg:rounded-[1.75rem]"
-                                        alt="UX & UI design — ITnnovator"
+                                        alt="ITnnovator Strategy & Analysis - Data-driven research and planning"
                                         loading="lazy"
                                         decoding="async"
                                     />
@@ -123,21 +122,15 @@ export default function OurOffer() {
                             <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: '#b2fdd8' }}>
                                 01<span className="opacity-50">/03</span>
                             </div>
-                            <h3
-                                className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]"
-                                style={{ color: '#b2fdd8' }}>
-                                Data-driven processes
+                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]" style={{ color: '#b2fdd8' }}>
+                                Data-Driven Strategy
                             </h3>
                             <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: '#b2fdd8' }}>
-                                We audit traffic, journeys, and performance to find the biggest opportunities. Clear roadmaps turn insight
-                                into action, with reporting that proves what moved the needle—conversion, search, or market fit.
+                                We analyze traffic, user behavior, and performance metrics to identify growth opportunities. Our strategic roadmaps transform insights into actionable plans with clear ROI measurement.
                             </p>
                             <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: '#b2fdd8' }}>
-                                <a
-                                    href="services.php"
-                                    target="_self"
-                                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
-                                    <span> Services </span>
+                                <a href="/strategy" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
+                                    <span>Our Strategy Process</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                                             <use href="webImages/icons.svg#arrow-right"></use>
@@ -147,7 +140,7 @@ export default function OurOffer() {
                             </div>
                         </div>
 
-                        {/* 02 */}
+                        {/* 02 - Web Development */}
                         <div className="js-scroll-block-content">
                             <div className="max-w-md">
                                 <div className="md:hidden relative block mx-auto">
@@ -158,7 +151,7 @@ export default function OurOffer() {
                                         height="699"
                                         src="webImages/webbyra-e-handel-950x699.jpg"
                                         className="w-full h-auto rounded-[0.9rem] md:rounded-[1.25rem] lg:rounded-[1.75rem]"
-                                        alt="E-commerce development — ITnnovator"
+                                        alt="ITnnovator Web Development - Custom website and e-commerce development"
                                         loading="lazy"
                                         decoding="async"
                                     />
@@ -168,21 +161,15 @@ export default function OurOffer() {
                             <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: '#b2fdd8' }}>
                                 02<span className="opacity-50">/03</span>
                             </div>
-                            <h3
-                                className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]"
-                                style={{ color: '#b2fdd8' }}>
-                                Aesthetic & stable
+                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]" style={{ color: '#b2fdd8' }}>
+                                Beautiful & Functional
                             </h3>
                             <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: '#b2fdd8' }}>
-                                Design that converts, built on maintainable components. WordPress &amp; WooCommerce when you want
-                                power fast; Laravel and custom APIs when you need fully bespoke—secure, fast, and scalable.
+                                We create conversion-focused designs built with maintainable code. Choose WordPress for rapid deployment or custom solutions for unique requirements—all secure, fast, and scalable.
                             </p>
                             <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: '#b2fdd8' }}>
-                                <a
-                                    href="services.php"
-                                    target="_self"
-                                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
-                                    <span> Services </span>
+                                <a href="/development" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
+                                    <span>View Development Services</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                                             <use href="webImages/icons.svg#arrow-right"></use>
@@ -192,7 +179,7 @@ export default function OurOffer() {
                             </div>
                         </div>
 
-                        {/* 03 */}
+                        {/* 03 - Growth & Optimization */}
                         <div className="js-scroll-block-content">
                             <div className="max-w-md">
                                 <div className="md:hidden relative block mx-auto">
@@ -203,7 +190,7 @@ export default function OurOffer() {
                                         height="699"
                                         src="webImages/webbyra-growth-950x699.jpg"
                                         className="w-full h-auto rounded-[0.9rem] md:rounded-[1.25rem] lg:rounded-[1.75rem]"
-                                        alt="Growth & optimization — ITnnovator"
+                                        alt="ITnnovator Growth Marketing - SEO and conversion optimization"
                                         loading="lazy"
                                         decoding="async"
                                     />
@@ -213,21 +200,15 @@ export default function OurOffer() {
                             <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: '#b2fdd8' }}>
                                 03<span className="opacity-50">/03</span>
                             </div>
-                            <h3
-                                className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]"
-                                style={{ color: '#b2fdd8' }}>
-                                Conversion
+                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]" style={{ color: '#b2fdd8' }}>
+                                Growth Optimization
                             </h3>
                             <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: '#b2fdd8' }}>
-                                We plan, test, and iterate to turn visitors into customers—SEO, CRO, funnels, and attribution stitched
-                                together. Frequent reporting keeps work aligned to revenue, not vanity metrics.
+                                We implement data-driven strategies to convert visitors into customers—combining SEO, conversion optimization, and analytics. Our focus is on revenue-driven results, not vanity metrics.
                             </p>
                             <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: '#b2fdd8' }}>
-                                <a
-                                    href="services.php"
-                                    target="_self"
-                                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
-                                    <span> Services </span>
+                                <a href="/growth" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
+                                    <span>Explore Growth Services</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                                             <use href="webImages/icons.svg#arrow-right"></use>
@@ -236,7 +217,6 @@ export default function OurOffer() {
                                 </a>
                             </div>
                         </div>
-                        {/* /03 */}
                     </div>
                 </div>
             </section>
