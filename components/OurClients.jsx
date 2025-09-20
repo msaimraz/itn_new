@@ -129,6 +129,5 @@ export default function OurClients() {
                 </div>
             </div>
         </section>
-
-    )
+    );
 }

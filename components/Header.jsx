@@ -1,13 +1,15 @@
-import Link from 'next/link';
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Header() {
     return (
         <>
-            <div
-                className="fixed h-[6rem] md:h-[8rem] left-0 top-0 z-[70] flex justify-between pl-5 md:pl-12 text-white mix-blend-difference">
+            <div className="fixed h-[6rem] md:h-[8rem] left-0 top-0 z-[70] flex justify-between pl-5 md:pl-12 text-white mix-blend-difference">
                 <div className="lg:flex lg:items-center">
-                    <Link href="/" className="block w-52 main_logo animated-lg heart-svg-large-wrapper">
+                    <Link
+                        href="/"
+                        className="block w-52 main_logo animated-lg heart-svg-large-wrapper"
+                    >
                         <img
                             className="w-full h-auto block"
                             src="/webImages/logo.png"
@@ -16,23 +18,29 @@ export default function Header() {
                             height="47"
                         />
                     </Link>
-                    <h1 id="js-heading-one-scroll" className="leading-none relative lg:top-0.5 mt-3 lg:ml-4">
+                    <h1
+                        id="js-heading-one-scroll"
+                        className="leading-none relative lg:top-0.5 mt-3 lg:ml-4"
+                    >
                         Digital Partner / Build. Launch. Grow.
                     </h1>
                 </div>
             </div>
 
-            <nav
-                className="hidden md:flex fixed h-[8rem] right-32 top-0 z-[60] md:ml-auto max-w-[calc(100%-30rem)] justify-end items-center text-white mix-blend-difference">
+            <nav className="hidden md:flex fixed h-[8rem] right-32 top-0 z-[60] md:ml-auto max-w-[calc(100%-30rem)] justify-end items-center text-white mix-blend-difference">
                 <ul className="flex justify-end text-normal text-lg">
                     <li className="px-5 relative">
-                        <a className="transition-colors duration-300 ease-in-out hover:text-gray-300" href="contact.php">Contact us</a>
+                        <a
+                            className="transition-colors duration-300 ease-in-out hover:text-gray-300"
+                            href="contact.php"
+                        >
+                            Contact us
+                        </a>
                     </li>
                 </ul>
             </nav>
 
-            <div
-                className="fixed h-[4rem] md:h-[8rem] right-6 md:right-12 top-0 z-[70] flex justify-between items-center py-10 text-white mix-blend-difference">
+            <div className="fixed h-[4rem] md:h-[8rem] right-6 md:right-12 top-0 z-[70] flex justify-between items-center py-10 text-white mix-blend-difference">
                 <button
                     type="button"
                     id="js-menu-toggler"
@@ -84,107 +92,117 @@ export default function Header() {
                                             >
                                                 Services
                                             </Link>
-                                            <span
-                                                className="js-submenu-toggler text-royal-blue ml-auto md:ml-0 md:opacity-0 pl-0 group-[.hover]:opacity-100 group-[.hover]:pl-6 transition-all duration-500 ease-in-out"
-                                            >
-                                                <svg className="inline-block w-10 h-auto md:w-full" preserveAspectRatio="none" width="67" height="37" viewBox="0 0 67 37" aria-hidden="true">
+                                            <span className="js-submenu-toggler text-royal-blue ml-auto md:ml-0 md:opacity-0 pl-0 group-[.hover]:opacity-100 group-[.hover]:pl-6 transition-all duration-500 ease-in-out">
+                                                <svg
+                                                    className="inline-block w-10 h-auto md:w-full"
+                                                    preserveAspectRatio="none"
+                                                    width="67"
+                                                    height="37"
+                                                    viewBox="0 0 67 37"
+                                                    aria-hidden="true"
+                                                >
                                                     <use href="webImages/icons.svg#arrow-right-big"></use>
                                                 </svg>
                                             </span>
                                         </div>
 
-                                        <div
-                                            className="submenu opacity-0 md:opacity-100 flex flex-col items-center md:justify-center bg-black md:bg-transparent fixed md:absolute min-h-full w-48 text-[1.425rem] md:text-[1.625rem] left-0 md:left-full top-0 w-full p-6 md:p-8 md:p-0 whitespace-nowrap font-semibold"
-                                        >
+                                        <div className="submenu opacity-0 md:opacity-100 flex flex-col items-center md:justify-center bg-black md:bg-transparent fixed md:absolute min-h-full w-48 text-[1.425rem] md:text-[1.625rem] left-0 md:left-full top-0 w-full p-6 md:p-8 md:p-0 whitespace-nowrap font-semibold">
                                             <div className="flex items-center md:hidden self-start pt-20">
-                                                <span
-                                                    className="js-submenu-close rotate-180 text-royal-blue md:opacity-0 pl-0 transition-all duration-500 ease-in-out"
-                                                >
-                                                    <svg className="inline-block w-10 h-auto" preserveAspectRatio="none" width="67" height="37" viewBox="0 0 67 37" aria-hidden="true">
+                                                <span className="js-submenu-close rotate-180 text-royal-blue md:opacity-0 pl-0 transition-all duration-500 ease-in-out">
+                                                    <svg
+                                                        className="inline-block w-10 h-auto"
+                                                        preserveAspectRatio="none"
+                                                        width="67"
+                                                        height="37"
+                                                        viewBox="0 0 67 37"
+                                                        aria-hidden="true"
+                                                    >
                                                         <use href="webImages/icons.svg#arrow-right-big"></use>
                                                     </svg>
                                                 </span>
-                                                <div className="text-white text-[2.25rem] ml-6">Services</div>
+                                                <div className="text-white text-[2.25rem] ml-6">
+                                                    Services
+                                                </div>
                                             </div>
 
                                             <ul className="w-full ml-[8rem] md:ml-0 py-0">
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">Web Devlopment</Link>
-                                                    <span
-                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
-                                                    >
+                                                    <Link href="#" className="hover:text-white">
+                                                        Web Devlopment
+                                                    </Link>
+                                                    <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
                                                         – Custom website development
                                                     </span>
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">E-commerce</Link>
-                                                    <span
-                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
-                                                    >
+                                                    <Link href="#" className="hover:text-white">
+                                                        E-commerce
+                                                    </Link>
+                                                    <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
                                                         – Online store development
                                                     </span>
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">SEO</Link>
-                                                    <span
-                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
-                                                    >
+                                                    <Link href="#" className="hover:text-white">
+                                                        SEO
+                                                    </Link>
+                                                    <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
                                                         – Search engine optimization
                                                     </span>
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">Product Design</Link>
-                                                    <span
-                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
-                                                    >
+                                                    <Link href="#" className="hover:text-white">
+                                                        Product Design
+                                                    </Link>
+                                                    <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
                                                         – Intuitive UX & UI design
                                                     </span>
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">Brand Systems</Link>
-                                                    <span
-                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transitionall duration-500 ease-in-out"
-                                                    >
+                                                    <Link href="#" className="hover:text-white">
+                                                        Brand Systems
+                                                    </Link>
+                                                    <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transitionall duration-500 ease-in-out">
                                                         – Scalable logos & visual identity
                                                     </span>
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">Strategy</Link>
-                                                    <span
-                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
-                                                    >
+                                                    <Link href="#" className="hover:text-white">
+                                                        Strategy
+                                                    </Link>
+                                                    <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
                                                         – In-depth analysis & planning
                                                     </span>
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">Content</Link>
-                                                    <span
-                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
-                                                    >
+                                                    <Link href="#" className="hover:text-white">
+                                                        Content
+                                                    </Link>
+                                                    <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
                                                         – Strategic storytelling & copywriting
                                                     </span>
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">Growth</Link>
-                                                    <span
-                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
-                                                    >
+                                                    <Link href="#" className="hover:text-white">
+                                                        Growth
+                                                    </Link>
+                                                    <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
                                                         – Data-driven marketing & leads
                                                     </span>
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">Management</Link>
-                                                    <span
-                                                        className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out"
-                                                    >
+                                                    <Link href="#" className="hover:text-white">
+                                                        Management
+                                                    </Link>
+                                                    <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
                                                         – Ongoing support & management
                                                     </span>
                                                 </li>
@@ -227,7 +245,10 @@ export default function Header() {
 
                                     <li className="js-menu-item flex py-2 mt-0 last:text-2xl last:mt-5">
                                         <div className="js-menu-item--wrapper flex w-full">
-                                            <Link href="#" className="hover:text-white text-white md:text-silver-chalice group-[.hover]:text-white">
+                                            <Link
+                                                href="#"
+                                                className="hover:text-white text-white md:text-silver-chalice group-[.hover]:text-white"
+                                            >
                                                 English
                                             </Link>
                                         </div>
@@ -247,9 +268,17 @@ export default function Header() {
                                                 className="js-hover-circle-animation inline-flex items-center hover-child-underline-animation text-inherit"
                                                 href="https://www.facebook.com/"
                                             >
-                                                <span className="child relative inline-block">Facebook</span>
+                                                <span className="child relative inline-block">
+                                                    Facebook
+                                                </span>
                                                 <span className="pl-4">
-                                                    <svg preserveAspectRatio="none" width="13" height="13" viewBox="0 0 13 13" aria-hidden="true">
+                                                    <svg
+                                                        preserveAspectRatio="none"
+                                                        width="13"
+                                                        height="13"
+                                                        viewBox="0 0 13 13"
+                                                        aria-hidden="true"
+                                                    >
                                                         <use href="webImages/icons.svg#arrow-right-up"></use>
                                                     </svg>
                                                 </span>
@@ -261,9 +290,17 @@ export default function Header() {
                                                 className="js-hover-circle-animation inline-flex items-center hover-child-underline-animation text-inherit"
                                                 href="https://www.linkedin.com/company/"
                                             >
-                                                <span className="child relative inline-block">LinkedIn</span>
+                                                <span className="child relative inline-block">
+                                                    LinkedIn
+                                                </span>
                                                 <span className="pl-4">
-                                                    <svg preserveAspectRatio="none" width="13" height="13" viewBox="0 0 13 13" aria-hidden="true">
+                                                    <svg
+                                                        preserveAspectRatio="none"
+                                                        width="13"
+                                                        height="13"
+                                                        viewBox="0 0 13 13"
+                                                        aria-hidden="true"
+                                                    >
                                                         <use href="webImages/icons.svg#arrow-right-up"></use>
                                                     </svg>
                                                 </span>
@@ -275,9 +312,17 @@ export default function Header() {
                                                 className="js-hover-circle-animation inline-flex items-center hover-child-underline-animation text-inherit"
                                                 href="https://www.instagram.com"
                                             >
-                                                <span className="child relative inline-block">Instagram</span>
+                                                <span className="child relative inline-block">
+                                                    Instagram
+                                                </span>
                                                 <span className="pl-4">
-                                                    <svg preserveAspectRatio="none" width="13" height="13" viewBox="0 0 13 13" aria-hidden="true">
+                                                    <svg
+                                                        preserveAspectRatio="none"
+                                                        width="13"
+                                                        height="13"
+                                                        viewBox="0 0 13 13"
+                                                        aria-hidden="true"
+                                                    >
                                                         <use href="webImages/icons.svg#arrow-right-up"></use>
                                                     </svg>
                                                 </span>
@@ -287,14 +332,25 @@ export default function Header() {
                                 </div>
 
                                 <div className="text-lg xl:text-xl min-w-[8rem] leading-none md:pb-1.5">
-                                    <span className="block mb-2 xl:mb-3">Interested in<br />working together?</span>
+                                    <span className="block mb-2 xl:mb-3">
+                                        Interested in
+                                        <br />
+                                        working together?
+                                    </span>
                                     <Link
                                         href="#"
                                         className="js-hover-circle-animation inline-block py-2 text-malibu relative after:absolute after:content-['_'] after:w-full after:h-px after:bg-malibu after:left-0 after:bottom-0"
                                     >
                                         <span>Contact us</span>
                                         <span className="pl-2">
-                                            <svg className="inline-block" preserveAspectRatio="none" width="17" height="17" viewBox="0 0 17 17" aria-hidden="true">
+                                            <svg
+                                                className="inline-block"
+                                                preserveAspectRatio="none"
+                                                width="17"
+                                                height="17"
+                                                viewBox="0 0 17 17"
+                                                aria-hidden="true"
+                                            >
                                                 <use href="webImages/icons.svg#arrow-right"></use>
                                             </svg>
                                         </span>

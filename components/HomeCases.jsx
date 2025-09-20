@@ -389,7 +389,7 @@ export default function HomeCases() {
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                                             <use href="webImages/icons.svg#arrow-right"></use>
                                         </svg>
-                                    </span> 
+                                    </span>
                                 </a>
                             </div>
                         </div>

@@ -64,7 +64,6 @@ export default function Home() {
         </div>
       </section>
 
-
       {/* About  */}
       <section className="py-14 lg:py-20 xl:py-32">
         <div className="max-w-7xl wider:max-w-[90rem] px-5 xl:px-8 mx-auto flex flex-wrap gap-10 justify-between">
@@ -186,7 +185,6 @@ export default function Home() {
         </div>
       </section>
 
-
       {/* E-commerce in WooCommerce */}
       <section className="py-14 lg:py-20 xl:py-32" style={{ background: "#000000" }}>
         <div className="max-w-7xl px-6 xl:px-8 mx-auto md:gap-x-14 xl:gap-x-20 flex-col flex md:flex-row justify-end md:pr-6">
@@ -228,7 +226,6 @@ export default function Home() {
           </div>
         </div>
       </section >
-
 
       {/* Applications in Laravel */}
       <section className="py-14 lg:py-20 xl:py-32" style={{ background: "#000000" }}>
@@ -272,7 +269,6 @@ export default function Home() {
         </div>
       </section>
 
-
       {/* SEO agency */}
       <section className="py-14 lg:py-20 xl:py-32" style={{ background: "#000000" }}>
         <div className="max-w-7xl px-6 xl:px-8 mx-auto md:gap-x-14 xl:gap-x-20 flex-col flex md:flex-row justify-end md:pr-6">
@@ -314,7 +310,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
 
       {/* Data-driven web agency */}
       <section className="py-14 lg:py-20 xl:py-32" style={{ background: "#000000" }}>
@@ -358,7 +353,6 @@ export default function Home() {
         </div>
       </section>
 
-
       {/* Leader in WordPress */}
       <section className="py-14 lg:py-20 xl:py-32" style={{ background: "#000000" }}>
         <div className="max-w-7xl px-6 xl:px-8 mx-auto md:gap-x-14 xl:gap-x-20 flex-col flex md:flex-row justify-end md:pr-6">
@@ -400,7 +394,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
 
       {/* Our Offer */}
       < OurOffer />

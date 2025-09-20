@@ -12,8 +12,25 @@ export default function OurOffer() {
                     <div className="w-full h-[100%] relative">
                         <div className="hidden md:flex fixed top-[50%] right-[2rem] transform translate-x-[-50%] translate-y-[-50%]">
                             <svg width="50" height="45" viewBox="0 0 50 130">
-                                <rect className="scroll" x="0" y="5" rx="35" ry="35" width="70" height="120" stroke="#ffffff" fill="none" strokeWidth="4"></rect>
-                                <circle className="circle--shape" cx="35" cy="32" r="8" fill="#FFFFFF"></circle>
+                                <rect
+                                    className="scroll"
+                                    x="0"
+                                    y="5"
+                                    rx="35"
+                                    ry="35"
+                                    width="70"
+                                    height="120"
+                                    stroke="#ffffff"
+                                    fill="none"
+                                    strokeWidth="4"
+                                ></rect>
+                                <circle
+                                    className="circle--shape"
+                                    cx="35"
+                                    cy="32"
+                                    r="8"
+                                    fill="#FFFFFF"
+                                ></circle>
                             </svg>
                         </div>
 
@@ -33,8 +50,14 @@ export default function OurOffer() {
                                                 decoding="async"
                                             />
                                         </picture>
-                                        <div className="image-shadow-top" style={{ background: '#d86aaa' }}></div>
-                                        <div className="image-shadow-bottom" style={{ background: '#d86aaa' }}></div>
+                                        <div
+                                            className="image-shadow-top"
+                                            style={{ background: "#d86aaa" }}
+                                        ></div>
+                                        <div
+                                            className="image-shadow-bottom"
+                                            style={{ background: "#d86aaa" }}
+                                        ></div>
                                     </div>
                                 </div>
                             </div>
@@ -54,8 +77,14 @@ export default function OurOffer() {
                                                 decoding="async"
                                             />
                                         </picture>
-                                        <div className="image-shadow-top" style={{ background: '#8c6dc4' }}></div>
-                                        <div className="image-shadow-bottom" style={{ background: '#8c6dc4' }}></div>
+                                        <div
+                                            className="image-shadow-top"
+                                            style={{ background: "#8c6dc4" }}
+                                        ></div>
+                                        <div
+                                            className="image-shadow-bottom"
+                                            style={{ background: "#8c6dc4" }}
+                                        ></div>
                                     </div>
                                 </div>
                             </div>
@@ -75,8 +104,14 @@ export default function OurOffer() {
                                                 decoding="async"
                                             />
                                         </picture>
-                                        <div className="image-shadow-top" style={{ background: '#ba7ccc' }}></div>
-                                        <div className="image-shadow-bottom" style={{ background: '#ba7ccc' }}></div>
+                                        <div
+                                            className="image-shadow-top"
+                                            style={{ background: "#ba7ccc" }}
+                                        ></div>
+                                        <div
+                                            className="image-shadow-bottom"
+                                            style={{ background: "#ba7ccc" }}
+                                        ></div>
                                     </div>
                                 </div>
                             </div>
@@ -85,9 +120,18 @@ export default function OurOffer() {
 
                     {/* bg colors */}
                     <div className="w-screen h-screen z-[-2]">
-                        <span className="js-scroll-block-bg-color" style={{ background: '#c1006d' }}></span>
-                        <span className="js-scroll-block-bg-color" style={{ background: '#55219e' }}></span>
-                        <span className="js-scroll-block-bg-color" style={{ background: '#93219e' }}></span>
+                        <span
+                            className="js-scroll-block-bg-color"
+                            style={{ background: "#c1006d" }}
+                        ></span>
+                        <span
+                            className="js-scroll-block-bg-color"
+                            style={{ background: "#55219e" }}
+                        ></span>
+                        <span
+                            className="js-scroll-block-bg-color"
+                            style={{ background: "#93219e" }}
+                        ></span>
                     </div>
                 </div>
 
@@ -105,8 +149,14 @@ export default function OurOffer() {
                         <div className="js-scroll-block-content">
                             <div className="max-w-md">
                                 <div className="md:hidden relative block mx-auto">
-                                    <div className="image-shadow-top" style={{ background: '#d86aaa' }}></div>
-                                    <div className="image-shadow-bottom" style={{ background: '#d86aaa' }}></div>
+                                    <div
+                                        className="image-shadow-top"
+                                        style={{ background: "#d86aaa" }}
+                                    ></div>
+                                    <div
+                                        className="image-shadow-bottom"
+                                        style={{ background: "#d86aaa" }}
+                                    ></div>
                                     <img
                                         width="950"
                                         height="699"
@@ -119,20 +169,44 @@ export default function OurOffer() {
                                 </div>
                             </div>
 
-                            <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: '#b2fdd8' }}>
+                            <div
+                                className="mt-4 mb-2 md:mb-8 text-base md:text-lg"
+                                style={{ color: "#b2fdd8" }}
+                            >
                                 01<span className="opacity-50">/03</span>
                             </div>
-                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]" style={{ color: '#b2fdd8' }}>
+                            <h3
+                                className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]"
+                                style={{ color: "#b2fdd8" }}
+                            >
                                 Data-Driven Strategy
                             </h3>
-                            <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: '#b2fdd8' }}>
-                                We analyze traffic, user behavior, and performance metrics to identify growth opportunities. Our strategic roadmaps transform insights into actionable plans with clear ROI measurement.
+                            <p
+                                className="mt-3 md:mt-4 text-base text-100 md:text-xl"
+                                style={{ color: "#b2fdd8" }}
+                            >
+                                We analyze traffic, user behavior, and performance metrics to
+                                identify growth opportunities. Our strategic roadmaps transform
+                                insights into actionable plans with clear ROI measurement.
                             </p>
-                            <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: '#b2fdd8' }}>
-                                <a href="/strategy" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
+                            <div
+                                className="mt-4 mb-5 md:mb-0 md:mt-10"
+                                style={{ color: "#b2fdd8" }}
+                            >
+                                <a
+                                    href="/strategy"
+                                    target="_self"
+                                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit"
+                                >
                                     <span>Our Strategy Process</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                                        <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
+                                        <svg
+                                            className="inline-block"
+                                            preserveAspectRatio="none"
+                                            width="22"
+                                            height="15"
+                                            aria-hidden="true"
+                                        >
                                             <use href="webImages/icons.svg#arrow-right"></use>
                                         </svg>
                                     </span>
@@ -144,8 +218,14 @@ export default function OurOffer() {
                         <div className="js-scroll-block-content">
                             <div className="max-w-md">
                                 <div className="md:hidden relative block mx-auto">
-                                    <div className="image-shadow-top" style={{ background: '#8c6dc4' }}></div>
-                                    <div className="image-shadow-bottom" style={{ background: '#8c6dc4' }}></div>
+                                    <div
+                                        className="image-shadow-top"
+                                        style={{ background: "#8c6dc4" }}
+                                    ></div>
+                                    <div
+                                        className="image-shadow-bottom"
+                                        style={{ background: "#8c6dc4" }}
+                                    ></div>
                                     <img
                                         width="950"
                                         height="699"
@@ -158,20 +238,44 @@ export default function OurOffer() {
                                 </div>
                             </div>
 
-                            <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: '#b2fdd8' }}>
+                            <div
+                                className="mt-4 mb-2 md:mb-8 text-base md:text-lg"
+                                style={{ color: "#b2fdd8" }}
+                            >
                                 02<span className="opacity-50">/03</span>
                             </div>
-                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]" style={{ color: '#b2fdd8' }}>
+                            <h3
+                                className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]"
+                                style={{ color: "#b2fdd8" }}
+                            >
                                 Beautiful & Functional
                             </h3>
-                            <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: '#b2fdd8' }}>
-                                We create conversion-focused designs built with maintainable code. Choose WordPress for rapid deployment or custom solutions for unique requirements—all secure, fast, and scalable.
+                            <p
+                                className="mt-3 md:mt-4 text-base text-100 md:text-xl"
+                                style={{ color: "#b2fdd8" }}
+                            >
+                                We create conversion-focused designs built with maintainable
+                                code. Choose WordPress for rapid deployment or custom solutions
+                                for unique requirements—all secure, fast, and scalable.
                             </p>
-                            <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: '#b2fdd8' }}>
-                                <a href="/development" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
+                            <div
+                                className="mt-4 mb-5 md:mb-0 md:mt-10"
+                                style={{ color: "#b2fdd8" }}
+                            >
+                                <a
+                                    href="/development"
+                                    target="_self"
+                                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit"
+                                >
                                     <span>View Development Services</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                                        <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
+                                        <svg
+                                            className="inline-block"
+                                            preserveAspectRatio="none"
+                                            width="22"
+                                            height="15"
+                                            aria-hidden="true"
+                                        >
                                             <use href="webImages/icons.svg#arrow-right"></use>
                                         </svg>
                                     </span>
@@ -183,8 +287,14 @@ export default function OurOffer() {
                         <div className="js-scroll-block-content">
                             <div className="max-w-md">
                                 <div className="md:hidden relative block mx-auto">
-                                    <div className="image-shadow-top" style={{ background: '#ba7ccc' }}></div>
-                                    <div className="image-shadow-bottom" style={{ background: '#ba7ccc' }}></div>
+                                    <div
+                                        className="image-shadow-top"
+                                        style={{ background: "#ba7ccc" }}
+                                    ></div>
+                                    <div
+                                        className="image-shadow-bottom"
+                                        style={{ background: "#ba7ccc" }}
+                                    ></div>
                                     <img
                                         width="950"
                                         height="699"
@@ -197,20 +307,44 @@ export default function OurOffer() {
                                 </div>
                             </div>
 
-                            <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: '#b2fdd8' }}>
+                            <div
+                                className="mt-4 mb-2 md:mb-8 text-base md:text-lg"
+                                style={{ color: "#b2fdd8" }}
+                            >
                                 03<span className="opacity-50">/03</span>
                             </div>
-                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]" style={{ color: '#b2fdd8' }}>
+                            <h3
+                                className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]"
+                                style={{ color: "#b2fdd8" }}
+                            >
                                 Growth Optimization
                             </h3>
-                            <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: '#b2fdd8' }}>
-                                We implement data-driven strategies to convert visitors into customers—combining SEO, conversion optimization, and analytics. Our focus is on revenue-driven results, not vanity metrics.
+                            <p
+                                className="mt-3 md:mt-4 text-base text-100 md:text-xl"
+                                style={{ color: "#b2fdd8" }}
+                            >
+                                We implement data-driven strategies to convert visitors into
+                                customers—combining SEO, conversion optimization, and analytics.
+                                Our focus is on revenue-driven results, not vanity metrics.
                             </p>
-                            <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: '#b2fdd8' }}>
-                                <a href="/growth" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
+                            <div
+                                className="mt-4 mb-5 md:mb-0 md:mt-10"
+                                style={{ color: "#b2fdd8" }}
+                            >
+                                <a
+                                    href="/growth"
+                                    target="_self"
+                                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit"
+                                >
                                     <span>Explore Growth Services</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                                        <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
+                                        <svg
+                                            className="inline-block"
+                                            preserveAspectRatio="none"
+                                            width="22"
+                                            height="15"
+                                            aria-hidden="true"
+                                        >
                                             <use href="webImages/icons.svg#arrow-right"></use>
                                         </svg>
                                     </span>
@@ -220,7 +354,6 @@ export default function OurOffer() {
                     </div>
                 </div>
             </section>
-
         </>
-    )
+    );
 }

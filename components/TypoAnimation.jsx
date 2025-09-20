@@ -1,7 +1,7 @@
-'use client';  // Add this line at the top of the file
+"use client"; // Add this line at the top of the file
 
-import { useEffect } from 'react';
-import Typed from 'typed.js';
+import { useEffect } from "react";
+import Typed from "typed.js";
 
 // TypoAnimation.jsx — shorter, IT-focused
 const TypoAnimation = () => {

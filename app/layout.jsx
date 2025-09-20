@@ -1,14 +1,22 @@
-import './globals.css';
-import '../styles/main.css';
-// import "../lib/main.js"; 
-import Header from '../components/Header';
-import Footer from '../components/Footer';
-import Script from 'next/script';
+// import './globals.css';
+import "../styles/main.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
+import Script from "next/script";
 
 export const metadata = {
   title: "Innovating the Future of Tech | ITnnovator",
-  description: "ITnnovator is a cutting-edge digital agency delivering web design, development, branding, and digital marketing solutions tailored for business growth.",
-  keywords: ["ITnnovator", "digital agency", "web development", "branding", "SEO services", "UI/UX", "software development"],
+  description:
+    "ITnnovator is a cutting-edge digital agency delivering web design, development, branding, and digital marketing solutions tailored for business growth.",
+  keywords: [
+    "ITnnovator",
+    "digital agency",
+    "web development",
+    "branding",
+    "SEO services",
+    "UI/UX",
+    "software development",
+  ],
   authors: [{ name: "ITnnovator", url: "https://itnnovator.com" }],
   creator: "ITnnovator",
   publisher: "ITnnovator",
@@ -20,7 +28,8 @@ export const metadata = {
   },
   openGraph: {
     title: "ITnnovator | Innovating the Future of Tech",
-    description: "Transforming brands with design, development, and marketing expertise.",
+    description:
+      "Transforming brands with design, development, and marketing expertise.",
     url: "https://itnnovator.com",
     siteName: "ITnnovator",
     images: [
@@ -45,11 +54,30 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body id="js-page-body" className="home wp-singular page-template-default page page-id-180 bg-black group pt-[8.3rem]">
-        <svg id="heart-svg" className="fixed z-[80] pointer-events-none transform translate-x-[-45%] translate-y-[-40%]"
-          viewBox="467 392 58 57" xmlns="http://www.w3.org/2000/svg">
-          <g id="Group" fill="none" fillRule="evenodd" transform="translate(467 392)">
-            <circle id="main-circ" fill="#E2264D" opacity="0" cx="29.5" cy="29.5" r="1.5"></circle>
+      <body
+        id="js-page-body"
+        className="home wp-singular page-template-default page page-id-180 bg-black group pt-[8.3rem]"
+      >
+        <svg
+          id="heart-svg"
+          className="fixed z-[80] pointer-events-none transform translate-x-[-45%] translate-y-[-40%]"
+          viewBox="467 392 58 57"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g
+            id="Group"
+            fill="none"
+            fillRule="evenodd"
+            transform="translate(467 392)"
+          >
+            <circle
+              id="main-circ"
+              fill="#E2264D"
+              opacity="0"
+              cx="29.5"
+              cy="29.5"
+              r="1.5"
+            ></circle>
             <g id="grp7" opacity="0" transform="translate(7 6)">
               <circle id="oval1" fill="#9CD8C3" cx="2" cy="6" r="2"></circle>
               <circle id="oval2" fill="#8CE8C3" cx="5" cy="2" r="2"></circle>
@@ -85,19 +113,18 @@ export default function RootLayout({ children }) {
 
         <div id="js-cursor-follower" className="cursor-follower"></div>
 
-        <div id="page-wrapper" className="w-full flex flex-col min-h-screen overflow-hidden !filter-none">
+        <div
+          id="page-wrapper"
+          className="w-full flex flex-col min-h-screen overflow-hidden !filter-none"
+        >
           <Header />
-          <main className="grow">
-            {children}
-          </main>
+
+          <main className="grow">{children}</main>
+          
           <Footer />
         </div>
-        <Script
-          src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
-        />
-        <Script
-          src="/lib/main.js"
-        />
+        <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" />
+        <Script src="/lib/main.js" />
       </body>
     </html>
   );

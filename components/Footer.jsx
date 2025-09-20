@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 import Image from "next/image";
 
 export default function Footer() {
@@ -32,12 +32,18 @@ export default function Footer() {
                             </strong>
                         </p>
                         <p className="text-white text-base md:text-lg leading-relaxed md:leading-relaxed lg:leading-relaxed md:mb-1.5">
-                            <Link className="hover-underline-animation inline-block relative" href="mailto:info@itnnovator.com">
+                            <Link
+                                className="hover-underline-animation inline-block relative"
+                                href="mailto:info@itnnovator.com"
+                            >
                                 info@itnnovator.com
                             </Link>
                         </p>
                         <p className="text-white text-base md:text-lg leading-relaxed md:leading-relaxed lg:leading-relaxed md:mb-1.5">
-                            <Link className="hover-underline-animation inline-block relative" href="tel:+923313775851">
+                            <Link
+                                className="hover-underline-animation inline-block relative"
+                                href="tel:+923313775851"
+                            >
                                 +92 331 3775851
                             </Link>
                         </p>
@@ -50,13 +56,28 @@ export default function Footer() {
                     <nav className="w-1/2 md:w-auto md:max-w-[20%] md:ml-20 text-base md:text-lg pt-1 md:pt-11">
                         <ul>
                             <li className="mb-1.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">About ITnnovator</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    About ITnnovator
+                                </Link>
                             </li>
                             <li className="mb-1.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">Careers</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    Careers
+                                </Link>
                             </li>
                             <li className="mb-1.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">Blog</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    Blog
+                                </Link>
                             </li>
                         </ul>
                     </nav>
@@ -72,7 +93,13 @@ export default function Footer() {
                                 >
                                     <span className="child relative inline-block">facebook</span>
                                     <span className="pl-4">
-                                        <svg preserveAspectRatio="none" width="13" height="13" viewBox="0 0 13 13" aria-hidden="true">
+                                        <svg
+                                            preserveAspectRatio="none"
+                                            width="13"
+                                            height="13"
+                                            viewBox="0 0 13 13"
+                                            aria-hidden="true"
+                                        >
                                             <use href="webImages/icons.svg#arrow-right-up"></use>
                                         </svg>
                                     </span>
@@ -87,7 +114,13 @@ export default function Footer() {
                                 >
                                     <span className="child relative inline-block">linkedIn</span>
                                     <span className="pl-4">
-                                        <svg preserveAspectRatio="none" width="13" height="13" viewBox="0 0 13 13" aria-hidden="true">
+                                        <svg
+                                            preserveAspectRatio="none"
+                                            width="13"
+                                            height="13"
+                                            viewBox="0 0 13 13"
+                                            aria-hidden="true"
+                                        >
                                             <use href="webImages/icons.svg#arrow-right-up"></use>
                                         </svg>
                                     </span>
@@ -102,7 +135,13 @@ export default function Footer() {
                                 >
                                     <span className="child relative inline-block">instagram</span>
                                     <span className="pl-4">
-                                        <svg preserveAspectRatio="none" width="13" height="13" viewBox="0 0 13 13" aria-hidden="true">
+                                        <svg
+                                            preserveAspectRatio="none"
+                                            width="13"
+                                            height="13"
+                                            viewBox="0 0 13 13"
+                                            aria-hidden="true"
+                                        >
                                             <use href="webImages/icons.svg#arrow-right-up"></use>
                                         </svg>
                                     </span>
@@ -116,52 +155,126 @@ export default function Footer() {
                     <nav className="flex flex-wrap justify-between gap-8 md:gap-12 xl:gap-16 text-xs">
                         <ul className="text-white/50">
                             <li className="mb-0.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">Environment Policy</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    Environment Policy
+                                </Link>
                             </li>
                             <li className="mb-0.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">Quality Policy</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    Quality Policy
+                                </Link>
                             </li>
                             <li className="mb-0.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">Privacy Policy</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    Privacy Policy
+                                </Link>
                             </li>
                             <li className="mb-0.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">Cookies</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    Cookies
+                                </Link>
                             </li>
                         </ul>
                         <ul className="text-white/50">
                             <li className="mb-0.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">Web Development</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    Web Development
+                                </Link>
                             </li>
                             <li className="mb-0.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">App Development</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    App Development
+                                </Link>
                             </li>
                             <li className="mb-0.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">SEO Services</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    SEO Services
+                                </Link>
                             </li>
                             <li className="mb-0.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">WordPress Agency</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    WordPress Agency
+                                </Link>
                             </li>
                         </ul>
                         <ul className="text-white/50">
                             <li className="mb-0.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">Glossary</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    Glossary
+                                </Link>
                             </li>
                             <li className="mb-0.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">Blog</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    Blog
+                                </Link>
                             </li>
                             <li className="mb-0.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">Careers</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    Careers
+                                </Link>
                             </li>
                             <li className="mb-0.5">
-                                <Link className="hover-underline-animation inline-block relative" href="#">About ITnnovator</Link>
+                                <Link
+                                    className="hover-underline-animation inline-block relative"
+                                    href="#"
+                                >
+                                    About ITnnovator
+                                </Link>
                             </li>
                         </ul>
                     </nav>
 
                     {/* Optional award badges — replace/remove as needed */}
                     <div className="flex items-center justify-end flex-wrap gap-y-6 gap-x-5 md:gap-x-6 mt-10 lg:mt-0">
-                        <img width="80" height="80" className="w-13 md:w-14" src="webImages/gasell-2019.png" loading="lazy" alt="badge-1" />
-                        <img width="80" height="80" className="w-14 md:w-14" src="webImages/gasell-2020.png" loading="lazy" alt="badge-2" />
+                        <img
+                            width="80"
+                            height="80"
+                            className="w-13 md:w-14"
+                            src="webImages/gasell-2019.png"
+                            loading="lazy"
+                            alt="badge-1"
+                        />
+                        <img
+                            width="80"
+                            height="80"
+                            className="w-14 md:w-14"
+                            src="webImages/gasell-2020.png"
+                            loading="lazy"
+                            alt="badge-2"
+                        />
                         <img
                             height="80"
                             width="87"
@@ -174,6 +287,5 @@ export default function Footer() {
                 </div>
             </div>
         </footer>
-
     );
 }
