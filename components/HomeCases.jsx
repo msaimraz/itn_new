@@ -1,4 +1,45 @@
+"use client";
+
+import { useEffect } from 'react';
+
 export default function HomeCases() {
+    useEffect(() => {
+        // Autoplay, no hover handling, no IO — always runs
+        (function () {
+            const SPEED = 42; // px/sec — tweak to taste
+            const imgs = document.querySelectorAll('img[data-auto-scroll]');
+            if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+            function setup(img) {
+                const vp = img.parentElement; // the viewport (overflow hidden)
+                const scale = img.clientWidth / img.naturalWidth || 1;
+                const rendered = img.naturalHeight * scale; // rendered pixel height
+                const distance = Math.max(0, rendered - vp.clientHeight);
+                const duration = distance > 0 ? distance / SPEED : 0;
+
+                // push vars to CSS animation
+                img.style.setProperty('--bmDist', distance + 'px');
+                img.style.setProperty('--bmDur', duration + 's');
+
+                // retrigger animation after variable changes
+                img.style.animation = 'none';
+                void img.offsetWidth; // reflow
+                img.style.animation = '';
+            }
+
+            function onReady(img) {
+                setup(img);
+                // keep it correct on resize
+                window.addEventListener('resize', () => setup(img));
+            }
+
+            imgs.forEach((img) => {
+                if (img.complete) onReady(img);
+                else img.addEventListener('load', () => onReady(img), { once: true });
+            });
+        })();
+    }, []);
+
     return (
         <>
             <div className="js-scroll-heading-bg">

@@ -6,17 +6,8 @@ import Script from "next/script";
 
 export const metadata = {
   title: "Innovating the Future of Tech | ITnnovator",
-  description:
-    "ITnnovator is a cutting-edge digital agency delivering web design, development, branding, and digital marketing solutions tailored for business growth.",
-  keywords: [
-    "ITnnovator",
-    "digital agency",
-    "web development",
-    "branding",
-    "SEO services",
-    "UI/UX",
-    "software development",
-  ],
+  description: "ITnnovator is a cutting-edge digital agency delivering web design, development, branding, and digital marketing solutions tailored for business growth.",
+  keywords: ["ITnnovator", "digital agency", "web development", "branding", "SEO services", "UI/UX", "software development"],
   authors: [{ name: "ITnnovator", url: "https://itnnovator.com" }],
   creator: "ITnnovator",
   publisher: "ITnnovator",
@@ -24,12 +15,11 @@ export const metadata = {
   manifest: "/site.webmanifest",
   icons: {
     icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
+    // apple: "/apple-touch-icon.png",
   },
   openGraph: {
     title: "ITnnovator | Innovating the Future of Tech",
-    description:
-      "Transforming brands with design, development, and marketing expertise.",
+    description: "Transforming brands with design, development, and marketing expertise.",
     url: "https://itnnovator.com",
     siteName: "ITnnovator",
     images: [
