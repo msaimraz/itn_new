@@ -32,7 +32,7 @@ export default function Testimonial() {
                             <div className="pl-14 md:pl-[5rem] lg:pl-[11rem] xl:pl-[19rem]">
                                 <p className="text-base md:text-xl leading-[1.39] mb-8 md:mb-11">
                                     ITnnovator rebuilt our Shopify store from the ground up. The
-                                    new{" "}
+                                    new
                                     <strong>UX/UI design skyrocketed our conversion rates</strong>
                                     , and their development team ensured everything was fast and
                                     secure. Their ongoing support is exceptional—they're not just
@@ -118,10 +118,10 @@ export default function Testimonial() {
                             <div className="pl-14 md:pl-[5rem] lg:pl-[11rem] xl:pl-[19rem]">
                                 <p className="text-base md:text-xl leading-[1.39] mb-8 md:mb-11">
                                     As a non-profit, we needed a website that integrated complex
-                                    donation gateways and our CRM seamlessly.{" "}
+                                    donation gateways and our CRM seamlessly.
                                     <strong>
                                         ITnnovator delivered a cost-effective, powerful solution
-                                    </strong>{" "}
+                                    </strong>
                                     on WordPress that our team can easily manage. They are
                                     friendly, incredibly responsive, and truly understand how to
                                     drive value.
@@ -206,10 +206,10 @@ export default function Testimonial() {
                             <div className="pl-14 md:pl-[5rem] lg:pl-[11rem] xl:pl-[19rem]">
                                 <p className="text-base md:text-xl leading-[1.39] mb-8 md:mb-11">
                                     ITnnovator took the time to understand our vision and
-                                    translated it into a robust, easy-to-manage website. Their{" "}
+                                    translated it into a robust, easy-to-manage website. Their
                                     <strong>
                                         clear communication throughout the web development process
-                                    </strong>{" "}
+                                    </strong>
                                     was refreshing. We couldn't be happier with the final product
                                     and look forward to a long-term partnership.
                                 </p>
@@ -294,7 +294,7 @@ export default function Testimonial() {
                                 <p className="text-base md:text-xl leading-[1.39] mb-8 md:mb-11">
                                     ITnnovator consistently delivers what they promise, on time
                                     and on budget. They have a keen interest in improving our
-                                    business and provide{" "}
+                                    business and provide
                                     <strong>pragmatic, reliable digital solutions</strong> that
                                     just work. They are our first call for any web development or
                                     digital marketing need.
@@ -379,7 +379,7 @@ export default function Testimonial() {
                             <div className="pl-14 md:pl-[5rem] lg:pl-[11rem] xl:pl-[19rem]">
                                 <p className="text-base md:text-xl leading-[1.39] mb-8 md:mb-11">
                                     ITnnovator built our entire SaaS platform and back-office
-                                    systems. What sets them apart is their focus on{" "}
+                                    systems. What sets them apart is their focus on
                                     <strong>business impact and customer value</strong>. They are
                                     flexible, attentive, and take the time to understand our
                                     operations deeply. A fantastic digital partner.
@@ -464,7 +464,7 @@ export default function Testimonial() {
                             <div className="pl-14 md:pl-[5rem] lg:pl-[11rem] xl:pl-[19rem]">
                                 <p className="text-base md:text-xl leading-[1.39] mb-8 md:mb-11">
                                     ITnnovator has now built four websites for my various
-                                    companies. They{" "}
+                                    companies. They
                                     <strong>consistently exceed expectations</strong>, are
                                     incredibly flexible, have a deep understanding of the customer
                                     journey, and always meet deadlines. They are the only digital
@@ -549,7 +549,7 @@ export default function Testimonial() {
                             </h3>
                             <div className="pl-14 md:pl-[5rem] lg:pl-[11rem] xl:pl-[19rem]">
                                 <p className="text-base md:text-xl leading-[1.39] mb-8 md:mb-11">
-                                    ITnnovator's expertise in{" "}
+                                    ITnnovator's expertise in
                                     <strong>SEO and information architecture</strong> is
                                     outstanding. They built a website that is not only visually
                                     stunning but also perfectly structured for both users and

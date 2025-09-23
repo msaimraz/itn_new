@@ -3369,6 +3369,10 @@ div#CybotCookiebotDialogPoweredByText {
     max-width: 40rem;
 }
 
+.max-w-\[50rem\] {
+    max-width: 50rem;
+}
+
 .max-w-\[41rem\] {
     max-width: 41rem;
 }

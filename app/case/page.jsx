@@ -1,3 +1,5 @@
+import CTA from "@/components/CTA";
+import OurServices from "@/components/OurServices";
 import Link from "next/link";
 
 export default function cases() {
@@ -534,33 +536,8 @@ export default function cases() {
         </div>
       </section>
 
-      {/*  */}
-      <section className="js-animate-fadeinup mx-auto px-6 xl:px-8 max-w-4xl text-center py-14 lg:py-20 xl:py-32">
-        <div className="w-[12rem] md:w-[15rem] lg:w-[18rem] mx-auto mb-10">
-          <img
-            width="296"
-            height="296"
-            src="https://pigment.se/wp-content/uploads/2023/10/webbyra-stockholm-personal-sergio-296x296.jpeg"
-            className="w-full h-auto rounded-full"
-            alt="webbyra-stockholm-personal-sergio"
-            decoding="async"
-            sizes="(max-width: 296px) 100vw, 296px"
-          />
-        </div>
-        <h2 className="mb-[0.7em] lg:mb-[0.9em] text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-          Behöver ni också hjälp av ett dedikerat och kreativt team?
-        </h2>
-
-        <div className="prose max-w-none text-base md:text-xl lg:text-[1.56rem] font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-          <p>
-            Sergio vill gärna träffa dig isåfall.
-            <br />
-            Ring honom på <Link href="tel:070-953 53 99">070-953 53 99</Link>,
-            eller maila{" "}
-            <Link href="mailto:sergio@pigment.se">sergio@pigment.se</Link>
-          </p>
-        </div>
-      </section>
+      {/* CTA */}
+      <CTA />
 
       {/*  */}
       <section className="js-animate-fadeinup max-w-7xl mx-auto lg:rounded-[1.25rem] px-6 xl:px-8 pb-12 md:pb-16 py-14 lg:py-20 xl:py-32">
@@ -695,104 +672,8 @@ export default function cases() {
         </div>
       </section>
 
-      {/*  */}
-      <section className="w-full px-6 mx-auto md:flex-row justify-items-center max-w-7xl xl:px-8 gap-x-8 js-animate-fadein pb-14 lg:pb-20 xl:pb-32">
-        <h4 className="mb-[0.7em] text-xl md:text-2xl leading-tight md:leading-tight font-bold text-white">
-          Våra tjänster
-        </h4>
-        <div className="flex [@media(min-width:375px)]:flex-row w-full rounded-2xl border border-[#151515] overflow-hidden mt-8 flex-wrap">
-          <Link
-            className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-            href="../tjanster/analys/index.html"
-          >
-            <div className="flex items-center w-full px-[7%] md:px-[10%]">
-              <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                Analys
-              </div>
-            </div>
-          </Link>
-          <Link
-            className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-            href="../tjanster/branding/index.html"
-          >
-            <div className="flex items-center w-full px-[7%] md:px-[10%]">
-              <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                Branding
-              </div>
-            </div>
-          </Link>
-          <Link
-            className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-            href="../tjanster/ux-ui-byra/index.html"
-          >
-            <div className="flex items-center w-full px-[7%] md:px-[10%]">
-              <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                UX / UI design
-              </div>
-            </div>
-          </Link>
-          <Link
-            className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-            href="../tjanster/webbutveckling/index.html"
-          >
-            <div className="flex items-center w-full px-[7%] md:px-[10%]">
-              <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                Webbutveckling
-              </div>
-            </div>
-          </Link>
-          <Link
-            className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-            href="../tjanster/webbyra-e-handel/index.html"
-          >
-            <div className="flex items-center w-full px-[7%] md:px-[10%]">
-              <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                E-handel
-              </div>
-            </div>
-          </Link>
-          <Link
-            className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-            href="../tjanster/content/index.html"
-          >
-            <div className="flex items-center w-full px-[7%] md:px-[10%]">
-              <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                Content
-              </div>
-            </div>
-          </Link>
-          <Link
-            className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-            href="../tjanster/seo-byra-stockholm/index.html"
-          >
-            <div className="flex items-center w-full px-[7%] md:px-[10%]">
-              <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                SEO
-              </div>
-            </div>
-          </Link>
-          <Link
-            className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-            href="../tjanster/growth/index.html"
-          >
-            <div className="flex items-center w-full px-[7%] md:px-[10%]">
-              <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                Growth
-              </div>
-            </div>
-          </Link>
-          <Link
-            className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-            href="../tjanster/forvaltning/index.html"
-          >
-            <div className="flex items-center w-full px-[7%] md:px-[10%]">
-              <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                Förvaltning
-              </div>
-            </div>
-          </Link>
-        </div>
-      </section>
+      {/* Our services */}
+      <OurServices />
     </>
   );
 }

@@ -66,8 +66,8 @@ export default function Home() {
 
       {/* About  */}
       <section className="py-14 lg:py-20 xl:py-32">
-        <div className="max-w-7xl wider:max-w-[90rem] px-5 xl:px-8 mx-auto flex flex-wrap gap-10 justify-between">
-          <div className="flex flex-col gap-y-6 w-full max-w-[33.5rem] md:gap-y-11">
+        <div className="w-[94%] wider:max-w-[90rem] px-5 xl:px-8 mx-auto flex flex-wrap gap-10 justify-between">
+          <div className="flex flex-col gap-y-6 w-full max-w-[50rem] md:gap-y-11">
             <h1 className="text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
               Your End-to-End Digital Solutions Partner | ITnnovator
             </h1>
@@ -103,7 +103,7 @@ export default function Home() {
             </div>
           </div>
 
-          <ul className="flex flex-col gap-y-10 w-full max-w-[26.75rem] lg:gap-y-[3.25rem] mt-10 md:mt-0 lg:flex-1">
+          <ul className="flex flex-col gap-y-10 w-full max-w-[40rem] md:gap-y-11 lg:flex-1">
             <li className="flex items-start gap-x-6 md:gap-x-11">
               <img width="55" height="55" src="webImages/branding-design-icon.svg"
                 className="block w-8 sm:w-[3.5rem]" alt="ITnnovator Branding and UI/UX Design Services - Create a memorable brand" decoding="async" />
@@ -396,13 +396,13 @@ export default function Home() {
       </section>
 
       {/* Our Offer */}
-      < OurOffer />
+      <OurOffer />
 
       {/* CTA */}
-      < CTA />
+      <CTA />
 
       {/* Our services */}
-      < OurServices />
+      <OurServices />
 
     </>
   );

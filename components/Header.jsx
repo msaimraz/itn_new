@@ -30,12 +30,12 @@ export default function Header() {
             <nav className="hidden md:flex fixed h-[8rem] right-32 top-0 z-[60] md:ml-auto max-w-[calc(100%-30rem)] justify-end items-center text-white mix-blend-difference">
                 <ul className="flex justify-end text-normal text-lg">
                     <li className="px-5 relative">
-                        <a
+                        <Link
                             className="transition-colors duration-300 ease-in-out hover:text-gray-300"
-                            href="contact.php"
+                            href="contact"
                         >
                             Contact us
-                        </a>
+                        </Link>
                     </li>
                 </ul>
             </nav>
@@ -76,7 +76,7 @@ export default function Header() {
                                     <li className="js-menu-item flex py-2 mt-0 last:text-2xl last:mt-5">
                                         <div className="js-menu-item--wrapper flex w-full">
                                             <Link
-                                                href="case.php"
+                                                href="case"
                                                 className="hover:text-white text-white md:text-silver-chalice group-[.hover]:text-white"
                                             >
                                                 Cases
@@ -87,7 +87,7 @@ export default function Header() {
                                     <li className="js-menu-item flex has-children group py-2 mt-0 last:text-2xl last:mt-5">
                                         <div className="js-menu-item--wrapper flex w-full">
                                             <Link
-                                                href="services.php"
+                                                href="service"
                                                 className="hover:text-white text-white md:text-silver-chalice group-[.hover]:text-white"
                                             >
                                                 Services
@@ -213,7 +213,7 @@ export default function Header() {
                                     <li className="js-menu-item flex py-2 mt-0 last:text-2xl last:mt-5">
                                         <div className="js-menu-item--wrapper flex w-full">
                                             <Link
-                                                href="promise.php"
+                                                href="promise"
                                                 className="hover:text-white text-white md:text-silver-chalice group-[.hover]:text-white"
                                             >
                                                 Our Promise
@@ -224,7 +224,7 @@ export default function Header() {
                                     <li className="js-menu-item flex py-2 mt-0 last:text-2xl last:mt-5">
                                         <div className="js-menu-item--wrapper flex w-full">
                                             <Link
-                                                href="team.php"
+                                                href="team"
                                                 className="hover:text-white text-white md:text-silver-chalice group-[.hover]:text-white"
                                             >
                                                 Our Team
@@ -235,7 +235,7 @@ export default function Header() {
                                     <li className="js-menu-item flex py-2 mt-0 last:text-2xl last:mt-5">
                                         <div className="js-menu-item--wrapper flex w-full">
                                             <Link
-                                                href="contact.php"
+                                                href="contact"
                                                 className="hover:text-white text-white md:text-silver-chalice group-[.hover]:text-white"
                                             >
                                                 Contact
@@ -245,12 +245,7 @@ export default function Header() {
 
                                     <li className="js-menu-item flex py-2 mt-0 last:text-2xl last:mt-5">
                                         <div className="js-menu-item--wrapper flex w-full">
-                                            <Link
-                                                href="#"
-                                                className="hover:text-white text-white md:text-silver-chalice group-[.hover]:text-white"
-                                            >
-                                                English
-                                            </Link>
+                                            
                                         </div>
                                     </li>
                                 </ul>
@@ -338,7 +333,7 @@ export default function Header() {
                                         working together?
                                     </span>
                                     <Link
-                                        href="#"
+                                        href="contact"
                                         className="js-hover-circle-animation inline-block py-2 text-malibu relative after:absolute after:content-['_'] after:w-full after:h-px after:bg-malibu after:left-0 after:bottom-0"
                                     >
                                         <span>Contact us</span>

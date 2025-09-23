@@ -7,7 +7,7 @@ export default function team() {
           <div className="block md:text-lg mb-6">
             <span>
               <span>
-                <Link href="https://pigment.se/">Hem</Link>
+                <Link href="/">Hem</Link>
               </span>
               /
               <span className="breadcrumb_last" aria-current="page">

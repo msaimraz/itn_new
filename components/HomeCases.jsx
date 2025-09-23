@@ -4,40 +4,44 @@ import { useEffect } from 'react';
 
 export default function HomeCases() {
     useEffect(() => {
-        // Autoplay, no hover handling, no IO — always runs
-        (function () {
-            const SPEED = 42; // px/sec — tweak to taste
-            const imgs = document.querySelectorAll('img[data-auto-scroll]');
-            if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+        const SPEED = 42; // px/sec — tweak to taste
+        const imgs = Array.from(document.querySelectorAll('img[data-auto-scroll]'));
+        if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-            function setup(img) {
-                const vp = img.parentElement; // the viewport (overflow hidden)
-                const scale = img.clientWidth / img.naturalWidth || 1;
-                const rendered = img.naturalHeight * scale; // rendered pixel height
-                const distance = Math.max(0, rendered - vp.clientHeight);
-                const duration = distance > 0 ? distance / SPEED : 0;
+        function setup(img) {
+            const vp = img.parentElement; // the viewport (overflow hidden)
+            const scale = img.clientWidth / img.naturalWidth || 1;
+            const rendered = img.naturalHeight * scale; // rendered pixel height
+            const distance = Math.max(0, rendered - vp.clientHeight);
+            const duration = distance > 0 ? distance / SPEED : 0;
 
-                // push vars to CSS animation
-                img.style.setProperty('--bmDist', distance + 'px');
-                img.style.setProperty('--bmDur', duration + 's');
+            // push vars to CSS animation
+            img.style.setProperty('--bmDist', distance + 'px');
+            img.style.setProperty('--bmDur', duration + 's');
 
-                // retrigger animation after variable changes
-                img.style.animation = 'none';
-                void img.offsetWidth; // reflow
-                img.style.animation = '';
-            }
+            // retrigger animation after variable changes
+            img.style.animation = 'none';
+            void img.offsetWidth; // reflow
+            img.style.animation = '';
+        }
 
-            function onReady(img) {
+        function setupAll() {
+            imgs.forEach((img) => setup(img));
+        }
+
+        imgs.forEach((img) => {
+            if (img.complete) {
                 setup(img);
-                // keep it correct on resize
-                window.addEventListener('resize', () => setup(img));
+            } else {
+                img.addEventListener('load', () => setup(img), { once: true });
             }
+        });
 
-            imgs.forEach((img) => {
-                if (img.complete) onReady(img);
-                else img.addEventListener('load', () => onReady(img), { once: true });
-            });
-        })();
+        window.addEventListener('resize', setupAll);
+
+        return () => {
+            window.removeEventListener('resize', setupAll);
+        };
     }, []);
 
     return (
@@ -74,14 +78,14 @@ export default function HomeCases() {
                                                     <div className="chrome-icon"></div>
                                                 </div>
                                                 <div className="bm-viewport desktop">
-                                                    <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    {/* <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                                 </div>
                                             </figure>
                                             {/* Mobile */}
                                             <figure className="bm-phone">
                                                 <div className="bm-phone-notch"></div>
                                                 <div className="bm-viewport mobile">
-                                                    <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    {/* <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                                 </div>
                                             </figure>
                                         </div>
@@ -105,14 +109,14 @@ export default function HomeCases() {
                                                     <div className="chrome-icon"></div>
                                                 </div>
                                                 <div className="bm-viewport desktop">
-                                                    <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    {/* <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                                 </div>
                                             </figure>
                                             {/* Mobile */}
                                             <figure className="bm-phone">
                                                 <div className="bm-phone-notch"></div>
                                                 <div className="bm-viewport mobile">
-                                                    <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    {/* <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                                 </div>
                                             </figure>
                                         </div>
@@ -136,14 +140,14 @@ export default function HomeCases() {
                                                     <div className="chrome-icon"></div>
                                                 </div>
                                                 <div className="bm-viewport desktop">
-                                                    <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    {/* <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                                 </div>
                                             </figure>
                                             {/* Mobile */}
                                             <figure className="bm-phone">
                                                 <div className="bm-phone-notch"></div>
                                                 <div className="bm-viewport mobile">
-                                                    <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    {/* <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                                 </div>
                                             </figure>
                                         </div>
@@ -167,14 +171,14 @@ export default function HomeCases() {
                                                     <div className="chrome-icon"></div>
                                                 </div>
                                                 <div className="bm-viewport desktop">
-                                                    <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    {/* <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                                 </div>
                                             </figure>
                                             {/* Mobile */}
                                             <figure className="bm-phone">
                                                 <div className="bm-phone-notch"></div>
                                                 <div className="bm-viewport mobile">
-                                                    <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    {/* <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                                 </div>
                                             </figure>
                                         </div>
@@ -226,14 +230,14 @@ export default function HomeCases() {
                                                 <div className="chrome-icon"></div>
                                             </div>
                                             <div className="bm-viewport desktop">
-                                                <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                {/* <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                             </div>
                                         </figure>
                                         {/* Mobile */}
                                         <figure className="bm-phone">
                                             <div className="bm-phone-notch"></div>
                                             <div className="bm-viewport mobile">
-                                                <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                {/* <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                             </div>
                                         </figure>
                                     </div>
@@ -283,14 +287,14 @@ export default function HomeCases() {
                                                 <div className="chrome-icon"></div>
                                             </div>
                                             <div className="bm-viewport desktop">
-                                                <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                {/* <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                             </div>
                                         </figure>
                                         {/* Mobile */}
                                         <figure className="bm-phone">
                                             <div className="bm-phone-notch"></div>
                                             <div className="bm-viewport mobile">
-                                                <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                {/* <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                             </div>
                                         </figure>
                                     </div>
@@ -340,14 +344,14 @@ export default function HomeCases() {
                                                 <div className="chrome-icon"></div>
                                             </div>
                                             <div className="bm-viewport desktop">
-                                                <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                {/* <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                             </div>
                                         </figure>
                                         {/* Mobile */}
                                         <figure className="bm-phone">
                                             <div className="bm-phone-notch"></div>
                                             <div className="bm-viewport mobile">
-                                                <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                {/* <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                             </div>
                                         </figure>
                                     </div>
@@ -397,14 +401,14 @@ export default function HomeCases() {
                                                 <div className="chrome-icon"></div>
                                             </div>
                                             <div className="bm-viewport desktop">
-                                                <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                {/* <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                             </div>
                                         </figure>
                                         {/* Mobile */}
                                         <figure className="bm-phone">
                                             <div className="bm-phone-notch"></div>
                                             <div className="bm-viewport mobile">
-                                                <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                {/* <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" /> */}
                                             </div>
                                         </figure>
                                     </div>

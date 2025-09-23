@@ -1,3 +1,5 @@
+import CTA from "@/components/CTA";
+import OurClients from "@/components/OurClients";
 import Link from "next/link";
 
 export default function Service() {
@@ -563,14 +565,14 @@ export default function Service() {
         <div className="relative mx-6 lg:mx-0">
           <div className="relative flex items-center lg:max-w-[79.75rem] mx-auto rounded-[1.25rem] overflow-hidden">
             <img
-              src="https://pigment.se/wp-content/uploads/2023/09/pigmenthenrik.jpg"
+              src="/webImages/pixelhenrik.jpg"
               width={2000}
               height={1137}
               alt="ITnnovator Digital Solutions Team - Experts in web development, SEO, and digital growth strategies"
               className="w-full h-full object-cover aspect-[2000/1137]"
               loading="eager"
               decoding="async"
-              fetchpriority="high"
+              fetchPriority="high"
               sizes="(max-width: 1024px) 100vw, 79.75rem"
             />
             <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-black/20" />
@@ -603,196 +605,11 @@ export default function Service() {
         </div>
       </section>
 
-      {/*  */}
-      <section className="py-14 lg:py-20 xl:py-32">
-        <div className="max-w-7xl px-5 xl:px-8 mx-auto flex text-center flex-col gap-y-10 md:gap-y-20">
-          <h2 className="0 text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white text-center">
-            Trusted by 250+ Successful Businesses
-          </h2>
-          <div className="js-logo-ticker flex items-center gap-x-10 md:gap-y-20 opacity-0 md:gap-x-0 md:flex-wrap md:justify-center md:opacity-100">
-            <div className="js-logo-item flex justify-center items-center shrink-0 md:basis-auto md:shrink md:w-[20%] xl:w-[16.66%]">
-              <img
-                width="114"
-                height="177"
-                src="https://pigment.se/wp-content/uploads/2023/09/wwf.png"
-                className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
-                alt="WWF - Client of ITnnovator"
-                loading="lazy"
-                decoding="async"
-                sizes="auto, (max-width: 114px) 100vw, 114px"
-              />
-            </div>
-            <div className="js-logo-item flex justify-center items-center shrink-0 md:basis-auto md:shrink md:w-[20%] xl:w-[16.66%]">
-              <img
-                width="82"
-                height="59"
-                src="https://pigment.se/wp-content/uploads/2023/09/space-82x59.png"
-                className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
-                alt="Space - Client of ITnnovator"
-                loading="lazy"
-                decoding="async"
-                sizes="auto, (max-width: 82px) 100vw, 82px"
-              />
-            </div>
-            <div className="js-logo-item flex justify-center items-center shrink-0 md:basis-auto md:shrink md:w-[20%] xl:w-[16.66%]">
-              <img
-                width="164"
-                height="59"
-                src="https://pigment.se/wp-content/uploads/2023/09/stockholms-stad-164x59.png"
-                className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
-                alt="Stockholm City - Client of ITnnovator"
-                loading="lazy"
-                decoding="async"
-                sizes="auto, (max-width: 164px) 100vw, 164px"
-              />
-            </div>
-            <div className="js-logo-item flex justify-center items-center shrink-0 md:basis-auto md:shrink md:w-[20%] xl:w-[16.66%]">
-              <img
-                width="101"
-                height="59"
-                src="https://pigment.se/wp-content/uploads/2023/09/sfd-101x59.png"
-                className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
-                alt="SFD - Client of ITnnovator"
-                loading="lazy"
-                decoding="async"
-                sizes="auto, (max-width: 101px) 100vw, 101px"
-              />
-            </div>
-            <div className="js-logo-item flex justify-center items-center shrink-0 md:basis-auto md:shrink md:w-[20%] xl:w-[16.66%]">
-              <img
-                width="103"
-                height="59"
-                src="https://pigment.se/wp-content/uploads/2023/09/rfsu-103x59.png"
-                className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
-                alt="RFSU - Client of ITnnovator"
-                loading="lazy"
-                decoding="async"
-                sizes="auto, (max-width: 103px) 100vw, 103px"
-              />
-            </div>
-            <div className="js-logo-item flex justify-center items-center shrink-0 md:basis-auto md:shrink md:w-[20%] xl:w-[16.66%]">
-              <img
-                width="262"
-                height="59"
-                src="https://pigment.se/wp-content/uploads/2023/09/nvc-262x59.png"
-                className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
-                alt="NVC - Client of ITnnovator"
-                loading="lazy"
-                decoding="async"
-                sizes="auto, (max-width: 262px) 100vw, 262px"
-              />
-            </div>
-            <div className="js-logo-item flex justify-center items-center shrink-0 md:basis-auto md:shrink md:w-[20%] xl:w-[16.66%]">
-              <img
-                width="322"
-                height="59"
-                src="https://pigment.se/wp-content/uploads/2023/09/midnattsloppet-322x59.png"
-                className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
-                alt="Midnattsloppet - Client of ITnnovator"
-                loading="lazy"
-                decoding="async"
-                sizes="auto, (max-width: 322px) 100vw, 322px"
-              />
-            </div>
-            <div className="js-logo-item flex justify-center items-center shrink-0 md:basis-auto md:shrink md:w-[20%] xl:w-[16.66%]">
-              <img
-                width="126"
-                height="165"
-                src="https://pigment.se/wp-content/uploads/2023/09/bauer-media.png"
-                className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
-                alt="Bauer Media - Client of ITnnovator"
-                loading="lazy"
-                decoding="async"
-                sizes="auto, (max-width: 126px) 100vw, 126px"
-              />
-            </div>
-            <div className="js-logo-item flex justify-center items-center shrink-0 md:basis-auto md:shrink md:w-[20%] xl:w-[16.66%]">
-              <img
-                width="183"
-                height="59"
-                src="https://pigment.se/wp-content/uploads/2023/09/avicii-183x59.png"
-                className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
-                alt="Avicii Foundation - Client of ITnnovator"
-                loading="lazy"
-                decoding="async"
-                sizes="auto, (max-width: 183px) 100vw, 183px"
-              />
-            </div>
-            <div className="js-logo-item flex justify-center items-center shrink-0 md:basis-auto md:shrink md:w-[20%] xl:w-[16.66%]">
-              <img
-                width="396"
-                height="51"
-                src="https://pigment.se/wp-content/uploads/2023/09/assistancekaren.png"
-                className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
-                alt="Assistancekaren - Client of ITnnovator"
-                loading="lazy"
-                decoding="async"
-                sizes="auto, (max-width: 396px) 100vw, 396px"
-              />
-            </div>
-            <div className="js-logo-item flex justify-center items-center shrink-0 md:basis-auto md:shrink md:w-[20%] xl:w-[16.66%]">
-              <img
-                width="139"
-                height="59"
-                src="https://pigment.se/wp-content/uploads/2023/09/afv-139x59.png"
-                className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
-                alt="AFV - Client of ITnnovator"
-                loading="lazy"
-                decoding="async"
-                sizes="auto, (max-width: 139px) 100vw, 139px"
-              />
-            </div>
-            <div className="js-logo-item flex justify-center items-center shrink-0 md:basis-auto md:shrink md:w-[20%] xl:w-[16.66%]">
-              <img
-                width="89"
-                height="59"
-                src="https://pigment.se/wp-content/uploads/2023/09/abba-the-museum-89x59.png"
-                className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
-                alt="ABBA The Museum - Client of ITnnovator"
-                loading="lazy"
-                decoding="async"
-                sizes="auto, (max-width: 89px) 100vw, 89px"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Our Clients */}
+      <OurClients />
 
-      {/*  */}
-      <section className="js-animate-fadeinup mx-auto px-6 xl:px-8 max-w-4xl text-center py-14 lg:py-20 xl:py-32">
-        <div className="w-[12rem] md:w-[15rem] lg:w-[18rem] mx-auto mb-10">
-          <img
-            width="296"
-            height="296"
-            src="https://pigment.se/wp-content/uploads/2023/10/webbyra-stockholm-personal-sergio-637x637.jpeg"
-            className="w-full h-auto rounded-full"
-            alt="ITnnovator Team - Your dedicated digital solutions partner"
-            decoding="async"
-            sizes="(max-width: 296px) 100vw, 296px"
-          />
-        </div>
-
-        <h2 className="mb-[0.7em] lg:mb-[0.9em] text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-          Ready to Transform Your Digital Presence?
-        </h2>
-
-        <div className="prose max-w-none text-base md:text-xl lg:text-[1.56rem] font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-          <p>
-            <Link
-              href="https://itnnovator.com/contact"
-              target="_blank"
-              rel="noopener"
-            >
-              Schedule your consultation with the ITnnovator team
-            </Link>
-            .
-            <br />
-            Prefer email? Contact us at{" "}
-            <Link href="mailto:info@itnnovator.com">info@itnnovator.com</Link>
-            .
-          </p>
-        </div>
-      </section>
+      {/* CTA */}
+      <CTA />
     </>
   );
 }

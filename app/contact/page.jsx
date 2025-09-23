@@ -256,7 +256,7 @@ export default function Contact() {
                               className="gform-field-label gform-field-label--type-inline gfield_consent_label"
                               htmlFor="input_1_7_1"
                             >
-                              I have read ITnnovator’s{" "}
+                              I have read ITnnovator’s
                               <Link
                                 className="underline"
                                 href="/privacy-policy"
