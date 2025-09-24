@@ -1,3 +1,4 @@
+import CaseSection from "@/components/CaseSection";
 import CTA from "@/components/CTA";
 import OurServices from "@/components/OurServices";
 import Link from "next/link";
@@ -16,7 +17,7 @@ export default function cases() {
             <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit prose-h2:text-inherit prose-h2:text-3xl prose-h2:leading-tight md:prose-h2:text-[3.25rem] md:prose-h2:leading-[1.23] prose-h2:font-bold prose-h2:mb-[0.5em] prose-h3:text-inherit prose-h3:text-2xl prose-h3:leading-tight md:prose-h3:text-[2.18rem] md:prose-h3:leading-[1.4] prose-h3:font-bold prose-h3:mb-[0.9em] prose-h4:text-inherit prose-h4:text-xl prose-h4:leading-tight md:prose-h4:text-2xl md:prose-h4:leading-tight prose-h4:font-bold prose-h4:mb-[0.9em] prose-h5:text-inherit prose-h5:text-lg prose-h5:leading-tight md:prose-h5:text-xl md:prose-h5:leading-tight prose-h5:font-bold prose-h5:mb-[0.9em] prose-h6:text-inherit prose-h6:text-base prose-h6:leading-tight md:prose-h6:text-lg md:prose-h6:leading-tight prose-h6:font-bold prose-h6:mb-[0.9em] prose-blockquote:text-white">
               <p>
                 Vi uppdaterar vår portfolio löpande.
-                <Link href="#">Kontakta oss</Link> om du vill ser fler case.
+                <Link href="contact">Kontakta oss</Link> om du vill ser fler case.
               </p>
             </div>
           </div>
@@ -24,7 +25,7 @@ export default function cases() {
       </section>
 
       {/*  */}
-      <section className="case w-full pb-14 lg:pb-20 xl:pb-32 js-case-filtering">
+      {/* <section className="case w-full pb-14 lg:pb-20 xl:pb-32 js-case-filtering">
         <div className="px-5 xl:px-[3.5rem] 2xl:px-16">
           <div className="md:hidden relative mb-8 js-case-filtering-mobile-dropdown">
             <select
@@ -516,7 +517,8 @@ export default function cases() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
+      <CaseSection />
 
       {/*  */}
       <section className="pb-14 lg:pb-20 xl:pb-32">
