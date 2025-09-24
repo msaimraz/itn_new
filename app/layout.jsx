@@ -1,5 +1,6 @@
 // import './globals.css';
 import "../styles/main.css";
+import "../styles/style.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Script from "next/script";
@@ -108,9 +109,11 @@ export default function RootLayout({ children }) {
           className="w-full flex flex-col min-h-screen overflow-hidden !filter-none"
         >
           <Header />
+          <br />
+          <br />
 
           <main className="grow">{children}</main>
-          
+
           <Footer />
         </div>
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" />
