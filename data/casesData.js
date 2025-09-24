@@ -1,4 +1,3 @@
-// src/data/cases.js
 export const CATEGORIES = [
     { id: "cases_all", label: "Alla" },
     { id: "cases_api", label: "API" },
@@ -14,10 +13,63 @@ export const CASES = [
     {
         slug: "svenska-budo-kampsportsforbundet",
         title: "Svenska Budo & Kampsportsförbundet",
+        client: "Svenska Budo & Kampsportsförbundet",
+        year: "2024",
+        link: "https://budokampsport.se",
         tags: ["API", "Backend", "E-Handel", "Frontend", "UX & UI-Design"],
         categories: ["api", "backend", "e-handel", "frontend", "ux-ui-design"],
         topImg: "/webImages/cases/budo-hero-1-868x640.jpg",
         innerImg: "/webImages/cases/budo-webb-1-680x480.jpg",
+        hero: "/webImages/casedetail/budo-hero-1.jpg",
+        sidebar: {
+            vad: [
+                "UX & UI-Design",
+                "Frontend",
+                "Backend",
+                "API",
+                "Webbshop",
+                "Digitala tävlingskort",
+                "Freja ID",
+            ],
+        },
+        sections: [
+            {
+                type: "intro",
+                heading: "Ny hemsida åt Svenska Budo & Kampsportsförbundet",
+                text: `
+          Svenska Budo & Kampsportsförbundet är en paraplyorganisation som samlar olika kampsporter i Sverige. 
+          De kontaktade oss för att digitalisera tävlingskort och hantering av sanktionsansökningar. 
+          Vi byggde en ny webb med betalning, nya funktioner och uppdaterad design.
+        `,
+            },
+            {
+                type: "imageText",
+                image: "/webImages/casedetail/budo-detail-6-637x576.jpg",
+                heading: "Identifiering med FrejaID",
+                text: `
+          FrejaID används för identifiering och inloggning på hemsidan. 
+          Det används för att ansöka om tävlingskort, administrera och öka säkerheten vid inloggning.
+        `,
+            },
+            {
+                type: "imageTextReverse",
+                image: "/webImages/casedetail/budo-detail-5-637x599.jpg",
+                heading: "Integration mot Swedbank Pay",
+                text: `
+          Vi integrerade Swedbank Pay på både webbshopen och tävlingskorten 
+          för smidiga och säkra betalningar.
+        `,
+            },
+            {
+                type: "imageText",
+                image: "/webImages/casedetail/budo-detail-7-637x446.png",
+                heading: "Digitalisering av tävlingskort",
+                text: `
+          Med att gå från fysiska till digitala tävlingskort effektiviseras processen. 
+          Kortet ansöks via Freja eID och administreras enkelt från Mitt konto.
+        `,
+            },
+        ],
     },
     {
         slug: "edins-kranar",
@@ -26,6 +78,56 @@ export const CASES = [
         categories: ["frontend", "seo", "ux-ui-design"],
         topImg: "/webImages/cases/case-edins-detail-3-868x716.jpg",
         innerImg: "/webImages/cases/case-edins-webb-1-680x480.jpg",
+        hero: "/webImages/casedetail/budo-hero-1.jpg",
+        sidebar: {
+            vad: [
+                "UX & UI-Design",
+                "Frontend",
+                "Backend",
+                "API",
+                "Webbshop",
+                "Digitala tävlingskort",
+                "Freja ID",
+            ],
+        },
+        sections: [
+            {
+                type: "intro",
+                heading: "Ny hemsida åt Svenska Budo & Kampsportsförbundet",
+                text: `
+          Svenska Budo & Kampsportsförbundet är en paraplyorganisation som samlar olika kampsporter i Sverige. 
+          De kontaktade oss för att digitalisera tävlingskort och hantering av sanktionsansökningar. 
+          Vi byggde en ny webb med betalning, nya funktioner och uppdaterad design.
+        `,
+            },
+            {
+                type: "imageText",
+                image: "/webImages/casedetail/budo-detail-6-637x576.jpg",
+                heading: "Identifiering med FrejaID",
+                text: `
+          FrejaID används för identifiering och inloggning på hemsidan. 
+          Det används för att ansöka om tävlingskort, administrera och öka säkerheten vid inloggning.
+        `,
+            },
+            {
+                type: "imageTextReverse",
+                image: "/webImages/casedetail/budo-detail-5-637x599.jpg",
+                heading: "Integration mot Swedbank Pay",
+                text: `
+          Vi integrerade Swedbank Pay på både webbshopen och tävlingskorten 
+          för smidiga och säkra betalningar.
+        `,
+            },
+            {
+                type: "imageText",
+                image: "/webImages/casedetail/budo-detail-7-637x446.png",
+                heading: "Digitalisering av tävlingskort",
+                text: `
+          Med att gå från fysiska till digitala tävlingskort effektiviseras processen. 
+          Kortet ansöks via Freja eID och administreras enkelt från Mitt konto.
+        `,
+            },
+        ],
     },
     {
         slug: "rfsu",

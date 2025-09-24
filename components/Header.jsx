@@ -76,7 +76,7 @@ export default function Header() {
                                     <li className="js-menu-item flex py-2 mt-0 last:text-2xl last:mt-5">
                                         <div className="js-menu-item--wrapper flex w-full">
                                             <Link
-                                                href="case"
+                                                href="cases"
                                                 className="hover:text-white text-white md:text-silver-chalice group-[.hover]:text-white"
                                             >
                                                 Cases
@@ -87,7 +87,7 @@ export default function Header() {
                                     <li className="js-menu-item flex has-children group py-2 mt-0 last:text-2xl last:mt-5">
                                         <div className="js-menu-item--wrapper flex w-full">
                                             <Link
-                                                href="service"
+                                                href="services"
                                                 className="hover:text-white text-white md:text-silver-chalice group-[.hover]:text-white"
                                             >
                                                 Services
