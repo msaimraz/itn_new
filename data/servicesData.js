@@ -2,7 +2,7 @@ export const services = [
     // Main Services
     {
         id: "01",
-        slug: "web-development",
+        slug: "website-development",
         type: "main_service",
         tags: "Web Development, Responsive Websites, Business Website Design, WordPress, Shopify, Custom Development",
         title: "Website Development",
@@ -17,7 +17,7 @@ export const services = [
             "IT company Karachi",
             "business website development",
             "custom web development"
-        ],
+        ], 
         h1: "Web Development Services in Pakistan",
         intro: "Itnnovator builds high-performance, SEO-ready websites and web apps that convert. From modern frontends to clean APIs and secure backends, we engineer for speed, scalability, and growth.",
         benefits: [
@@ -30,7 +30,7 @@ export const services = [
             "Custom websites & web apps",
             "WordPress, Shopify, Headless CMS",
             "API design & third-party integrations",
-            "Cloud hosting, CI/CD & QA"
+            "Cloud hosting, CI/CD & QA" 
         ],
         locations: ["Pakistan", "Karachi", "Lahore", "Islamabad", "Rawalpindi"],
         faqs: [
