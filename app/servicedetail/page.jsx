@@ -43,11 +43,12 @@ export default function Servicedetail() {
                           prose-strong:text-inherit"
                 >
                   <p>
-                    At Itnnovator, we go beyond surface-level tweaks. We audit your
-                    entire digital stack—frontend, backend, infrastructure, and user
-                    flows—to reveal what works, what doesn’t, and where the biggest
-                    opportunities for impact lie. Then we build a clear, actionable
-                    plan and ship high-quality features that move the needle.
+                    At Itnnovator, we go beyond surface-level tweaks. We audit
+                    your entire digital stack—frontend, backend, infrastructure,
+                    and user flows—to reveal what works, what doesn’t, and where
+                    the biggest opportunities for impact lie. Then we build a
+                    clear, actionable plan and ship high-quality features that
+                    move the needle.
                   </p>
                 </div>
 
@@ -113,7 +114,7 @@ export default function Servicedetail() {
               <img
                 width="750"
                 height="810"
-                src="/webImages/servicedetail/webbyra-analys-1200x1296.jpg"
+                src={service.heroImg}
                 className=" w-full h-full lg:h-auto object-cover"
                 alt="webbyra-analys"
                 loading="eager"
@@ -129,7 +130,7 @@ export default function Servicedetail() {
 
       <div className="block md:hidden text-center">
         <h2 className="mb-[0.7em] lg:mb-[0.9em] text-3xl md:text-[2.18em] leading-[1.28] font-bold text-white">
-          Our process
+          {service.herotitle}
         </h2>
       </div>
 
@@ -156,7 +157,13 @@ export default function Servicedetail() {
                   stroke="#ffffff"
                   fill="none"
                 ></rect>
-                <circle className="circle--shape" cx="35" cy="32" r="8" fill="#FFFFFF"></circle>
+                <circle
+                  className="circle--shape"
+                  cx="35"
+                  cy="32"
+                  r="8"
+                  fill="#FFFFFF"
+                ></circle>
               </svg>
             </div>
 
@@ -169,7 +176,7 @@ export default function Servicedetail() {
                       <img
                         width="950"
                         height="699"
-                        src="/webImages/servicedetail/analys-process-2-637x469.jpg"
+                        src={service.process[0].img}
                         className="js-scroll-img-no-bg"
                         alt="analys-process-2"
                         loading="lazy"
@@ -191,7 +198,7 @@ export default function Servicedetail() {
                       <img
                         width="950"
                         height="699"
-                        src="/webImages/servicedetail/analys-process-1-637x469.jpg"
+                        src={service.process[1].img}
                         className="js-scroll-img-no-bg"
                         alt="analys-process-1"
                         loading="lazy"
@@ -213,7 +220,7 @@ export default function Servicedetail() {
                       <img
                         width="950"
                         height="699"
-                        src="/webImages/servicedetail/analys-process-4-637x469.jpg"
+                        src={service.process[2].img}
                         className="js-scroll-img-no-bg"
                         alt="analys-process-4"
                         loading="lazy"
@@ -265,7 +272,10 @@ export default function Servicedetail() {
                   />
                 </div>
               </div>
-              <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: "#a8e4d7" }}>
+              <div
+                className="mt-4 mb-2 md:mb-8 text-base md:text-lg"
+                style={{ color: "#a8e4d7" }}
+              >
                 01<span className="opacity-50">/03</span>
               </div>
               <h3
@@ -274,10 +284,14 @@ export default function Servicedetail() {
               >
                 Discovery & Technical Audit
               </h3>
-              <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: "#FFFFFF" }}>
-                We start by mapping requirements, KPIs, and current state. Our engineers review code,
-                architecture, dependencies, and DX to define opportunities for stability, speed, and
-                scalability—then propose a practical plan to modernize or build net-new.
+              <p
+                className="mt-3 md:mt-4 text-base text-100 md:text-xl"
+                style={{ color: "#FFFFFF" }}
+              >
+                We start by mapping requirements, KPIs, and current state. Our
+                engineers review code, architecture, dependencies, and DX to
+                define opportunities for stability, speed, and scalability—then
+                propose a practical plan to modernize or build net-new.
               </p>
             </div>
 
@@ -285,8 +299,14 @@ export default function Servicedetail() {
             <div className="js-scroll-block-content ">
               <div className="max-w-md">
                 <div className="md:hidden relative block mx-auto">
-                  <div className="image-shadow-top" style={{ background: "#FFFFFF" }}></div>
-                  <div className="image-shadow-bottom" style={{ background: "#FFFFFF" }}></div>
+                  <div
+                    className="image-shadow-top"
+                    style={{ background: "#FFFFFF" }}
+                  ></div>
+                  <div
+                    className="image-shadow-bottom"
+                    style={{ background: "#FFFFFF" }}
+                  ></div>
                   <img
                     width="950"
                     height="699"
@@ -299,7 +319,10 @@ export default function Servicedetail() {
                   />
                 </div>
               </div>
-              <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: "#a8e4d7" }}>
+              <div
+                className="mt-4 mb-2 md:mb-8 text-base md:text-lg"
+                style={{ color: "#a8e4d7" }}
+              >
                 02<span className="opacity-50">/03</span>
               </div>
               <h3
@@ -308,10 +331,14 @@ export default function Servicedetail() {
               >
                 Architecture & Implementation
               </h3>
-              <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: "#FFFFFF" }}>
-                With a clear blueprint, we design robust systems and ship iteratively. From component
-                libraries and design systems to APIs, databases, and CI/CD, Itnnovator builds clean,
-                testable code and integrates seamlessly with your tools.
+              <p
+                className="mt-3 md:mt-4 text-base text-100 md:text-xl"
+                style={{ color: "#FFFFFF" }}
+              >
+                With a clear blueprint, we design robust systems and ship
+                iteratively. From component libraries and design systems to
+                APIs, databases, and CI/CD, Itnnovator builds clean, testable
+                code and integrates seamlessly with your tools.
               </p>
             </div>
 
@@ -319,8 +346,14 @@ export default function Servicedetail() {
             <div className="js-scroll-block-content ">
               <div className="max-w-md">
                 <div className="md:hidden relative block mx-auto">
-                  <div className="image-shadow-top" style={{ background: "#FFFFFF" }}></div>
-                  <div className="image-shadow-bottom" style={{ background: "#FFFFFF" }}></div>
+                  <div
+                    className="image-shadow-top"
+                    style={{ background: "#FFFFFF" }}
+                  ></div>
+                  <div
+                    className="image-shadow-bottom"
+                    style={{ background: "#FFFFFF" }}
+                  ></div>
                   <img
                     width="950"
                     height="699"
@@ -333,7 +366,10 @@ export default function Servicedetail() {
                   />
                 </div>
               </div>
-              <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: "#a8e4d7" }}>
+              <div
+                className="mt-4 mb-2 md:mb-8 text-base md:text-lg"
+                style={{ color: "#a8e4d7" }}
+              >
                 03<span className="opacity-50">/03</span>
               </div>
               <h3
@@ -342,9 +378,13 @@ export default function Servicedetail() {
               >
                 Performance & Quality
               </h3>
-              <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: "#FFFFFF" }}>
-                We validate outcomes with profiling, automated tests, accessibility checks, and real user
-                monitoring. Expect faster pages, safer releases, and maintainable systems that scale with
+              <p
+                className="mt-3 md:mt-4 text-base text-100 md:text-xl"
+                style={{ color: "#FFFFFF" }}
+              >
+                We validate outcomes with profiling, automated tests,
+                accessibility checks, and real user monitoring. Expect faster
+                pages, safer releases, and maintainable systems that scale with
                 your business.
               </p>
             </div>
@@ -362,8 +402,9 @@ export default function Servicedetail() {
 
             <div className="prose max-w-none text-base md:text-xl lg:text-[1.56rem] font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
               <p>
-                From marketing sites and headless CMS to complex platforms and e-commerce, Itnnovator
-                delivers clean code, modern stacks, and measurable performance—tailored to your goals.
+                From marketing sites and headless CMS to complex platforms and
+                e-commerce, Itnnovator delivers clean code, modern stacks, and
+                measurable performance—tailored to your goals.
               </p>
             </div>
           </div>
@@ -398,10 +439,11 @@ export default function Servicedetail() {
                 <div className="md:flex md:flex-wrap md:flex-row-reverse">
                   <div className="md:w-3/5 md:pr-8 lg:pr-10 xl:pr-24 text-base md:text-xl leading-[1.4] md:leading-[1.4]">
                     <div>
-                      We build fast, conversion-ready experiences—streamlining user flows, forms, and
-                      checkout while optimizing rendering, assets, and Core Web Vitals. Through targeted
-                      experiments and iterative refactors, we lift completion rates and revenue without
-                      sacrificing maintainability.
+                      We build fast, conversion-ready experiences—streamlining
+                      user flows, forms, and checkout while optimizing
+                      rendering, assets, and Core Web Vitals. Through targeted
+                      experiments and iterative refactors, we lift completion
+                      rates and revenue without sacrificing maintainability.
                       <div className="mt-4 mb-5 md:mb-0 md:mt-10">
                         <Link
                           href="../webbutveckling/index.html"
@@ -410,7 +452,13 @@ export default function Servicedetail() {
                         >
                           <span>Learn more about Web Development</span>
                           <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                            <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
+                            <svg
+                              className="inline-block"
+                              preserveAspectRatio="none"
+                              width="22"
+                              height="15"
+                              aria-hidden="true"
+                            >
                               <use href="/webImages/icons.svg#arrow-right"></use>
                             </svg>
                           </span>
@@ -421,46 +469,109 @@ export default function Servicedetail() {
                   <div className="md:w-2/5 pl-6 md:px-8 lg:px-10 xl:px-14 pt-6 md:pt-0 text-base md:text-lg leading-[1.4] md:leading-[1.4] font-extrabold">
                     <ul>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">User flows & IA</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          User flows & IA
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Form & checkout UX</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Form & checkout UX
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Landing page optimization</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Landing page optimization
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Mobile responsiveness</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Mobile responsiveness
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Core Web Vitals & caching</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Core Web Vitals & caching
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Asset bundling & code-splitting</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Asset bundling & code-splitting
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Monitoring & A/B experiments</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Monitoring & A/B experiments
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -475,54 +586,118 @@ export default function Servicedetail() {
                 <div className="md:flex md:flex-wrap md:flex-row-reverse">
                   <div className="md:w-3/5 md:pr-8 lg:pr-10 xl:pr-24 text-base md:text-xl leading-[1.4] md:leading-[1.4]">
                     <div>
-                      We design resilient systems—choosing the right patterns, data models, and services.
-                      Expect clean contracts, predictable deployments, and a toolchain that keeps teams
+                      We design resilient systems—choosing the right patterns,
+                      data models, and services. Expect clean contracts,
+                      predictable deployments, and a toolchain that keeps teams
                       fast and safe.
                     </div>
                   </div>
                   <div className="md:w-2/5 pl-6 md:px-8 lg:px-10 xl:px-14 pt-6 md:pt-0 text-base md:text-lg leading-[1.4] md:leading-[1.4] font-extrabold">
                     <ul>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">API design & integrations</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          API design & integrations
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Data modeling & storage</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Data modeling & storage
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">CI/CD & release automation</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          CI/CD & release automation
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Security & privacy by design</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Security & privacy by design
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Scalability & observability</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Scalability & observability
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Design systems & components</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Design systems & components
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Headless CMS & e-commerce</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Headless CMS & e-commerce
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -537,9 +712,10 @@ export default function Servicedetail() {
                 <div className="md:flex md:flex-wrap md:flex-row-reverse">
                   <div className="md:w-3/5 md:pr-8 lg:pr-10 xl:pr-24 text-base md:text-xl leading-[1.4] md:leading-[1.4]">
                     <div>
-                      Great engineering unlocks discoverability. We structure markup, routes, and content
-                      delivery to help search engines—and users—reach the right pages fast, while keeping
-                      your stack modern and maintainable.
+                      Great engineering unlocks discoverability. We structure
+                      markup, routes, and content delivery to help search
+                      engines—and users—reach the right pages fast, while
+                      keeping your stack modern and maintainable.
                       <div className="mt-4 mb-5 md:mb-0 md:mt-10">
                         <Link
                           href="../webbutveckling/index.html"
@@ -548,7 +724,13 @@ export default function Servicedetail() {
                         >
                           <span>Learn more about Web Development</span>
                           <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                            <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
+                            <svg
+                              className="inline-block"
+                              preserveAspectRatio="none"
+                              width="22"
+                              height="15"
+                              aria-hidden="true"
+                            >
                               <use href="/webImages/icons.svg#arrow-right"></use>
                             </svg>
                           </span>
@@ -559,46 +741,109 @@ export default function Servicedetail() {
                   <div className="md:w-2/5 pl-6 md:px-8 lg:px-10 xl:px-14 pt-6 md:pt-0 text-base md:text-lg leading-[1.4] md:leading-[1.4] font-extrabold">
                     <ul>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Semantic HTML & metadata</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Semantic HTML & metadata
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Accessible routing & sitemaps</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Accessible routing & sitemaps
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">SSR/SSG & hydration strategy</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          SSR/SSG & hydration strategy
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Structured data & rich results</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Structured data & rich results
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Internationalization & hreflang</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Internationalization & hreflang
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Clean URLs & canonicalization</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Clean URLs & canonicalization
+                        </span>
                       </li>
                       <li className="mb-2 flex">
-                        <svg className="md:mt-0.5" preserveAspectRatio="none" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
                           <use href="/webImages/icons.svg#icon-tick"></use>
                         </svg>
-                        <span className="flex-1 pl-3 md:pl-5">Fast delivery (CDN, images, fonts)</span>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          Fast delivery (CDN, images, fonts)
+                        </span>
                       </li>
                     </ul>
                   </div>
@@ -620,10 +865,11 @@ export default function Servicedetail() {
 
             <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
               <p>
-                Partnering with Itnnovator means production-ready code, predictable delivery, and a stack
-                engineered for growth. You’ll gain clear insight into priorities, a faster site, stronger
-                security, accessibility best practices, and a roadmap that keeps your product improving
-                sprint after sprint.
+                Partnering with Itnnovator means production-ready code,
+                predictable delivery, and a stack engineered for growth. You’ll
+                gain clear insight into priorities, a faster site, stronger
+                security, accessibility best practices, and a roadmap that keeps
+                your product improving sprint after sprint.
               </p>
             </div>
           </div>
@@ -649,11 +895,17 @@ export default function Servicedetail() {
 
         <div className="prose max-w-none text-base md:text-xl lg:text-[1.56rem] font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
           <p>
-            <Link href="https://itnnovator.com/contact" target="_blank" rel="noopener">
+            <Link
+              href="https://itnnovator.com/contact"
+              target="_blank"
+              rel="noopener"
+            >
               Book a first call with the Itnnovator team
             </Link>
             .<br />
-            Or email us at <Link href="mailto:hello@itnnovator.com">hello@itnnovator.com</Link>.
+            Or email us at{" "}
+            <Link href="mailto:hello@itnnovator.com">hello@itnnovator.com</Link>
+            .
           </p>
         </div>
       </section>
