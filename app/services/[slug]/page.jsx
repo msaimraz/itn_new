@@ -2,8 +2,9 @@ import Link from "next/link";
 import { SERVICES } from "@/data/servicesData";
 import CTA from "@/components/CTA";
 
-export default function ServiceDetail({ params }) {
-  const service = SERVICES.find((s) => s.slug === params.slug);
+export default async function ServiceDetail({ params }) {
+  const awaitedParams = await params;
+  const service = SERVICES.find((s) => s.slug === awaitedParams.slug);
 
   if (!service)
     return <div className="text-white p-10">Service not found.</div>;

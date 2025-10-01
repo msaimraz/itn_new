@@ -4,8 +4,10 @@ import "../styles/style.css";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import Script from "next/script";
+import SparkCursor from "@/components/SparkCursor";
 
 export const metadata = {
+  metadataBase: new URL("https://itnnovator.com"),
   title: "Innovating the Future of Tech | ITnnovator",
   description: "ITnnovator is a cutting-edge digital agency delivering web design, development, branding, and digital marketing solutions tailored for business growth.",
   keywords: ["ITnnovator", "digital agency", "web development", "branding", "SEO services", "UI/UX", "software development"],
@@ -43,66 +45,15 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
   return (
     <html lang="en">
       <body
         id="js-page-body"
         className="home wp-singular page-template-default page page-id-180 bg-black group pt-[8.3rem]"
       >
-        <svg
-          id="heart-svg"
-          className="fixed z-[80] pointer-events-none transform translate-x-[-45%] translate-y-[-40%]"
-          viewBox="467 392 58 57"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g
-            id="Group"
-            fill="none"
-            fillRule="evenodd"
-            transform="translate(467 392)"
-          >
-            <circle
-              id="main-circ"
-              fill="#E2264D"
-              opacity="0"
-              cx="29.5"
-              cy="29.5"
-              r="1.5"
-            ></circle>
-            <g id="grp7" opacity="0" transform="translate(7 6)">
-              <circle id="oval1" fill="#9CD8C3" cx="2" cy="6" r="2"></circle>
-              <circle id="oval2" fill="#8CE8C3" cx="5" cy="2" r="2"></circle>
-            </g>
-            <g id="grp6" opacity="0" transform="translate(0 28)">
-              <circle id="oval1" fill="#CC8EF5" cx="2" cy="7" r="2"></circle>
-              <circle id="oval2" fill="#91D2FA" cx="3" cy="2" r="2"></circle>
-            </g>
-            <g id="grp3" opacity="0" transform="translate(52 28)">
-              <circle id="oval2" fill="#9CD8C3" cx="2" cy="7" r="2"></circle>
-              <circle id="oval1" fill="#8CE8C3" cx="4" cy="2" r="2"></circle>
-            </g>
-            <g id="grp2" opacity="0" transform="translate(44 6)">
-              <circle id="oval2" fill="#CC8EF5" cx="5" cy="6" r="2"></circle>
-              <circle id="oval1" fill="#CC8EF5" cx="2" cy="2" r="2"></circle>
-            </g>
-            <g id="grp5" opacity="0" transform="translate(14 50)">
-              <circle id="oval1" fill="#91D2FA" cx="6" cy="5" r="2"></circle>
-              <circle id="oval2" fill="#91D2FA" cx="2" cy="2" r="2"></circle>
-            </g>
-            <g id="grp4" opacity="0" transform="translate(35 50)">
-              <circle id="oval1" fill="#F48EA7" cx="6" cy="5" r="2"></circle>
-              <circle id="oval2" fill="#F48EA7" cx="2" cy="2" r="2"></circle>
-            </g>
-            <g id="grp1" opacity="0" transform="translate(24)">
-              <circle id="oval1" fill="#9FC7FA" cx="2.5" cy="3" r="2"></circle>
-              <circle id="oval2" fill="#9FC7FA" cx="7.5" cy="2" r="2"></circle>
-            </g>
-          </g>
-        </svg>
 
-        <div id="js-cursor" className="cursor"></div>
-
-        <div id="js-cursor-follower" className="cursor-follower"></div>
+        <SparkCursor />
 
         <div
           id="page-wrapper"
@@ -116,6 +67,7 @@ export default function RootLayout({ children }) {
 
           <Footer />
         </div>
+
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" />
         <Script src="/lib/main.js" />
       </body>
