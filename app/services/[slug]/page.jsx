@@ -483,6 +483,170 @@ export default async function ServiceDetail({ params }) {
                   </div>
                 </div>
               </div>
+              {/* Block 2*/}
+              <div className="js-animate-fadeinup pt-10 md:pt-20 first:pt-0">
+                <h2 className="mb-[0.7em] lg:mb-[0.9em] text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-inherit">
+                  {service.blocktext[1].title}
+                </h2>
+                <div className="md:flex md:flex-wrap md:flex-row-reverse">
+                  <div className="md:w-3/5 md:pr-8 lg:pr-10 xl:pr-24 text-base md:text-xl leading-[1.4] md:leading-[1.4]">
+                    <div>
+                      {service.blocktext[1].text}
+                      <div className="mt-4 mb-5 md:mb-0 md:mt-10">
+                        <Link
+                          href="../webbutveckling/index.html"
+                          target="_self"
+                          className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-xl text-inherit"
+                        >
+                          <span>Learn more about Web Development</span>
+                          <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
+                            <svg
+                              className="inline-block"
+                              preserveAspectRatio="none"
+                              width="22"
+                              height="15"
+                              aria-hidden="true"
+                            >
+                              <use href="/webImages/icons.svg#arrow-right"></use>
+                            </svg>
+                          </span>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="md:w-2/5 pl-6 md:px-8 lg:px-10 xl:px-14 pt-6 md:pt-0 text-base md:text-lg leading-[1.4] md:leading-[1.4] font-extrabold">
+                    <ul>
+                      <li className="mb-2 flex">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
+                          <use href="/webImages/icons.svg#icon-tick"></use>
+                        </svg>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          {service.blocktext[1].bullets}
+                        </span>
+                      </li>
+                      <li className="mb-2 flex">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
+                          <use href="/webImages/icons.svg#icon-tick"></use>
+                        </svg>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          {service.blocktext[1].bullets}
+                        </span>
+                      </li>
+                      <li className="mb-2 flex">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
+                          <use href="/webImages/icons.svg#icon-tick"></use>
+                        </svg>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          {service.blocktext[1].bullets}
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              {/* Block 3 */}
+              <div className="js-animate-fadeinup pt-10 md:pt-20 first:pt-0">
+                <h2 className="mb-[0.7em] lg:mb-[0.9em] text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-inherit">
+                  {service.blocktext[2].title}
+                </h2>
+                <div className="md:flex md:flex-wrap md:flex-row-reverse">
+                  <div className="md:w-3/5 md:pr-8 lg:pr-10 xl:pr-24 text-base md:text-xl leading-[1.4] md:leading-[1.4]">
+                    <div>
+                      {service.blocktext[2].text}
+                      <div className="mt-4 mb-5 md:mb-0 md:mt-10">
+                        <Link
+                          href="../webbutveckling/index.html"
+                          target="_self"
+                          className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-xl text-inherit"
+                        >
+                          <span>Learn more about Web Development</span>
+                          <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
+                            <svg
+                              className="inline-block"
+                              preserveAspectRatio="none"
+                              width="22"
+                              height="15"
+                              aria-hidden="true"
+                            >
+                              <use href="/webImages/icons.svg#arrow-right"></use>
+                            </svg>
+                          </span>
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="md:w-2/5 pl-6 md:px-8 lg:px-10 xl:px-14 pt-6 md:pt-0 text-base md:text-lg leading-[1.4] md:leading-[1.4] font-extrabold">
+                    <ul>
+                      <li className="mb-2 flex">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
+                          <use href="/webImages/icons.svg#icon-tick"></use>
+                        </svg>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          {service.blocktext[2].bullets}
+                        </span>
+                      </li>
+                      <li className="mb-2 flex">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
+                          <use href="/webImages/icons.svg#icon-tick"></use>
+                        </svg>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          {service.blocktext[2].bullets}
+                        </span>
+                      </li>
+                      <li className="mb-2 flex">
+                        <svg
+                          className="md:mt-0.5"
+                          preserveAspectRatio="none"
+                          width="19"
+                          height="19"
+                          viewBox="0 0 19 19"
+                          aria-hidden="true"
+                        >
+                          <use href="/webImages/icons.svg#icon-tick"></use>
+                        </svg>
+                        <span className="flex-1 pl-3 md:pl-5">
+                          {service.blocktext[2].bullets}
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

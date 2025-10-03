@@ -67,29 +67,25 @@ export default function Service() {
       <section className="w-full py-14 lg:py-20 xl:py-32">
         <div className="max-w-7xl px-5 xl:px-8 mx-auto">
           <ul className="w-full grid gap-12 sm:grid-cols-2 md:grid-cols-3">
-            {/* Analytics & Insights */}
+            {/* Strategy */}
             <li className="mb-6 md:mb-20">
               <img
                 width="32"
                 height="32"
                 src="/webImages/services/analys.svg"
                 className="w-6 sm:w-[2.25rem] mb-6"
-                alt="ITnnovator Analytics & Data Insights Services"
+                alt="ITnnovator Strategy – In-depth analysis & planning"
                 loading="lazy"
                 decoding="async"
               />
-              <Link
-                className="js-hover-circle-animation"
-                target="_self"
-                href="/services/analytics"
-              >
+              <Link className="js-hover-circle-animation" target="_self" href="/services/strategy">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                  Analytics & Insights
+                  Strategy
                 </h3>
               </Link>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
-                Uncover growth opportunities through comprehensive data analysis, user behavior tracking, and performance metrics that drive strategic decisions.
+                In-depth analysis and planning that turn business goals into an actionable roadmap. We prioritize high-impact work using market research, analytics, and technical audits.
               </div>
 
               <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
@@ -97,135 +93,27 @@ export default function Service() {
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Audience & User Research
+                  Market & competitor research
                 </li>
                 <li className="flex font-bold mb-3 text-base md:text-lg">
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Competitor Benchmarking
+                  Analytics & KPI framework
                 </li>
                 <li className="flex font-bold mb-3 text-base md:text-lg">
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Technical SEO Audit
+                  Technical & SEO audit
                 </li>
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/analytics" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
-                  <span>Explore Analytics Services</span>
+                <Link href="/services/strategy" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                  <span>Explore Strategy</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                      <use href="/webImages/icons.svg#arrow-right"></use>
-                    </svg>
-                  </span>
-                </Link>
-              </div>
-            </li>
-
-            {/* Branding */}
-            <li className="mb-6 md:mb-20">
-              <img
-                width="35"
-                height="35"
-                src="/webImages/services/branding.svg"
-                className="w-6 sm:w-[2.25rem] mb-6"
-                alt="ITnnovator Branding & Identity Design Services"
-                loading="lazy"
-                decoding="async"
-              />
-              <Link className="js-hover-circle-animation" target="_self" href="/services/branding">
-                <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                  Brand Identity
-                </h3>
-              </Link>
-
-              <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
-                Craft compelling brand stories and visual identities that resonate across all digital touchpoints and marketing channels.
-              </div>
-
-              <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
-                <li className="flex font-bold mb-3 text-base md:text-lg">
-                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
-                    <use href="/webImages/icons.svg#ticker"></use>
-                  </svg>
-                  Brand Strategy
-                </li>
-                <li className="flex font-bold mb-3 text-base md:text-lg">
-                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
-                    <use href="/webImages/icons.svg#ticker"></use>
-                  </svg>
-                  Visual Identity System
-                </li>
-                <li className="flex font-bold mb-3 text-base md:text-lg">
-                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
-                    <use href="/webImages/icons.svg#ticker"></use>
-                  </svg>
-                  Brand Messaging
-                </li>
-              </ul>
-
-              <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/branding" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
-                  <span>View Branding Services</span>
-                  <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                    <svg className="inline-block" width="22" height="15" aria-hidden="true">
-                      <use href="/webImages/icons.svg#arrow-right"></use>
-                    </svg>
-                  </span>
-                </Link>
-              </div>
-            </li>
-
-            {/* UX & UI Design */}
-            <li className="mb-6 md:mb-20">
-              <img
-                width="35"
-                height="35"
-                src="/webImages/services/uiuxdesign.svg"
-                className="w-6 sm:w-[2.25rem] mb-6"
-                alt="ITnnovator UX/UI Design & User Experience Services"
-                loading="lazy"
-                decoding="async"
-              />
-              <Link className="js-hover-circle-animation" target="_self" href="/services/ux-ui">
-                <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                  UX/UI Design
-                </h3>
-              </Link>
-
-              <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
-                Transform complex concepts into intuitive, conversion-focused digital experiences with seamless user journeys.
-              </div>
-
-              <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
-                <li className="flex font-bold mb-3 text-base md:text-lg">
-                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
-                    <use href="/webImages/icons.svg#ticker"></use>
-                  </svg>
-                  Wireframing & Prototyping
-                </li>
-                <li className="flex font-bold mb-3 text-base md:text-lg">
-                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
-                    <use href="/webImages/icons.svg#ticker"></use>
-                  </svg>
-                  Visual Design Systems
-                </li>
-                <li className="flex font-bold mb-3 text-base md:text-lg">
-                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
-                    <use href="/webImages/icons.svg#ticker"></use>
-                  </svg>
-                  Interactive Design
-                </li>
-              </ul>
-
-              <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/ux-ui" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
-                  <span>Discover Design Services</span>
-                  <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                    <svg className="inline-block" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
                     </svg>
                   </span>
@@ -240,18 +128,18 @@ export default function Service() {
                 height="35"
                 src="/webImages/services/webbutveckling.svg"
                 className="w-6 sm:w-[2.25rem] mb-6"
-                alt="ITnnovator Web Development & Custom Application Services"
+                alt="ITnnovator Web Development – Custom website development"
                 loading="lazy"
                 decoding="async"
               />
-              <Link className="js-hover-circle-animation" target="_self" href="/services/development">
+              <Link className="js-hover-circle-animation" target="_self" href="/services/web-development">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                   Web Development
                 </h3>
               </Link>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
-                Build modern, secure websites and applications optimized for performance, SEO, and exceptional user experience.
+                Custom website development built for speed, security, and SEO. We deliver clean architecture, intuitive CMS workflows, and a flawless experience on every device.
               </div>
 
               <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
@@ -259,25 +147,133 @@ export default function Service() {
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Frontend Development
+                  Frontend development
                 </li>
                 <li className="flex font-bold mb-3 text-base md:text-lg">
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Backend & API Development
+                  Backend & APIs
                 </li>
                 <li className="flex font-bold mb-3 text-base md:text-lg">
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  System Integrations
+                  CMS & headless
                 </li>
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/development" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                <Link href="/services/web-development" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                   <span>Explore Development</span>
+                  <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
+                    <svg className="inline-block" width="22" height="15" aria-hidden="true">
+                      <use href="/webImages/icons.svg#arrow-right"></use>
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            </li>
+
+            {/* Product Design */}
+            <li className="mb-6 md:mb-20">
+              <img
+                width="35"
+                height="35"
+                src="/webImages/services/uiuxdesign.svg"
+                className="w-6 sm:w-[2.25rem] mb-6"
+                alt="ITnnovator Product Design – Intuitive UX & UI design"
+                loading="lazy"
+                decoding="async"
+              />
+              <Link className="js-hover-circle-animation" target="_self" href="/services/product-design">
+                <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
+                  Product Design
+                </h3>
+              </Link>
+
+              <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
+                Intuitive UX and polished UI that turn complex workflows into simple, conversion-focused experiences—validated with research and usability testing.
+              </div>
+
+              <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
+                <li className="flex font-bold mb-3 text-base md:text-lg">
+                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                    <use href="/webImages/icons.svg#ticker"></use>
+                  </svg>
+                  Wireframing & prototyping
+                </li>
+                <li className="flex font-bold mb-3 text-base md:text-lg">
+                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                    <use href="/webImages/icons.svg#ticker"></use>
+                  </svg>
+                  Design systems
+                </li>
+                <li className="flex font-bold mb-3 text-base md:text-lg">
+                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                    <use href="/webImages/icons.svg#ticker"></use>
+                  </svg>
+                  Usability testing
+                </li>
+              </ul>
+
+              <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
+                <Link href="/services/product-design" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                  <span>Discover Product Design</span>
+                  <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
+                    <svg className="inline-block" width="22" height="15" aria-hidden="true">
+                      <use href="/webImages/icons.svg#arrow-right"></use>
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            </li>
+
+            {/* Brand Systems */}
+            <li className="mb-6 md:mb-20">
+              <img
+                width="35"
+                height="35"
+                src="/webImages/services/branding.svg"
+                className="w-6 sm:w-[2.25rem] mb-6"
+                alt="ITnnovator Brand Systems – Scalable logos & visual identity"
+                loading="lazy"
+                decoding="async"
+              />
+              <Link className="js-hover-circle-animation" target="_self" href="/services/brand-systems">
+                <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
+                  Brand Systems
+                </h3>
+              </Link>
+
+              <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
+                Scalable logo systems, color, type, and guidelines that keep your brand consistent across web, mobile, and print—built digital-first.
+              </div>
+
+              <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
+                <li className="flex font-bold mb-3 text-base md:text-lg">
+                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                    <use href="/webImages/icons.svg#ticker"></use>
+                  </svg>
+                  Brand strategy
+                </li>
+                <li className="flex font-bold mb-3 text-base md:text-lg">
+                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                    <use href="/webImages/icons.svg#ticker"></use>
+                  </svg>
+                  Visual identity system
+                </li>
+                <li className="flex font-bold mb-3 text-base md:text-lg">
+                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" viewBox="0 0 19 19" aria-hidden="true">
+                    <use href="/webImages/icons.svg#ticker"></use>
+                  </svg>
+                  Brand guidelines
+                </li>
+              </ul>
+
+              <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
+                <Link href="/services/brand-systems" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                  <span>View Brand Systems</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
@@ -294,18 +290,18 @@ export default function Service() {
                 height="34"
                 src="/webImages/services/ecommerce.svg"
                 className="w-6 sm:w-[2.25rem] mb-6"
-                alt="ITnnovator E-commerce Development & Online Store Solutions"
+                alt="ITnnovator E-commerce – Online store development"
                 loading="lazy"
                 decoding="async"
               />
               <Link className="js-hover-circle-animation" target="_self" href="/services/ecommerce">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                  E-commerce Solutions
+                  E-commerce
                 </h3>
               </Link>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
-                Create high-converting online stores with seamless checkout experiences and integrated business operations.
+                Online store development that’s fast, secure, and conversion-focused. We streamline product discovery, checkout, and integrations to grow revenue.
               </div>
 
               <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
@@ -313,79 +309,25 @@ export default function Service() {
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  WooCommerce Development
+                  WooCommerce / Shopify
                 </li>
                 <li className="flex font-bold mb-3 text-base md:text-lg">
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Custom E-commerce Platforms
+                  Custom commerce platforms
                 </li>
                 <li className="flex font-bold mb-3 text-base md:text-lg">
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Conversion Optimization
+                  Conversion optimization
                 </li>
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
                 <Link href="/services/ecommerce" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
-                  <span>View E-commerce Services</span>
-                  <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                    <svg className="inline-block" width="22" height="15" aria-hidden="true">
-                      <use href="/webImages/icons.svg#arrow-right"></use>
-                    </svg>
-                  </span>
-                </Link>
-              </div>
-            </li>
-
-            {/* Content */}
-            <li className="mb-6 md:mb-20">
-              <img
-                width="32"
-                height="32"
-                src="/webImages/services/content.svg"
-                className="w-6 sm:w-[2.25rem] mb-6"
-                alt="ITnnovator Content Strategy & Creation Services"
-                loading="lazy"
-                decoding="async"
-              />
-              <Link className="js-hover-circle-animation" target="_self" href="/services/content">
-                <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                  Content Strategy
-                </h3>
-              </Link>
-
-              <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
-                Develop performance-driven content that ranks well, engages audiences, and maintains brand consistency across all channels.
-              </div>
-
-              <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
-                <li className="flex font-bold mb-3 text-base md:text-lg">
-                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
-                    <use href="/webImages/icons.svg#ticker"></use>
-                  </svg>
-                  Content Planning
-                </li>
-                <li className="flex font-bold mb-3 text-base md:text-lg">
-                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
-                    <use href="/webImages/icons.svg#ticker"></use>
-                  </svg>
-                  SEO Content Creation
-                </li>
-                <li className="flex font-bold mb-3 text-base md:text-lg">
-                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
-                    <use href="/webImages/icons.svg#ticker"></use>
-                  </svg>
-                  Multi-channel Content
-                </li>
-              </ul>
-
-              <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/content" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
-                  <span>Explore Content Services</span>
+                  <span>View E-commerce</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
@@ -402,18 +344,18 @@ export default function Service() {
                 height="35"
                 src="/webImages/services/seo.svg"
                 className="w-6 sm:w-[2.25rem] mb-6"
-                alt="ITnnovator SEO & Search Engine Optimization Services"
+                alt="ITnnovator SEO – Search engine optimization"
                 loading="lazy"
                 decoding="async"
               />
               <Link className="js-hover-circle-animation" target="_self" href="/services/seo">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                  SEO Optimization
+                  SEO
                 </h3>
               </Link>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
-                Comprehensive search engine optimization strategies that improve visibility, drive organic traffic, and enhance user experience.
+                Search engine optimization that improves crawl health, targets intent-led keywords, and builds authority for sustainable organic growth.
               </div>
 
               <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
@@ -421,25 +363,79 @@ export default function Service() {
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Technical SEO Audit
+                  Technical SEO audit
                 </li>
                 <li className="flex font-bold mb-3 text-base md:text-lg">
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Keyword Strategy
+                  Keyword strategy
                 </li>
                 <li className="flex font-bold mb-3 text-base md:text-lg">
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  On-page Optimization
+                  On-page & off-page SEO
                 </li>
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
                 <Link href="/services/seo" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                   <span>Learn About SEO</span>
+                  <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
+                    <svg className="inline-block" width="22" height="15" aria-hidden="true">
+                      <use href="/webImages/icons.svg#arrow-right"></use>
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            </li>
+
+            {/* Content */}
+            <li className="mb-6 md:mb-20">
+              <img
+                width="32"
+                height="32"
+                src="/webImages/services/content.svg"
+                className="w-6 sm:w-[2.25rem] mb-6"
+                alt="ITnnovator Content – Strategic storytelling & copywriting"
+                loading="lazy"
+                decoding="async"
+              />
+              <Link className="js-hover-circle-animation" target="_self" href="/services/content">
+                <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
+                  Content
+                </h3>
+              </Link>
+
+              <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
+                Strategic storytelling and SEO copywriting that build authority and convert—delivered with a consistent voice across web, email, and ads.
+              </div>
+
+              <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
+                <li className="flex font-bold mb-3 text-base md:text-lg">
+                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                    <use href="/webImages/icons.svg#ticker"></use>
+                  </svg>
+                  Content planning
+                </li>
+                <li className="flex font-bold mb-3 text-base md:text-lg">
+                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                    <use href="/webImages/icons.svg#ticker"></use>
+                  </svg>
+                  SEO content creation
+                </li>
+                <li className="flex font-bold mb-3 text-base md:text-lg">
+                  <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
+                    <use href="/webImages/icons.svg#ticker"></use>
+                  </svg>
+                  Multi-channel content
+                </li>
+              </ul>
+
+              <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
+                <Link href="/services/content" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                  <span>Explore Content</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
@@ -456,44 +452,44 @@ export default function Service() {
                 height="36"
                 src="/webImages/services/growth-1.svg"
                 className="w-6 sm:w-[2.25rem] mb-6"
-                alt="ITnnovator Growth Marketing & Digital Strategy Services"
+                alt="ITnnovator Growth – Data-driven marketing & leads"
                 loading="lazy"
                 decoding="async"
               />
               <Link className="js-hover-circle-animation" target="_self" href="/services/growth">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                  Growth Marketing
+                  Growth
                 </h3>
               </Link>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
-                Data-driven marketing strategies that accelerate traffic growth, increase conversions, and maximize customer lifetime value.
+                Data-driven marketing that scales traffic, leads, and revenue. We combine PPC, paid social, and CRO with clear attribution and reporting.
               </div>
 
-              <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
+              <ul className="relative mt-6 after:absolute after:content-[''] after:w/full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
                 <li className="flex font-bold mb-3 text-base md:text-lg">
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Performance Analytics
+                  PPC & paid social
                 </li>
                 <li className="flex font-bold mb-3 text-base md:text-lg">
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Conversion Optimization
+                  CRO & experiments
                 </li>
                 <li className="flex font-bold mb-3 text-base md:text-lg">
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Digital Advertising
+                  Attribution & dashboards
                 </li>
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
                 <Link href="/services/growth" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
-                  <span>Explore Growth Strategies</span>
+                  <span>Explore Growth</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
@@ -503,25 +499,25 @@ export default function Service() {
               </div>
             </li>
 
-            {/* Care & Support */}
+            {/* Management */}
             <li className="mb-6 md:mb-20">
               <img
                 width="32"
                 height="32"
                 src="/webImages/services/forvaltning.svg"
                 className="w-6 sm:w-[2.25rem] mb-6"
-                alt="ITnnovator Website Maintenance & Support Services"
+                alt="ITnnovator Management – Ongoing support & management"
                 loading="lazy"
                 decoding="async"
               />
-              <Link className="js-hover-circle-animation" target="_self" href="/services/care-support">
+              <Link className="js-hover-circle-animation" target="_self" href="/services/management">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
-                  Maintenance & Support
+                  Management
                 </h3>
               </Link>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
-                Ongoing technical support and proactive maintenance to ensure your digital assets remain secure, fast, and reliable.
+                Ongoing support and management that keep your site fast, secure, and reliable. We handle updates, uptime, backups, and incident response.
               </div>
 
               <ul className="relative mt-6 after:absolute after:content-[''] after:w-full after:h-[6rem] after:bg-gradient-to-t from-black after:bottom-0">
@@ -529,25 +525,25 @@ export default function Service() {
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Technical Maintenance
+                  Technical maintenance
                 </li>
                 <li className="flex font-bold mb-3 text-base md:text-lg">
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Security & Backups
+                  Security & backups
                 </li>
                 <li className="flex font-bold mb-3 text-base md:text-lg">
                   <svg className="inline-block min-w-[1.2rem] mt-[0.3rem] mr-4" width="19" height="19" aria-hidden="true">
                     <use href="/webImages/icons.svg#ticker"></use>
                   </svg>
-                  Priority Support
+                  Priority support
                 </li>
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/care-support" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
-                  <span>Learn About Support</span>
+                <Link href="/services/management" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                  <span>Learn About Management</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
@@ -559,6 +555,7 @@ export default function Service() {
           </ul>
         </div>
       </section>
+
 
       {/*  */}
       <section aria-label="ITnnovator Team Portrait">
