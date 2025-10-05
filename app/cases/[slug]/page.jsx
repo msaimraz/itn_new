@@ -17,7 +17,7 @@ export default function CaseDetail({ params }) {
   return (
     <>
       {/* Hero */}
-      <section className="w-full pt-[8.3rem] px-6 lg:px-8 xl:px-12">
+      <section className="w-full px-6 lg:px-8 xl:px-12">
         <div className="max-w-[120rem] mx-auto">
           <picture className="flex items-end w-full relative z-0 rounded-xl mx-auto overflow-hidden aspect-[15/12] md:aspect-[9/4] xl:max-h-[calc(100vh_-_150px)] ">
             {/* Breadcrumb */}
