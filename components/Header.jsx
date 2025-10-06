@@ -127,7 +127,7 @@ export default function Header() {
 
                                             <ul className="w-full ml-[8rem] md:ml-0 py-0">
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">
+                                                    <Link href="/services/web-development" className="hover:text-white">
                                                         Web Devlopment
                                                     </Link>
                                                     <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
@@ -136,7 +136,7 @@ export default function Header() {
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">
+                                                    <Link href="/services/ecommerce" className="hover:text-white">
                                                         E-commerce
                                                     </Link>
                                                     <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
@@ -145,7 +145,7 @@ export default function Header() {
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">
+                                                    <Link href="/services/seo" className="hover:text-white">
                                                         SEO
                                                     </Link>
                                                     <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
@@ -154,7 +154,7 @@ export default function Header() {
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">
+                                                    <Link href="/services/product-design" className="hover:text-white">
                                                         Product Design
                                                     </Link>
                                                     <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
@@ -163,7 +163,7 @@ export default function Header() {
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">
+                                                    <Link href="/services/brand-systems" className="hover:text-white">
                                                         Brand Systems
                                                     </Link>
                                                     <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transitionall duration-500 ease-in-out">
@@ -172,7 +172,7 @@ export default function Header() {
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">
+                                                    <Link href="/services/strategy" className="hover:text-white">
                                                         Strategy
                                                     </Link>
                                                     <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
@@ -181,7 +181,7 @@ export default function Header() {
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">
+                                                    <Link href="/services/content" className="hover:text-white">
                                                         Content
                                                     </Link>
                                                     <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
@@ -190,7 +190,7 @@ export default function Header() {
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">
+                                                    <Link href="/services/growth" className="hover:text-white">
                                                         Growth
                                                     </Link>
                                                     <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
@@ -199,7 +199,7 @@ export default function Header() {
                                                 </li>
 
                                                 <li className="py-1 group/item">
-                                                    <Link href="#" className="hover:text-white">
+                                                    <Link href="/services/management" className="hover:text-white">
                                                         Management
                                                     </Link>
                                                     <span className="hidden lg:inline text-lg 2xl:text-xl font-normal text-white/50 opacity-0 group-hover/item:opacity-100 group-hover/item:pl-2 transition-all duration-500 ease-in-out">
