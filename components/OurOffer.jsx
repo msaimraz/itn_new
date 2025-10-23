@@ -3,7 +3,7 @@ export default function OurOffer() {
         <>
             <div className="js-scroll-heading-bg">
                 <h2 className="mb-[0.7em] lg:mb-[0.9em] text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-                    Our Services
+                    Our Offer
                 </h2>
             </div>
 
@@ -145,68 +145,39 @@ export default function OurOffer() {
                 {/* content rail */}
                 <div className="relative md:w-[40%] w-full md:ml-auto z-[1]">
                     <div className="js-scroll-block-content-wrapper js-scroll-block-content-wrapper-bg w-full md:w-[80%] mr-32">
-                        {/* 01 - Strategy & Analysis */}
+
+                        {/* 01 - Complete Web Solution with Company Presentation */}
                         <div className="js-scroll-block-content">
                             <div className="max-w-md">
                                 <div className="md:hidden relative block mx-auto">
-                                    <div
-                                        className="image-shadow-top"
-                                        style={{ background: "#d86aaa" }}
-                                    ></div>
-                                    <div
-                                        className="image-shadow-bottom"
-                                        style={{ background: "#d86aaa" }}
-                                    ></div>
+                                    <div className="image-shadow-top" style={{ background: "#d86aaa" }}></div>
+                                    <div className="image-shadow-bottom" style={{ background: "#d86aaa" }}></div>
                                     <img
                                         width="950"
                                         height="699"
                                         src="webImages/webbyra-ui-ux-design-950x699.jpg"
                                         className="w-full h-auto rounded-[0.9rem] md:rounded-[1.25rem] lg:rounded-[1.75rem]"
-                                        alt="ITnnovator Strategy & Analysis - Data-driven research and planning"
+                                        alt="Complete Web Solution with Company Presentation"
                                         loading="lazy"
                                         decoding="async"
                                     />
                                 </div>
                             </div>
 
-                            <div
-                                className="mt-4 mb-2 md:mb-8 text-base md:text-lg"
-                                style={{ color: "#b2fdd8" }}
-                            >
+                            <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: "#b2fdd8" }}>
                                 01<span className="opacity-50">/03</span>
                             </div>
-                            <h3
-                                className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]"
-                                style={{ color: "#b2fdd8" }}
-                            >
-                                Data-Driven Strategy
+                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[3rem]" style={{ color: "#b2fdd8" }}>
+                                Complete Web Solution with Company Presentation
                             </h3>
-                            <p
-                                className="mt-3 md:mt-4 text-base text-100 md:text-xl"
-                                style={{ color: "#b2fdd8" }}
-                            >
-                                We analyze traffic, user behavior, and performance metrics to
-                                identify growth opportunities. Our strategic roadmaps transform
-                                insights into actionable plans with clear ROI measurement.
+                            <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: "#b2fdd8" }}>
+                                We offer comprehensive web solutions that not only provide a sleek and functional website but also effectively showcase your company’s identity. From brand presentation to seamless navigation, we craft a user-friendly experience that speaks to your target audience.
                             </p>
-                            <div
-                                className="mt-4 mb-5 md:mb-0 md:mt-10"
-                                style={{ color: "#b2fdd8" }}
-                            >
-                                <a
-                                    href="/strategy"
-                                    target="_self"
-                                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit"
-                                >
-                                    <span>Our Strategy Process</span>
+                            <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: "#b2fdd8" }}>
+                                <a href="/complete-web-solution" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
+                                    <span>Learn More about Our Web Solutions</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                                        <svg
-                                            className="inline-block"
-                                            preserveAspectRatio="none"
-                                            width="22"
-                                            height="15"
-                                            aria-hidden="true"
-                                        >
+                                        <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                                             <use href="webImages/icons.svg#arrow-right"></use>
                                         </svg>
                                     </span>
@@ -214,68 +185,38 @@ export default function OurOffer() {
                             </div>
                         </div>
 
-                        {/* 02 - Web Development */}
+                        {/* 02 - Interactive Webshops */}
                         <div className="js-scroll-block-content">
                             <div className="max-w-md">
                                 <div className="md:hidden relative block mx-auto">
-                                    <div
-                                        className="image-shadow-top"
-                                        style={{ background: "#8c6dc4" }}
-                                    ></div>
-                                    <div
-                                        className="image-shadow-bottom"
-                                        style={{ background: "#8c6dc4" }}
-                                    ></div>
+                                    <div className="image-shadow-top" style={{ background: "#8c6dc4" }}></div>
+                                    <div className="image-shadow-bottom" style={{ background: "#8c6dc4" }}></div>
                                     <img
                                         width="950"
                                         height="699"
                                         src="webImages/webbyra-e-handel-950x699.jpg"
                                         className="w-full h-auto rounded-[0.9rem] md:rounded-[1.25rem] lg:rounded-[1.75rem]"
-                                        alt="ITnnovator Web Development - Custom website and e-commerce development"
+                                        alt="Interactive Webshops"
                                         loading="lazy"
                                         decoding="async"
                                     />
                                 </div>
                             </div>
 
-                            <div
-                                className="mt-4 mb-2 md:mb-8 text-base md:text-lg"
-                                style={{ color: "#b2fdd8" }}
-                            >
+                            <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: "#b2fdd8" }}>
                                 02<span className="opacity-50">/03</span>
                             </div>
-                            <h3
-                                className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]"
-                                style={{ color: "#b2fdd8" }}
-                            >
-                                Beautiful & Functional
+                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[3rem]" style={{ color: "#b2fdd8" }}>
+                                Interactive Webshops
                             </h3>
-                            <p
-                                className="mt-3 md:mt-4 text-base text-100 md:text-xl"
-                                style={{ color: "#b2fdd8" }}
-                            >
-                                We create conversion-focused designs built with maintainable
-                                code. Choose WordPress for rapid deployment or custom solutions
-                                for unique requirements—all secure, fast, and scalable.
+                            <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: "#b2fdd8" }}>
+                                We build interactive and high-performing e-commerce platforms that engage customers and drive conversions. Whether you're starting an online store or expanding your product offerings, we deliver secure, scalable, and user-friendly webshops designed to maximize your business potential.
                             </p>
-                            <div
-                                className="mt-4 mb-5 md:mb-0 md:mt-10"
-                                style={{ color: "#b2fdd8" }}
-                            >
-                                <a
-                                    href="/development"
-                                    target="_self"
-                                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit"
-                                >
-                                    <span>View Development Services</span>
+                            <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: "#b2fdd8" }}>
+                                <a href="/webshops" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
+                                    <span>Explore Our Webshop Solutions</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                                        <svg
-                                            className="inline-block"
-                                            preserveAspectRatio="none"
-                                            width="22"
-                                            height="15"
-                                            aria-hidden="true"
-                                        >
+                                        <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                                             <use href="webImages/icons.svg#arrow-right"></use>
                                         </svg>
                                     </span>
@@ -283,68 +224,38 @@ export default function OurOffer() {
                             </div>
                         </div>
 
-                        {/* 03 - Growth & Optimization */}
+                        {/* 03 - Advertising that Captures Customers with META and GOOGLE */}
                         <div className="js-scroll-block-content">
                             <div className="max-w-md">
                                 <div className="md:hidden relative block mx-auto">
-                                    <div
-                                        className="image-shadow-top"
-                                        style={{ background: "#ba7ccc" }}
-                                    ></div>
-                                    <div
-                                        className="image-shadow-bottom"
-                                        style={{ background: "#ba7ccc" }}
-                                    ></div>
+                                    <div className="image-shadow-top" style={{ background: "#ba7ccc" }}></div>
+                                    <div className="image-shadow-bottom" style={{ background: "#ba7ccc" }}></div>
                                     <img
                                         width="950"
                                         height="699"
                                         src="webImages/webbyra-growth-950x699.jpg"
                                         className="w-full h-auto rounded-[0.9rem] md:rounded-[1.25rem] lg:rounded-[1.75rem]"
-                                        alt="ITnnovator Growth Marketing - SEO and conversion optimization"
+                                        alt="Advertising that Captures Customers with META and GOOGLE"
                                         loading="lazy"
                                         decoding="async"
                                     />
                                 </div>
                             </div>
 
-                            <div
-                                className="mt-4 mb-2 md:mb-8 text-base md:text-lg"
-                                style={{ color: "#b2fdd8" }}
-                            >
+                            <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: "#b2fdd8" }}>
                                 03<span className="opacity-50">/03</span>
                             </div>
-                            <h3
-                                className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]"
-                                style={{ color: "#b2fdd8" }}
-                            >
-                                Growth Optimization
+                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[3rem]" style={{ color: "#b2fdd8" }}>
+                                Advertising that Captures Customers with META and GOOGLE
                             </h3>
-                            <p
-                                className="mt-3 md:mt-4 text-base text-100 md:text-xl"
-                                style={{ color: "#b2fdd8" }}
-                            >
-                                We implement data-driven strategies to convert visitors into
-                                customers—combining SEO, conversion optimization, and analytics.
-                                Our focus is on revenue-driven results, not vanity metrics.
+                            <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: "#b2fdd8" }}>
+                                We specialize in creating targeted advertising campaigns through META (Facebook, Instagram) and Google Ads that drive high-quality traffic to your website. With data-driven strategies, we ensure your business captures the attention of potential customers and converts them into loyal clients.
                             </p>
-                            <div
-                                className="mt-4 mb-5 md:mb-0 md:mt-10"
-                                style={{ color: "#b2fdd8" }}
-                            >
-                                <a
-                                    href="/growth"
-                                    target="_self"
-                                    className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit"
-                                >
-                                    <span>Explore Growth Services</span>
+                            <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: "#b2fdd8" }}>
+                                <a href="/advertising" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
+                                    <span>Learn More about Our Advertising Services</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                                        <svg
-                                            className="inline-block"
-                                            preserveAspectRatio="none"
-                                            width="22"
-                                            height="15"
-                                            aria-hidden="true"
-                                        >
+                                        <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                                             <use href="webImages/icons.svg#arrow-right"></use>
                                         </svg>
                                     </span>
@@ -353,6 +264,7 @@ export default function OurOffer() {
                         </div>
                     </div>
                 </div>
+
             </section>
         </>
     );

@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Footer() {
+    const currentYear = new Date().getFullYear();
     return (
         <footer className="pt-10 bg-black">
             <div className="text-white max-w-7xl px-6 xl:px-8 mx-auto mb-12 mb:mb-20 leading-relaxed">
@@ -152,7 +153,7 @@ export default function Footer() {
                 </div>
 
                 <div className="lg:flex justify-between items-start border-t border-[#565252] mt-9 pt-9">
-                    <nav className="flex flex-wrap justify-between gap-8 md:gap-12 xl:gap-16 text-xs">
+                    {/* <nav className="flex flex-wrap justify-between gap-8 md:gap-12 xl:gap-16 text-xs">
                         <ul className="text-white/50">
                             <li className="mb-0.5">
                                 <Link
@@ -255,7 +256,9 @@ export default function Footer() {
                                 </Link>
                             </li>
                         </ul>
-                    </nav>
+                    </nav> */}
+
+                    <p>&copy; {currentYear}, <Link href="https://itnnovator.com/" target="_blank">Itnnovator</Link>, All Rights Reserved.</p>
 
                     {/* Optional award badges — replace/remove as needed */}
                     <div className="flex items-center justify-end flex-wrap gap-y-6 gap-x-5 md:gap-x-6 mt-10 lg:mt-0">

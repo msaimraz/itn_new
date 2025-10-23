@@ -277,7 +277,7 @@ export default function Home() {
               <img
                 width="900"
                 height="473"
-                src="webImages/seo-byra-stockholm-1200x630.jpeg"
+                src="webImages/wordwide-seo.jpg"
                 className="w-full h-auto rounded-xl"
                 alt="ITnnovator SEO Services - Technical SEO, content strategy, and growth optimization for higher rankings"
               />
@@ -319,7 +319,7 @@ export default function Home() {
               <img
                 width="900"
                 height="473"
-                src="webImages/digital-driven-byra-1200x630.jpeg"
+                src="webImages/data-driven-website.jpg"
                 className="w-full h-auto rounded-xl"
                 alt="ITnnovator Data-Driven Digital Agency - Analytics, conversion optimization, and growth strategies"
               />
@@ -342,48 +342,6 @@ export default function Home() {
                 className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
               >
                 <span> Optimize Your Performance </span>
-                <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
-                  <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                    <use href="webImages/icons.svg#arrow-right"></use>
-                  </svg>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Leader in WordPress */}
-      <section className="py-14 lg:py-20 xl:py-32" style={{ background: "#000000" }}>
-        <div className="max-w-7xl px-6 xl:px-8 mx-auto md:gap-x-14 xl:gap-x-20 flex-col flex md:flex-row justify-end md:pr-6">
-          <div className="md:w-1/2 overflow-x-visible">
-            <figure className="js-animate-up block relative z-10 h-auto max-w-7xl mx-auto xl:px-0 overflow-hidden float-right w-full md:w-max">
-              <img
-                width="900"
-                height="473"
-                src="webImages/data-driven-webbyra-900x473.jpg"
-                className="w-full h-auto rounded-xl"
-                alt="ITnnovator WordPress Experts - Custom corporate sites, WooCommerce stores, and membership platforms"
-              />
-            </figure>
-          </div>
-
-          <div className="py-6 md:w-1/2 w-full flex md:flex-1 md:shrink-0 lg:max-w-[28.75rem] only:mx-auto only:py-0">
-            <div className="flex flex-col gap-y-3 md:gap-y-[2.37rem] my-auto text-white">
-              <h2 className="0 text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-                WordPress Excellence
-              </h2>
-
-              <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white">
-                <p>As WordPress specialists, we build powerful corporate sites, e-commerce stores, and membership platforms. Our team delivers custom solutions with optimized performance, security, and scalability built into every project.</p>
-              </div>
-
-              <a
-                href="/wordpress-development"
-                target="_self"
-                className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu"
-              >
-                <span> View WordPress Projects </span>
                 <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                     <use href="webImages/icons.svg#arrow-right"></use>
