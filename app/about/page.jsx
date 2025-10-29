@@ -9,7 +9,7 @@ export default function About() {
         <div className="block md:text-lg mb-6">
           <span>
             <span>
-              <Link href="/">Home</Link>
+              <a href="/">Home</a>
             </span>
             /
             <span className="breadcrumb_last" aria-current="page">
@@ -190,7 +190,7 @@ export default function About() {
               </p>
 
               <p>
-                Ready to talk? <Link href="/contact">Contact us</Link> and let’s
+                Ready to talk? <a href="/contact">Contact us</a> and let’s
                 bring your next idea to life.
               </p>
 
@@ -200,7 +200,7 @@ export default function About() {
                 </em>
                 <br />
                 The ITnnovator Team&nbsp;
-                <Link href="/">digital agency</Link>
+                <a href="/">digital agency</a>
               </p>
             </div>
           </div>

@@ -108,7 +108,7 @@ export default function CaseSection() {
 function CaseCard({ item }) {
     return (
         <div className="flex flex-col">
-            <Link
+            <a
                 href={`/cases/${item.slug}`}
                 className="relative flex flex-col justify-between h-full overflow-hidden rounded-[1.25rem] transition duration-300 border border-solid border-[rgba(255,255,255,0.2)] hover:border-[rgba(255,255,255,0.5)] shadow-[0_0_50px_rgba(12,32,58,0.2)] group/img"
             >
@@ -156,7 +156,7 @@ function CaseCard({ item }) {
                         </div>
                     </div>
                 </div>
-            </Link>
+            </a>
         </div>
     );
 }

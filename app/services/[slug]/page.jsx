@@ -16,11 +16,11 @@ export default async function ServiceDetail({ params }) {
         <div className="block md:text-lg mb-6">
           <span>
             <span>
-              <Link href="/">Home</Link>
+              <a href="/">Home</a>
             </span>
             /
             <span>
-              <Link href="/">Services</Link>
+              <a href="/services">Services</a>
             </span>
             /
             <span className="breadcrumb_last" aria-current="page">
@@ -411,8 +411,8 @@ export default async function ServiceDetail({ params }) {
                     <div>
                       {service.blocktext[0].text}
                       <div className="mt-4 mb-5 md:mb-0 md:mt-10">
-                        <Link
-                          href="../webbutveckling/index.html"
+                        <a
+                          href="#"
                           target="_self"
                           className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-xl text-inherit"
                         >
@@ -428,7 +428,7 @@ export default async function ServiceDetail({ params }) {
                               <use href="/webImages/icons.svg#arrow-right"></use>
                             </svg>
                           </span>
-                        </Link>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -493,8 +493,8 @@ export default async function ServiceDetail({ params }) {
                     <div>
                       {service.blocktext[1].text}
                       <div className="mt-4 mb-5 md:mb-0 md:mt-10">
-                        <Link
-                          href="../webbutveckling/index.html"
+                        <a
+                          href="#"
                           target="_self"
                           className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-xl text-inherit"
                         >
@@ -510,7 +510,7 @@ export default async function ServiceDetail({ params }) {
                               <use href="/webImages/icons.svg#arrow-right"></use>
                             </svg>
                           </span>
-                        </Link>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -575,8 +575,8 @@ export default async function ServiceDetail({ params }) {
                     <div>
                       {service.blocktext[2].text}
                       <div className="mt-4 mb-5 md:mb-0 md:mt-10">
-                        <Link
-                          href="../webbutveckling/index.html"
+                        <a
+                          href="#"
                           target="_self"
                           className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-xl text-inherit"
                         >
@@ -592,7 +592,7 @@ export default async function ServiceDetail({ params }) {
                               <use href="/webImages/icons.svg#arrow-right"></use>
                             </svg>
                           </span>
-                        </Link>
+                        </a>
                       </div>
                     </div>
                   </div>
@@ -675,69 +675,69 @@ export default async function ServiceDetail({ params }) {
           {service.exploretitile}
         </h4>
         <div className="flex [@media(min-width:375px)]:flex-row w-full rounded-2xl border border-[#151515] overflow-hidden mt-8 flex-wrap">
-          <Link
+          <a
             className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white  pointer-events-none"
-            href="index.html"
+            href="#"
           >
             <div className="flex items-center w-full px-[7%] md:px-[10%] opacity-30">
               <div className="js-hover-circle-animation flex flex-row items-center justify-center">
                 {service.explorepoints.points[0]}
               </div>
             </div>
-          </Link>
+          </a>
 
-          <Link
+          <a
             className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white "
-            href="../webbutveckling/index.html"
+            href="#"
           >
             <div className="flex items-center w-full px-[7%] md:px-[10%] ">
               <div className="js-hover-circle-animation flex flex-row items-center justify-center">
                 {service.explorepoints.points[1]}
               </div>
             </div>
-          </Link>
+          </a>
 
-          <Link
+          <a
             className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white "
-            href="../webbutveckling/index.html"
+            href="#"
           >
             <div className="flex items-center w-full px-[7%] md:px-[10%] ">
               <div className="js-hover-circle-animation flex flex-row items-center justify-center">
                 {service.explorepoints.points[2]}
               </div>
             </div>
-          </Link>
+          </a>
 
-          <Link
+          <a
             className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white "
-            href="../webbutveckling/index.html"
+            href="#"
           >
             <div className="flex items-center w-full px-[7%] md:px-[10%] ">
               <div className="js-hover-circle-animation flex flex-row items-center justify-center">
                 {service.explorepoints.points[3]}
               </div>
             </div>
-          </Link>
-          <Link
+          </a>
+          <a
             className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white "
-            href="../webbutveckling/index.html"
+            href="#"
           >
             <div className="flex items-center w-full px-[7%] md:px-[10%] ">
               <div className="js-hover-circle-animation flex flex-row items-center justify-center">
                 {service.explorepoints.points[4]}
               </div>
             </div>
-          </Link>
-          <Link
+          </a>
+          <a
             className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white "
-            href="../webbutveckling/index.html"
+            href="#"
           >
             <div className="flex items-center w-full px-[7%] md:px-[10%] ">
               <div className="js-hover-circle-animation flex flex-row items-center justify-center">
                 {service.explorepoints.points[5]}
               </div>
             </div>
-          </Link>
+          </a>
         </div>
       </section>
     </>

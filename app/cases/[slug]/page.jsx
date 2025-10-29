@@ -23,7 +23,7 @@ export default function CaseDetail({ params }) {
             {/* Breadcrumb */}
             <div className="block md:text-lg text-black absolute left-4 top-4 z-20 md:top-8 md:left-10">
               <span>
-                <Link href="/">Hem</Link> / <Link href="/cases">Case</Link> /
+                <a href="/">Hem</a> / <a href="/cases">Case</a> /
                 <span className="breadcrumb_last" aria-current="page">
                   <strong>{caseData.title}</strong>
                 </span>
@@ -306,7 +306,7 @@ export default function CaseDetail({ params }) {
       <section className="flex flex-col w-full px-6 mx-auto mb-12 text-white md:flex-row justify-items-center max-w-7xl xl:px-8 gap-x-8 md:mb-16 xl:mb-24">
         <div className="flex flex-col md:flex-row gap-4 w-full pt-3 mt-10">
           {prevCase && (
-            <Link
+            <a
               href={`/cases/${prevCase.slug}`}
               className="flex items-center justify-center border border-white/40 text-base md:text-lg py-6 pr-6 xl:pr-8 md:py-8 lg:py-12 w-full md:w-[calc(33.3333%_-_(2rem/3))] group hover:text-malibu hover:border-malibu/70 transition-colors"
             >
@@ -319,10 +319,10 @@ export default function CaseDetail({ params }) {
                 <use href="/webImages/icons.svg#arrow-right"></use>
               </svg>
               <span>Föregående Case</span>
-            </Link>
+            </a>
           )}
 
-          <Link
+          <a
             href="/cases"
             className="flex items-center justify-center border border-white/40 text-base md:text-lg py-6 md:py-8 lg:py-12 w-full md:w-[calc(33.3333%_-_(2rem/3))] hover:text-malibu hover:border-malibu/70 transition-colors"
           >
@@ -335,10 +335,10 @@ export default function CaseDetail({ params }) {
               <use href="/webImages/icons.svg#case-icon"></use>
             </svg>
             <span>Alla Case</span>
-          </Link>
+          </a>
 
           {nextCase && (
-            <Link
+            <a
               href={`/cases/${nextCase.slug}`}
               className="flex items-center justify-center border border-white/40 text-base md:text-lg py-6 pl-6 xl:pl-8 md:py-8 lg:py-12 w-full md:w-[calc(33.3333%_-_(2rem/3))] group hover:text-malibu hover:border-malibu/70 transition-colors"
             >
@@ -346,7 +346,7 @@ export default function CaseDetail({ params }) {
               <svg width="15" height="15" className="ml-4" aria-label="false">
                 <use href="/webImages/icons.svg#arrow-right"></use>
               </svg>
-            </Link>
+            </a>
           )}
         </div>
       </section>

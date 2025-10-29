@@ -7,7 +7,7 @@ export default function team() {
           <div className="block md:text-lg mb-6">
             <span>
               <span>
-                <Link href="/">Hem</Link>
+                <a href="/">Hem</a>
               </span>
               /
               <span className="breadcrumb_last" aria-current="page">
@@ -31,10 +31,10 @@ export default function team() {
                 så nås vi på:
                 <br />
                 Offerter:
-                <Link href="mailto:sales@pigment.se">sales@pigment.se</Link>
+                <a href="mailto:sales@pigment.se">sales@pigment.se</a>
                 <br />
                 Support:
-                <Link href="mailto:support@pigment.se">support@pigment.se</Link>
+                <a href="mailto:support@pigment.se">support@pigment.se</a>
               </p>
             </div>
           </div>
@@ -64,12 +64,12 @@ export default function team() {
                       VD
                     </span>
                     <span className="block text-lg leading-[1.35]">
-                      <Link
+                      <a
                         href="mailto:alexander@pigment.se"
                         className="text-malibu"
                       >
                         alexander@pigment.se
-                      </Link>
+                      </a>
                     </span>
                   </div>
                 </div>
@@ -110,12 +110,12 @@ export default function team() {
                       Kundansvarig
                     </span>
                     <span className="block text-lg leading-[1.35]">
-                      <Link
+                      <a
                         href="mailto:sergio@pigment.se"
                         className="text-malibu"
                       >
                         sergio@pigment.se
-                      </Link>
+                      </a>
                     </span>
                   </div>
                 </div>
@@ -156,12 +156,12 @@ export default function team() {
                       Projektledare
                     </span>
                     <span className="block text-lg leading-[1.35]">
-                      <Link
+                      <a
                         href="mailto:amanda@pigment.se"
                         className="text-malibu"
                       >
                         amanda@pigment.se
-                      </Link>
+                      </a>
                     </span>
                   </div>
                 </div>
@@ -202,12 +202,12 @@ export default function team() {
                       Projektledare / SEO
                     </span>
                     <span className="block text-lg leading-[1.35]">
-                      <Link
+                      <a
                         href="mailto:malin@pigment.se"
                         className="text-malibu"
                       >
                         malin@pigment.se
-                      </Link>
+                      </a>
                     </span>
                   </div>
                 </div>

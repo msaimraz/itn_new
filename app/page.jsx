@@ -79,7 +79,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-              <a href="contact.php" target="_self"
+              <a href="/contact.php" target="_self"
                 className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                 <span> Start Your Project </span>
                 <span
@@ -90,7 +90,7 @@ export default function Home() {
                 </span>
               </a>
 
-              <a href="services.php" target="_self"
+              <a href="/services.php" target="_self"
                 className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                 <span> Explore Our Services </span>
                 <span

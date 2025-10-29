@@ -11,7 +11,7 @@ export default function Service() {
         <div className="block md:text-lg mb-6">
           <span>
             <span>
-              <Link href="/">Home</Link>
+              <a href="/">Home</a>
             </span>
             /
             <span className="breadcrumb_last" aria-current="page">
@@ -78,11 +78,11 @@ export default function Service() {
                 loading="lazy"
                 decoding="async"
               />
-              <Link className="js-hover-circle-animation" target="_self" href="/services/strategy">
+              <a className="js-hover-circle-animation" target="_self" href="/services/strategy">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                   Strategy
                 </h3>
-              </Link>
+              </a>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
                 In-depth analysis and planning that turn business goals into an actionable roadmap. We prioritize high-impact work using market research, analytics, and technical audits.
@@ -110,14 +110,14 @@ export default function Service() {
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/strategy" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                <a href="/services/strategy" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                   <span>Explore Strategy</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
                     </svg>
                   </span>
-                </Link>
+                </a>
               </div>
             </li>
 
@@ -132,11 +132,11 @@ export default function Service() {
                 loading="lazy"
                 decoding="async"
               />
-              <Link className="js-hover-circle-animation" target="_self" href="/services/web-development">
+              <a className="js-hover-circle-animation" target="_self" href="/services/web-development">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                   Web Development
                 </h3>
-              </Link>
+              </a>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
                 Custom website development built for speed, security, and SEO. We deliver clean architecture, intuitive CMS workflows, and a flawless experience on every device.
@@ -164,14 +164,14 @@ export default function Service() {
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/web-development" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                <a href="/services/web-development" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                   <span>Explore Development</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
                     </svg>
                   </span>
-                </Link>
+                </a>
               </div>
             </li>
 
@@ -186,11 +186,11 @@ export default function Service() {
                 loading="lazy"
                 decoding="async"
               />
-              <Link className="js-hover-circle-animation" target="_self" href="/services/product-design">
+              <a className="js-hover-circle-animation" target="_self" href="/services/product-design">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                   Product Design
                 </h3>
-              </Link>
+              </a>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
                 Intuitive UX and polished UI that turn complex workflows into simple, conversion-focused experiences—validated with research and usability testing.
@@ -218,14 +218,14 @@ export default function Service() {
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/product-design" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                <a href="/services/product-design" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                   <span>Discover Product Design</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
                     </svg>
                   </span>
-                </Link>
+                </a>
               </div>
             </li>
 
@@ -240,11 +240,11 @@ export default function Service() {
                 loading="lazy"
                 decoding="async"
               />
-              <Link className="js-hover-circle-animation" target="_self" href="/services/brand-systems">
+              <a className="js-hover-circle-animation" target="_self" href="/services/brand-systems">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                   Brand Systems
                 </h3>
-              </Link>
+              </a>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
                 Scalable logo systems, color, type, and guidelines that keep your brand consistent across web, mobile, and print—built digital-first.
@@ -272,14 +272,14 @@ export default function Service() {
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/brand-systems" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                <a href="/services/brand-systems" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                   <span>View Brand Systems</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
                     </svg>
                   </span>
-                </Link>
+                </a>
               </div>
             </li>
 
@@ -294,11 +294,11 @@ export default function Service() {
                 loading="lazy"
                 decoding="async"
               />
-              <Link className="js-hover-circle-animation" target="_self" href="/services/ecommerce">
+              <a className="js-hover-circle-animation" target="_self" href="/services/ecommerce">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                   E-commerce
                 </h3>
-              </Link>
+              </a>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
                 Online store development that’s fast, secure, and conversion-focused. We streamline product discovery, checkout, and integrations to grow revenue.
@@ -326,14 +326,14 @@ export default function Service() {
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/ecommerce" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                <a href="/services/ecommerce" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                   <span>View E-commerce</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
                     </svg>
                   </span>
-                </Link>
+                </a>
               </div>
             </li>
 
@@ -348,11 +348,11 @@ export default function Service() {
                 loading="lazy"
                 decoding="async"
               />
-              <Link className="js-hover-circle-animation" target="_self" href="/services/seo">
+              <a className="js-hover-circle-animation" target="_self" href="/services/seo">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                   SEO
                 </h3>
-              </Link>
+              </a>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
                 Search engine optimization that improves crawl health, targets intent-led keywords, and builds authority for sustainable organic growth.
@@ -380,14 +380,14 @@ export default function Service() {
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/seo" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                <a href="/services/seo" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                   <span>Learn About SEO</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
                     </svg>
                   </span>
-                </Link>
+                </a>
               </div>
             </li>
 
@@ -402,11 +402,11 @@ export default function Service() {
                 loading="lazy"
                 decoding="async"
               />
-              <Link className="js-hover-circle-animation" target="_self" href="/services/content">
+              <a className="js-hover-circle-animation" target="_self" href="/services/content">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                   Content
                 </h3>
-              </Link>
+              </a>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
                 Strategic storytelling and SEO copywriting that build authority and convert—delivered with a consistent voice across web, email, and ads.
@@ -434,14 +434,14 @@ export default function Service() {
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/content" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                <a href="/services/content" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                   <span>Explore Content</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
                     </svg>
                   </span>
-                </Link>
+                </a>
               </div>
             </li>
 
@@ -456,11 +456,11 @@ export default function Service() {
                 loading="lazy"
                 decoding="async"
               />
-              <Link className="js-hover-circle-animation" target="_self" href="/services/growth">
+              <a className="js-hover-circle-animation" target="_self" href="/services/growth">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                   Growth
                 </h3>
-              </Link>
+              </a>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
                 Data-driven marketing that scales traffic, leads, and revenue. We combine PPC, paid social, and CRO with clear attribution and reporting.
@@ -488,14 +488,14 @@ export default function Service() {
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/growth" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                <a href="/services/growth" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                   <span>Explore Growth</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
                     </svg>
                   </span>
-                </Link>
+                </a>
               </div>
             </li>
 
@@ -510,11 +510,11 @@ export default function Service() {
                 loading="lazy"
                 decoding="async"
               />
-              <Link className="js-hover-circle-animation" target="_self" href="/services/management">
+              <a className="js-hover-circle-animation" target="_self" href="/services/management">
                 <h3 className="mb-4 inline-block text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                   Management
                 </h3>
-              </Link>
+              </a>
 
               <div className="prose max-w-none text-base md:text-lg font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80">
                 Ongoing support and management that keep your site fast, secure, and reliable. We handle updates, uptime, backups, and incident response.
@@ -542,14 +542,14 @@ export default function Service() {
               </ul>
 
               <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-                <Link href="/services/management" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
+                <a href="/services/management" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                   <span>Learn About Management</span>
                   <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                     <svg className="inline-block" width="22" height="15" aria-hidden="true">
                       <use href="/webImages/icons.svg#arrow-right"></use>
                     </svg>
                   </span>
-                </Link>
+                </a>
               </div>
             </li>
           </ul>
@@ -587,7 +587,7 @@ export default function Service() {
 
             <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit prose-h2:text-inherit prose-h2:text-3xl prose-h2:leading-tight md:prose-h2:text-[3.25rem] md:prose-h2:leading-[1.23] prose-h2:font-bold prose-h2:mb-[0.5em] prose-h3:text-inherit prose-h3:text-2xl prose-h3:leading-tight md:prose-h3:text-[2.18rem] md:prose-h3:leading-[1.4] prose-h3:font-bold prose-h3:mb-[0.9em] prose-h4:text-inherit prose-h4:text-xl prose-h4:leading-tight md:prose-h4:text-2xl md:prose-h4:leading-tight prose-h4:font-bold prose-h4:mb-[0.9em] prose-h5:text-inherit prose-h5:text-lg prose-h5:leading-tight md:prose-h5:text-xl md:prose-h5:leading-tight prose-h5:font-bold prose-h5:mb-[0.9em] prose-h6:text-inherit prose-h6:text-base prose-h6:leading-tight md:prose-h6:text-lg md:prose-h6:leading-tight prose-h6:font-bold prose-h6:mb-[0.9em] prose-blockquote:text-white">
               <p>
-                Exceptional digital presence requires more than just aesthetics. At <strong>ITnnovator</strong> we combine data-driven insights with expert <Link href="/seo">SEO</Link>, strategic UX/UI design, and robust <Link href="/development">web development</Link> to create experiences that deliver speed, conversions, and scalable growth.
+                Exceptional digital presence requires more than just aesthetics. At <strong>ITnnovator</strong> we combine data-driven insights with expert <a href="/seo">SEO</a>, strategic UX/UI design, and robust <a href="/development">web development</a> to create experiences that deliver speed, conversions, and scalable growth.
               </p>
               <p>
                 Partnering with ITnnovator means gaining a collaborative team, not just a service provider. We work alongside you to develop strategic roadmaps, implement continuous testing, and ensure every decision is grounded in measurable data to transform visitors into loyal customers.
@@ -595,7 +595,7 @@ export default function Service() {
               <p>
                 Move beyond assumptions and achieve tangible results. Let's elevate your brand visibility and dominate search rankings.
                 <br />
-                <Link href="/contact">Start your project →</Link>
+                <a href="/contact">Start your project →</a>
               </p>
             </div>
           </div>

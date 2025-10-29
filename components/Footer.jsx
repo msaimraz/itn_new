@@ -33,20 +33,20 @@ export default function Footer() {
                             </strong>
                         </p>
                         <p className="text-white text-base md:text-lg leading-relaxed md:leading-relaxed lg:leading-relaxed md:mb-1.5">
-                            <Link
+                            <a
                                 className="hover-underline-animation inline-block relative"
                                 href="mailto:info@itnnovator.com"
                             >
                                 info@itnnovator.com
-                            </Link>
+                            </a>
                         </p>
                         <p className="text-white text-base md:text-lg leading-relaxed md:leading-relaxed lg:leading-relaxed md:mb-1.5">
-                            <Link
+                            <a
                                 className="hover-underline-animation inline-block relative"
                                 href="tel:+923313775851"
                             >
                                 +92 331 3775851
-                            </Link>
+                            </a>
                         </p>
                         {/* Optional: if you later add an office address, place it here */}
                         <p className="text-white text-base md:text-lg leading-relaxed md:leading-relaxed lg:leading-relaxed md:mb-1.5">
@@ -57,28 +57,28 @@ export default function Footer() {
                     <nav className="w-1/2 md:w-auto md:max-w-[20%] md:ml-20 text-base md:text-lg pt-1 md:pt-11">
                         <ul>
                             <li className="mb-1.5">
-                                <Link
+                                <a
                                     className="hover-underline-animation inline-block relative"
-                                    href="#"
+                                    href="/about"
                                 >
                                     About ITnnovator
-                                </Link>
+                                </a>
                             </li>
                             <li className="mb-1.5">
-                                <Link
+                                <a
                                     className="hover-underline-animation inline-block relative"
                                     href="#"
                                 >
                                     Careers
-                                </Link>
+                                </a>
                             </li>
                             <li className="mb-1.5">
-                                <Link
+                                <a
                                     className="hover-underline-animation inline-block relative"
                                     href="#"
                                 >
                                     Blog
-                                </Link>
+                                </a>
                             </li>
                         </ul>
                     </nav>
@@ -258,7 +258,7 @@ export default function Footer() {
                         </ul>
                     </nav> */}
 
-                    <p>&copy; {currentYear}, <Link href="https://itnnovator.com/" target="_blank">Itnnovator</Link>, All Rights Reserved.</p>
+                    <p>&copy; {currentYear}, <a href="https://itnnovator.com/" target="_blank">Itnnovator</a>, All Rights Reserved.</p>
 
                     {/* Optional award badges — replace/remove as needed */}
                     <div className="flex items-center justify-end flex-wrap gap-y-6 gap-x-5 md:gap-x-6 mt-10 lg:mt-0">

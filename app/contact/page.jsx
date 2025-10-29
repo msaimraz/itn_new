@@ -1,3 +1,4 @@
+import ContactGravityForm from "@/components/ContactGravityForm";
 import Link from "next/link";
 
 export default function Contact() {
@@ -25,17 +26,17 @@ export default function Contact() {
                   Contact
                 </h3>
                 <p>
-                  <Link
+                  <a
                     className="inline-block"
                     href="mailto:info@itnnovator.com"
                   >
                     info@itnnovator.com
-                  </Link>
+                  </a>
                 </p>
                 <p>
-                  <Link className="inline-block" href="tel:+923313775851">
+                  <a className="inline-block" href="tel:+923313775851">
                     +92&nbsp;331&nbsp;3775851
-                  </Link>
+                  </a>
                 </p>
               </div>
 
@@ -44,9 +45,9 @@ export default function Contact() {
                   New project
                 </h3>
                 <p>
-                  <Link href="mailto:info@itnnovator.com">
+                  <a href="mailto:info@itnnovator.com">
                     info@itnnovator.com
-                  </Link>
+                  </a>
                 </p>
               </div>
 
@@ -55,17 +56,17 @@ export default function Contact() {
                   Support
                 </h3>
                 <p>
-                  <Link href="mailto:info@itnnovator.com">
+                  <a href="mailto:info@itnnovator.com">
                     info@itnnovator.com
-                  </Link>
+                  </a>
                 </p>
               </div>
             </div>
           </div>
 
-          {/* Contact form */}
           <div className="lg:w-1/2">
             <div>
+              <div className="js-form-heading"></div>
               <div className="js-form-heading">
                 <h3 className="mb-[2.375rem] text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                   Contact form
@@ -79,7 +80,9 @@ export default function Contact() {
                   data-form-index="0"
                   id="gform_wrapper_1"
                 >
-                  <form
+                  {/* Contact Form */}
+                  <ContactGravityForm />
+                  {/* <form
                     method="post"
                     id="gform_1"
                     action="#"
@@ -257,12 +260,12 @@ export default function Contact() {
                               htmlFor="input_1_7_1"
                             >
                               I have read ITnnovator’s
-                              <Link
+                              <a
                                 className="underline"
                                 href="/privacy-policy"
                               >
                                 privacy policy
-                              </Link>
+                              </a>
                               .
                             </label>
                             <input type="hidden" name="input_7.2" />
@@ -276,7 +279,7 @@ export default function Contact() {
                         </fieldset>
                       </div>
                     </div>
-                  </form>
+                  </form> */}
                 </div>
               </div>
             </div>
@@ -297,13 +300,13 @@ export default function Contact() {
                 Pakistan (Head office)
               </h3>
               <p>
-                <Link href="tel:+923313775851">
+                <a href="tel:+923313775851">
                   +92&nbsp;331&nbsp;3775851
-                </Link>
+                </a>
               </p>
-              <Link href="mailto:info@itnnovator.com">
+              <a href="mailto:info@itnnovator.com">
                 info@itnnovator.com
-              </Link>
+              </a>
             </div>
 
             <div className="w-1/2 lg:w-1/4">
@@ -311,9 +314,9 @@ export default function Contact() {
                 Remote (EMEA)
               </h3>
               <p>By appointment</p>
-              <Link href="mailto:info@itnnovator.com">
+              <a href="mailto:info@itnnovator.com">
                 info@itnnovator.com
-              </Link>
+              </a>
             </div>
 
             <div className="w-1/2 lg:w-1/4">
@@ -321,9 +324,9 @@ export default function Contact() {
                 Remote (Americas)
               </h3>
               <p>By appointment</p>
-              <Link href="mailto:info@itnnovator.com">
+              <a href="mailto:info@itnnovator.com">
                 info@itnnovator.com
-              </Link>
+              </a>
             </div>
 
             <div className="w-1/2 lg:w-1/4">
@@ -331,9 +334,9 @@ export default function Contact() {
                 Remote (APAC)
               </h3>
               <p>By appointment</p>
-              <Link href="mailto:info@itnnovator.com">
+              <a href="mailto:info@itnnovator.com">
                 info@itnnovator.com
-              </Link>
+              </a>
             </div>
           </div>
         </div>

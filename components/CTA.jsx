@@ -21,12 +21,12 @@ export default function CTA() {
 
             <div className="prose max-w-none text-base md:text-xl lg:text-[1.56rem] font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
                 <p>
-                    <Link href="#" target="_blank" rel="noopener">
+                    <a href="#" target="_blank" rel="noopener">
                         Book a discovery call with us
-                    </Link>
+                    </a>
                     <br />
-                    Prefer a direct line? <Link href="tel:+923313775851">+92 331 3775851</Link> · or
-                    email <Link href="mailto:info@itnnovator.com">info@itnnovator.com</Link>
+                    Prefer a direct line? <a href="tel:+923313775851">+92 331 3775851</a> · or
+                    email <a href="mailto:info@itnnovator.com">info@itnnovator.com</a>
                 </p>
             </div>
         </section>
