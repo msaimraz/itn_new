@@ -11,56 +11,51 @@ export const CATEGORIES = [
 
 export const CASES = [
   {
-    slug: "svenska-budo-kampsportsforbundet",
-    title: "Svenska Budo & Kampsportsförbundet",
+    slug: "brasaochbasilika",
+    title: "Brasa & Basilika",
 
     tags: ["API", "Backend", "E-Handel", "Frontend", "UX & UI-Design"],
     categories: ["api", "backend", "e-handel", "frontend", "ux-ui-design"],
-    topImg: "/webImages/cases/budo-hero-1-868x640.jpg",
+    topImg: "/webImages/cases-new/brasaochbasilika.png",
     innerImg: "/webImages/cases/budo-webb-1-680x480.jpg",
-    hero: "/webImages/casedetail/budo-hero-1.jpg",
+    hero: "/webImages/cases-new/brasaochbasilika-banner.png",
     sidebarr: {
       vad: [
-        "UX & UI-Design",
-        "Frontend",
-        "Backend",
-        "API",
-        "Webbshop",
-        "Digitala tävlingskort",
-        "Freja ID",
+        "UX Design",
+        "Web Development",
+        "Product presentation",
+        "SEO"
       ],
     },
 
     Sidebar: [
       {
-        title: "Kund",
-        text: "Svenska Budo & Kampsportsförbundet",
+        title: "Customer",
+        text: "Brasa & Basilika",
       },
       {
         title: "When",
-        year: "2024",
+        year: "2025",
       },
       {
-        title: "Vad",
+        title: "Services",
       },
       {
         title: "Visit",
-        link: "https://budokampsport.se",
+        link: "https://brasaochbasilika.se/",
       },
     ],
     sections: [
       {
         type: "intro",
-        heading: "Ny hemsida åt Svenska Budo & Kampsportsförbundet",
+        heading: "Brasa & Basilika opens the doors to its new unique website",
         text: `
-          Svenska Budo & Kampsportsförbundet är en paraplyorganisation som samlar olika kampsporter i Sverige. 
-          De kontaktade oss för att digitalisera tävlingskort och hantering av sanktionsansökningar. 
-          Vi byggde en ny webb med betalning, nya funktioner och uppdaterad design.
+          Brasa & Basilika – A restaurant that combines the raw flavors of the fire with the fresh herbs of the Mediterranean. We developed a modern, tasteful design and created a vibrant menu with a focus on grilled ingredients, wood-fired pizza and hand-picked wines. The result was a digital presence that matches the restaurant’s warm atmosphere and culinary experience.
         `,
       },
       {
         type: "imageText",
-        image: "/webImages/casedetail/budo-detail-6-637x576.jpg",
+        image: "/webImages/cases-new/brasaochbasilika-3sec.png",
         heading: "Identifiering med FrejaID",
         text: `
           FrejaID används för identifiering och inloggning på hemsidan. 
@@ -114,13 +109,11 @@ export const CASES = [
     ],
 
     sectiontwo: {
-      img: "/webImages/casedetail/budo-webb-1-1200x1457.jpg",
+      img: "/webImages/cases-new/brasaochbasilika-3sec.png",
       heading:
-        "Swedish Budo & Martial Arts Association: Promotes and Supports Martial Arts in Sweden",
+        "Brasa & Basilika - Details",
       text: `
-          The Swedish Budo & Martial Arts Association is an umbrella organization that brings together various martial arts in Sweden. 
-          They contacted us to digitize competition cards and manage sanction applications. 
-          We built a new website with payment, new features, and updated design.
+          Brasa & Basilika – A restaurant that combines the raw flavors of the fire with the fresh herbs of the Mediterranean. We developed a modern, tasteful design and created a vibrant menu with a focus on grilled ingredients, wood-fired pizza and hand-picked wines. The result was a digital presence that matches the restaurant’s warm atmosphere and culinary experience.
         `,
     },
   },
