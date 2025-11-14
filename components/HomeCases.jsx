@@ -78,14 +78,14 @@ export default function HomeCases() {
                                                     <div className="chrome-icon"></div>
                                                 </div>
                                                 <div className="bm-viewport desktop">
-                                                    <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    <img src="/webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                                 </div>
                                             </figure>
                                             {/* Mobile */}
                                             <figure className="bm-phone">
                                                 <div className="bm-phone-notch"></div>
                                                 <div className="bm-viewport mobile">
-                                                    <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    <img src="/webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                                 </div>
                                             </figure>
                                         </div>
@@ -109,14 +109,14 @@ export default function HomeCases() {
                                                     <div className="chrome-icon"></div>
                                                 </div>
                                                 <div className="bm-viewport desktop">
-                                                    <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    <img src="/webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                                 </div>
                                             </figure>
                                             {/* Mobile */}
                                             <figure className="bm-phone">
                                                 <div className="bm-phone-notch"></div>
                                                 <div className="bm-viewport mobile">
-                                                    <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    <img src="/webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                                 </div>
                                             </figure>
                                         </div>
@@ -140,14 +140,14 @@ export default function HomeCases() {
                                                     <div className="chrome-icon"></div>
                                                 </div>
                                                 <div className="bm-viewport desktop">
-                                                    <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    <img src="/webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                                 </div>
                                             </figure>
                                             {/* Mobile */}
                                             <figure className="bm-phone">
                                                 <div className="bm-phone-notch"></div>
                                                 <div className="bm-viewport mobile">
-                                                    <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    <img src="/webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                                 </div>
                                             </figure>
                                         </div>
@@ -171,14 +171,14 @@ export default function HomeCases() {
                                                     <div className="chrome-icon"></div>
                                                 </div>
                                                 <div className="bm-viewport desktop">
-                                                    <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    <img src="/webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                                 </div>
                                             </figure>
                                             {/* Mobile */}
                                             <figure className="bm-phone">
                                                 <div className="bm-phone-notch"></div>
                                                 <div className="bm-viewport mobile">
-                                                    <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                    <img src="/webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                                 </div>
                                             </figure>
                                         </div>
@@ -230,14 +230,14 @@ export default function HomeCases() {
                                                 <div className="chrome-icon"></div>
                                             </div>
                                             <div className="bm-viewport desktop">
-                                                <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                         {/* Mobile */}
                                         <figure className="bm-phone">
                                             <div className="bm-phone-notch"></div>
                                             <div className="bm-viewport mobile">
-                                                <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                     </div>
@@ -263,7 +263,7 @@ export default function HomeCases() {
                                     <span> View our case on OnlineGoodies </span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                                            <use href="webImages/icons.svg#arrow-right"></use>
+                                            <use href="/webImages/icons.svg#arrow-right"></use>
                                         </svg>
                                     </span>
                                 </a>
@@ -287,14 +287,14 @@ export default function HomeCases() {
                                                 <div className="chrome-icon"></div>
                                             </div>
                                             <div className="bm-viewport desktop">
-                                                <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                         {/* Mobile */}
                                         <figure className="bm-phone">
                                             <div className="bm-phone-notch"></div>
                                             <div className="bm-viewport mobile">
-                                                <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                     </div>
@@ -320,7 +320,7 @@ export default function HomeCases() {
                                     <span> View our case on Lillebil &amp; Parfymbutiken </span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                                            <use href="webImages/icons.svg#arrow-right"></use>
+                                            <use href="/webImages/icons.svg#arrow-right"></use>
                                         </svg>
                                     </span>
                                 </a>
@@ -344,14 +344,14 @@ export default function HomeCases() {
                                                 <div className="chrome-icon"></div>
                                             </div>
                                             <div className="bm-viewport desktop">
-                                                <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                         {/* Mobile */}
                                         <figure className="bm-phone">
                                             <div className="bm-phone-notch"></div>
                                             <div className="bm-viewport mobile">
-                                                <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                     </div>
@@ -377,7 +377,7 @@ export default function HomeCases() {
                                     <span> View our case on Brasa &amp; Basilika </span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                                            <use href="webImages/icons.svg#arrow-right"></use>
+                                            <use href="/webImages/icons.svg#arrow-right"></use>
                                         </svg>
                                     </span>
                                 </a>
@@ -401,14 +401,14 @@ export default function HomeCases() {
                                                 <div className="chrome-icon"></div>
                                             </div>
                                             <div className="bm-viewport desktop">
-                                                <img src="webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                         {/* Mobile */}
                                         <figure className="bm-phone">
                                             <div className="bm-phone-notch"></div>
                                             <div className="bm-viewport mobile">
-                                                <img src="webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                     </div>
@@ -432,7 +432,7 @@ export default function HomeCases() {
                                     <span> View our case on Tall &amp; Timjan </span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                                            <use href="webImages/icons.svg#arrow-right"></use>
+                                            <use href="/webImages/icons.svg#arrow-right"></use>
                                         </svg>
                                     </span>
                                 </a>

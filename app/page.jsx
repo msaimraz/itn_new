@@ -34,7 +34,7 @@ export default function Home() {
               <span className="relative inline-block child after:!bg-malibu">See our work</span>
               <span className="pl-4">
                 <svg preserveAspectRatio="none" width="13" height="13" viewBox="0 0 13 13" aria-hidden="true">
-                  <use href="webImages/icons.svg#arrow-right"></use>
+                  <use href="/webImages/icons.svg#arrow-right"></use>
                 </svg>
               </span>
             </a>
@@ -45,7 +45,7 @@ export default function Home() {
               <span className="relative inline-block child after:!bg-white">Our services</span>
               <span className="pl-4">
                 <svg preserveAspectRatio="none" width="13" height="13" viewBox="0 0 13 13" aria-hidden="true">
-                  <use href="webImages/icons.svg#arrow-right"></use>
+                  <use href="/webImages/icons.svg#arrow-right"></use>
                 </svg>
               </span>
             </a>
@@ -54,7 +54,7 @@ export default function Home() {
 
         <div className="js-hero-block--bg absolute inset-0 h-full w-full -z-10">
           <video loop autoPlay muted playsInline className="object-cover object-center w-full h-full">
-            <source src="webImages/pixel-intro-dark.mp4" type="video/mp4" />
+            <source src="/webImages/pixel-intro-dark.mp4" type="video/mp4" />
             Your browser does not support HTML5 video.
           </video>
           <div
@@ -85,7 +85,7 @@ export default function Home() {
                 <span
                   className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                    <use href="webImages/icons.svg#arrow-right"></use>
+                    <use href="/webImages/icons.svg#arrow-right"></use>
                   </svg>
                 </span>
               </a>
@@ -96,7 +96,7 @@ export default function Home() {
                 <span
                   className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                    <use href="webImages/icons.svg#arrow-right"></use>
+                    <use href="/webImages/icons.svg#arrow-right"></use>
                   </svg>
                 </span>
               </a>
@@ -105,7 +105,7 @@ export default function Home() {
 
           <ul className="flex flex-col gap-y-10 w-full max-w-[40rem] md:gap-y-11 lg:flex-1">
             <li className="flex items-start gap-x-6 md:gap-x-11">
-              <img width="55" height="55" src="webImages/branding-design-icon.svg"
+              <img width="55" height="55" src="/webImages/branding-design-icon.svg"
                 className="block w-8 sm:w-[3.5rem]" alt="ITnnovator Branding and UI/UX Design Services - Create a memorable brand" decoding="async" />
               <div className="flex flex-col gap-y-2.5 md:pt-2.5">
                 <h2 className="text-xl md:text-2xl font-bold">Brand & Digital Design</h2>
@@ -114,7 +114,7 @@ export default function Home() {
             </li>
 
             <li className="flex items-start gap-x-6 md:gap-x-11">
-              <img width="55" height="55" src="webImages/webbutveckling-ehandel-icon.svg"
+              <img width="55" height="55" src="/webImages/webbutveckling-ehandel-icon.svg"
                 className="block w-8 sm:w-[3.5rem]" alt="ITnnovator Web Development & E-commerce - Fast, secure websites and online stores" decoding="async" />
               <div className="flex flex-col gap-y-2.5 md:pt-2.5">
                 <h2 className="text-xl md:text-2xl font-bold">Web & E-commerce Development</h2>
@@ -123,7 +123,7 @@ export default function Home() {
             </li>
 
             <li className="flex items-start gap-x-6 md:gap-x-11">
-              <img width="56" height="56" src="webImages/analys-seo-growth-icon.svg"
+              <img width="56" height="56" src="/webImages/analys-seo-growth-icon.svg"
                 className="block w-8 sm:w-[3.5rem]" alt="ITnnovator SEO & Digital Marketing - Grow your traffic and leads" decoding="async" />
               <div className="flex flex-col gap-y-2.5 md:pt-2.5">
                 <h2 className="text-xl md:text-2xl font-bold">SEO & Digital Marketing</h2>
@@ -151,7 +151,7 @@ export default function Home() {
               <img
                 width="900"
                 height="530"
-                src="webImages/hemsidor-wordpress-900x530.png"
+                src="/webImages/hemsidor-wordpress-900x530.png"
                 className="w-full h-auto rounded-xl"
                 alt="ITnnovator WordPress Development - Custom, fast, and scalable websites built by experts."
               />
@@ -176,7 +176,7 @@ export default function Home() {
                 <span> See Our Development Process </span>
                 <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                    <use href="webImages/icons.svg#arrow-right"></use>
+                    <use href="/webImages/icons.svg#arrow-right"></use>
                   </svg>
                 </span>
               </a>
@@ -193,7 +193,7 @@ export default function Home() {
               <img
                 width="900"
                 height="546"
-                src="webImages/e-handel-woocomerce-900x546.png"
+                src="/webImages/e-handel-woocomerce-900x546.png"
                 className="w-full h-auto rounded-xl"
                 alt="ITnnovator WooCommerce Development - Scalable online stores with secure payments and seamless WordPress integration."
               />
@@ -218,7 +218,7 @@ export default function Home() {
                 <span> Build Your Online Store </span>
                 <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                    <use href="webImages/icons.svg#arrow-right"></use>
+                    <use href="/webImages/icons.svg#arrow-right"></use>
                   </svg>
                 </span>
               </a>
@@ -235,7 +235,7 @@ export default function Home() {
               <img
                 width="900"
                 height="553"
-                src="webImages/laravel-applikationer-900x553.png"
+                src="/webImages/laravel-applikationer-900x553.png"
                 className="w-full h-auto rounded-xl"
                 alt="ITnnovator Custom Application Development - Secure, scalable web applications and APIs built by experts."
               />
@@ -260,7 +260,7 @@ export default function Home() {
                 <span> Start Your Project </span>
                 <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                    <use href="webImages/icons.svg#arrow-right"></use>
+                    <use href="/webImages/icons.svg#arrow-right"></use>
                   </svg>
                 </span>
               </a>
@@ -277,7 +277,7 @@ export default function Home() {
               <img
                 width="900"
                 height="473"
-                src="webImages/wordwide-seo.jpg"
+                src="/webImages/wordwide-seo.jpg"
                 className="w-full h-auto rounded-xl"
                 alt="ITnnovator SEO Services - Technical SEO, content strategy, and growth optimization for higher rankings"
               />
@@ -302,7 +302,7 @@ export default function Home() {
                 <span> Boost Your Visibility </span>
                 <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                    <use href="webImages/icons.svg#arrow-right"></use>
+                    <use href="/webImages/icons.svg#arrow-right"></use>
                   </svg>
                 </span>
               </a>
@@ -319,7 +319,7 @@ export default function Home() {
               <img
                 width="900"
                 height="473"
-                src="webImages/data-driven-website.jpg"
+                src="/webImages/data-driven-website.jpg"
                 className="w-full h-auto rounded-xl"
                 alt="ITnnovator Data-Driven Digital Agency - Analytics, conversion optimization, and growth strategies"
               />
@@ -344,7 +344,7 @@ export default function Home() {
                 <span> Optimize Your Performance </span>
                 <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                   <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                    <use href="webImages/icons.svg#arrow-right"></use>
+                    <use href="/webImages/icons.svg#arrow-right"></use>
                   </svg>
                 </span>
               </a>

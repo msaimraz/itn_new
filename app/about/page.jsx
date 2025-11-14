@@ -46,7 +46,7 @@ export default function About() {
                       viewBox="0 0 19 19"
                       aria-hidden="true"
                     >
-                      <use href="webImages/icons.svg#ticker"></use>
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
                     Branding &amp; Design
                   </li>
@@ -59,7 +59,7 @@ export default function About() {
                       viewBox="0 0 19 19"
                       aria-hidden="true"
                     >
-                      <use href="webImages/icons.svg#ticker"></use>
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
                     Content
                   </li>
@@ -72,7 +72,7 @@ export default function About() {
                       viewBox="0 0 19 19"
                       aria-hidden="true"
                     >
-                      <use href="webImages/icons.svg#ticker"></use>
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
                     Full-stack Development
                   </li>
@@ -85,7 +85,7 @@ export default function About() {
                       viewBox="0 0 19 19"
                       aria-hidden="true"
                     >
-                      <use href="webImages/icons.svg#ticker"></use>
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
                     E-commerce
                   </li>
@@ -98,7 +98,7 @@ export default function About() {
                       viewBox="0 0 19 19"
                       aria-hidden="true"
                     >
-                      <use href="webImages/icons.svg#ticker"></use>
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
                     Search Engine Optimization
                   </li>
@@ -111,7 +111,7 @@ export default function About() {
                       viewBox="0 0 19 19"
                       aria-hidden="true"
                     >
-                      <use href="webImages/icons.svg#ticker"></use>
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
                     Growth
                   </li>
@@ -124,7 +124,7 @@ export default function About() {
                       viewBox="0 0 19 19"
                       aria-hidden="true"
                     >
-                      <use href="webImages/icons.svg#ticker"></use>
+                      <use href="/webImages/icons.svg#ticker"></use>
                     </svg>
                     Care &amp; Support
                   </li>
@@ -139,7 +139,7 @@ export default function About() {
               <img
                 width="750"
                 height="810"
-                src="webImages/founder.jpg"
+                src="/webImages/founder.jpg"
                 alt="ITnnovator — founder"
                 className="w-full h-full lg:h-auto object-cover"
                 loading="eager"

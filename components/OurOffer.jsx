@@ -43,7 +43,7 @@ export default function OurOffer() {
                                             <img
                                                 width="950"
                                                 height="699"
-                                                src="webImages/webbyra-ui-ux-design-950x699.jpg"
+                                                src="/webImages/webbyra-ui-ux-design-950x699.jpg"
                                                 className="js-scroll-img-no-bg"
                                                 alt="ITnnovator Strategy & Analysis - Data-driven digital strategy and research services"
                                                 loading="lazy"
@@ -70,7 +70,7 @@ export default function OurOffer() {
                                             <img
                                                 width="950"
                                                 height="699"
-                                                src="webImages/webbyra-e-handel-950x699.jpg"
+                                                src="/webImages/webbyra-e-handel-950x699.jpg"
                                                 className="js-scroll-img-no-bg"
                                                 alt="ITnnovator Web Development - Custom websites and e-commerce solutions"
                                                 loading="lazy"
@@ -97,7 +97,7 @@ export default function OurOffer() {
                                             <img
                                                 width="950"
                                                 height="699"
-                                                src="webImages/webbyra-growth-950x699.jpg"
+                                                src="/webImages/webbyra-growth-950x699.jpg"
                                                 className="js-scroll-img-no-bg"
                                                 alt="ITnnovator Growth Marketing - SEO and conversion rate optimization services"
                                                 loading="lazy"
@@ -155,7 +155,7 @@ export default function OurOffer() {
                                     <img
                                         width="950"
                                         height="699"
-                                        src="webImages/webbyra-ui-ux-design-950x699.jpg"
+                                        src="/webImages/webbyra-ui-ux-design-950x699.jpg"
                                         className="w-full h-auto rounded-[0.9rem] md:rounded-[1.25rem] lg:rounded-[1.75rem]"
                                         alt="Complete Web Solution with Company Presentation"
                                         loading="lazy"
@@ -178,7 +178,7 @@ export default function OurOffer() {
                                     <span>Learn More about Our Web Solutions</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                                            <use href="webImages/icons.svg#arrow-right"></use>
+                                            <use href="/webImages/icons.svg#arrow-right"></use>
                                         </svg>
                                     </span>
                                 </a>
@@ -194,7 +194,7 @@ export default function OurOffer() {
                                     <img
                                         width="950"
                                         height="699"
-                                        src="webImages/webbyra-e-handel-950x699.jpg"
+                                        src="/webImages/webbyra-e-handel-950x699.jpg"
                                         className="w-full h-auto rounded-[0.9rem] md:rounded-[1.25rem] lg:rounded-[1.75rem]"
                                         alt="Interactive Webshops"
                                         loading="lazy"
@@ -217,7 +217,7 @@ export default function OurOffer() {
                                     <span>Explore Our Webshop Solutions</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                                            <use href="webImages/icons.svg#arrow-right"></use>
+                                            <use href="/webImages/icons.svg#arrow-right"></use>
                                         </svg>
                                     </span>
                                 </a>
@@ -233,7 +233,7 @@ export default function OurOffer() {
                                     <img
                                         width="950"
                                         height="699"
-                                        src="webImages/webbyra-growth-950x699.jpg"
+                                        src="/webImages/webbyra-growth-950x699.jpg"
                                         className="w-full h-auto rounded-[0.9rem] md:rounded-[1.25rem] lg:rounded-[1.75rem]"
                                         alt="Advertising that Captures Customers with META and GOOGLE"
                                         loading="lazy"
@@ -256,7 +256,7 @@ export default function OurOffer() {
                                     <span>Learn More about Our Advertising Services</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
-                                            <use href="webImages/icons.svg#arrow-right"></use>
+                                            <use href="/webImages/icons.svg#arrow-right"></use>
                                         </svg>
                                     </span>
                                 </a>

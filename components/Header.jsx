@@ -1,4 +1,27 @@
+"use client";
+
+import { useEffect } from "react";
+
 export default function Header() {
+    useEffect(() => {
+        const nav = document.querySelector("#page-header");
+        if (!nav) return;
+
+        const toggleStick = () => {
+            if (window.scrollY > 10) {
+                nav.classList.add("is-stuck");
+            } else {
+                nav.classList.remove("is-stuck");
+            }
+        };
+
+        window.addEventListener("scroll", toggleStick, { passive: true });
+        toggleStick(); // run once on load
+
+        return () => {
+            window.removeEventListener("scroll", toggleStick);
+        };
+    }, []);
     return (
         <>
             <div className="fixed h-[6rem] md:h-[8rem] left-0 top-0 z-[70] flex justify-between pl-5 md:pl-12 text-white mix-blend-difference">
@@ -17,14 +40,14 @@ export default function Header() {
                     </a>
                     <h1
                         id="js-heading-one-scroll"
-                        className="leading-none relative lg:top-0.5 mt-3 lg:ml-4"
+                        className="leading-none relative lg:top-0.5 mt-3 lg:ml-4 ml-1"
                     >
                         Digital Partner / Build. Launch. Grow.
                     </h1>
                 </div>
             </div>
 
-            <nav className="hidden md:flex fixed h-[8rem] right-32 top-0 z-[60] md:ml-auto max-w-[calc(100%-30rem)] justify-end items-center text-white mix-blend-difference">
+            <nav className="hidden md:flex fixed h-[8rem] right-32 top-0 z-[60] md:ml-auto max-w-[calc(100%-30rem)] justify-end items-center text-white mix-blend-difference" style={{ zIndex: " 99;" }}>
                 <ul className="flex justify-end text-normal text-lg">
                     <li className="px-5 relative">
                         <a
@@ -62,7 +85,7 @@ export default function Header() {
                 <nav className="w-full flex justify-between items-center relative px-12 py-10">
                     <div
                         id="js-menu-holder"
-                        className="-translate-y-full bg-black border-b-2 border-gray-900 absolute top-0 left-0 w-full h-[100dvh] md:h-screen z-50 pt-16 flex text-white"
+                        className="-translate-y-full bg-black border-b-2 border-gray-900 absolute top-0 left-0 w-full h-[100dvh] md:h-screen z-50  pt-[8.3rem] flex text-white"
                     >
                         <div className="w-full flex flex-col justify-between">
                             <div className="flex-1 flex items-center max-h-full overflow-y-visible px-12 xl:pl-0 lg:pr-[5rem] 2xl:pr-[20rem]">
@@ -87,7 +110,7 @@ export default function Header() {
                                                 href="/services"
                                                 className="hover:text-white text-white md:text-silver-chalice group-[.hover]:text-white"
                                             >
-                                                Services 
+                                                Services
                                             </a>
                                             <span className="js-submenu-toggler text-royal-blue ml-auto md:ml-0 md:opacity-0 pl-0 group-[.hover]:opacity-100 group-[.hover]:pl-6 transition-all duration-500 ease-in-out">
                                                 <svg
@@ -98,7 +121,7 @@ export default function Header() {
                                                     viewBox="0 0 67 37"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#arrow-right-big"></use>
+                                                    <use href="/webImages/icons.svg#arrow-right-big"></use>
                                                 </svg>
                                             </span>
                                         </div>
@@ -114,7 +137,7 @@ export default function Header() {
                                                         viewBox="0 0 67 37"
                                                         aria-hidden="true"
                                                     >
-                                                        <use href="webImages/icons.svg#arrow-right-big"></use>
+                                                        <use href="/webImages/icons.svg#arrow-right-big"></use>
                                                     </svg>
                                                 </span>
                                                 <div className="text-white text-[2.25rem] ml-6">
@@ -242,7 +265,7 @@ export default function Header() {
 
                                     <li className="js-menu-item flex py-2 mt-0 last:text-2xl last:mt-5">
                                         <div className="js-menu-item--wrapper flex w-full">
-                                            
+
                                         </div>
                                     </li>
                                 </ul>
@@ -271,7 +294,7 @@ export default function Header() {
                                                         viewBox="0 0 13 13"
                                                         aria-hidden="true"
                                                     >
-                                                        <use href="webImages/icons.svg#arrow-right-up"></use>
+                                                        <use href="/webImages/icons.svg#arrow-right-up"></use>
                                                     </svg>
                                                 </span>
                                             </a>
@@ -293,7 +316,7 @@ export default function Header() {
                                                         viewBox="0 0 13 13"
                                                         aria-hidden="true"
                                                     >
-                                                        <use href="webImages/icons.svg#arrow-right-up"></use>
+                                                        <use href="/webImages/icons.svg#arrow-right-up"></use>
                                                     </svg>
                                                 </span>
                                             </a>
@@ -315,7 +338,7 @@ export default function Header() {
                                                         viewBox="0 0 13 13"
                                                         aria-hidden="true"
                                                     >
-                                                        <use href="webImages/icons.svg#arrow-right-up"></use>
+                                                        <use href="/webImages/icons.svg#arrow-right-up"></use>
                                                     </svg>
                                                 </span>
                                             </a>
@@ -343,7 +366,7 @@ export default function Header() {
                                                 viewBox="0 0 17 17"
                                                 aria-hidden="true"
                                             >
-                                                <use href="webImages/icons.svg#arrow-right"></use>
+                                                <use href="/webImages/icons.svg#arrow-right"></use>
                                             </svg>
                                         </span>
                                     </a>

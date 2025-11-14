@@ -285,7 +285,7 @@ export default function ContactGravityForm() {
                             height="15"
                             aria-hidden="true"
                         >
-                            <use href="webImages/icons.svg#arrow-right"></use>
+                            <use href="/webImages/icons.svg#arrow-right"></use>
                         </svg>
                     </span>
                 </button>

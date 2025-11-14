@@ -101,7 +101,7 @@ export default function Footer() {
                                             viewBox="0 0 13 13"
                                             aria-hidden="true"
                                         >
-                                            <use href="webImages/icons.svg#arrow-right-up"></use>
+                                            <use href="/webImages/icons.svg#arrow-right-up"></use>
                                         </svg>
                                     </span>
                                 </a>
@@ -122,7 +122,7 @@ export default function Footer() {
                                             viewBox="0 0 13 13"
                                             aria-hidden="true"
                                         >
-                                            <use href="webImages/icons.svg#arrow-right-up"></use>
+                                            <use href="/webImages/icons.svg#arrow-right-up"></use>
                                         </svg>
                                     </span>
                                 </a>
@@ -143,7 +143,7 @@ export default function Footer() {
                                             viewBox="0 0 13 13"
                                             aria-hidden="true"
                                         >
-                                            <use href="webImages/icons.svg#arrow-right-up"></use>
+                                            <use href="/webImages/icons.svg#arrow-right-up"></use>
                                         </svg>
                                     </span>
                                 </a>
@@ -266,7 +266,7 @@ export default function Footer() {
                             width="80"
                             height="80"
                             className="w-13 md:w-14"
-                            src="webImages/gasell-2019.png"
+                            src="/webImages/gasell-2019.png"
                             loading="lazy"
                             alt="badge-1"
                         />
@@ -274,7 +274,7 @@ export default function Footer() {
                             width="80"
                             height="80"
                             className="w-14 md:w-14"
-                            src="webImages/gasell-2020.png"
+                            src="/webImages/gasell-2020.png"
                             loading="lazy"
                             alt="badge-2"
                         />
@@ -282,7 +282,7 @@ export default function Footer() {
                             height="80"
                             width="87"
                             className="w-13 md:w-14 -mt-[0.625rem] md:-mt-[0.875rem]"
-                            src="webImages/uc-tillvaxt.png"
+                            src="/webImages/uc-tillvaxt.png"
                             loading="lazy"
                             alt="badge-3"
                         />

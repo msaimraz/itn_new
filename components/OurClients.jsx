@@ -11,7 +11,7 @@ export default function OurClients() {
                         <img
                             width="114"
                             height="177"
-                            src="webImages/customers/wwf.png"
+                            src="/webImages/customers/wwf.png"
                             className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
                             alt="Client logo: WWF"
                         />
@@ -21,7 +21,7 @@ export default function OurClients() {
                         <img
                             width="82"
                             height="59"
-                            src="webImages/customers/space-82x59.png"
+                            src="/webImages/customers/space-82x59.png"
                             className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
                             alt="Client logo: Space"
                         />
@@ -31,7 +31,7 @@ export default function OurClients() {
                         <img
                             width="164"
                             height="59"
-                            src="webImages/customers/stockholms-stad-164x59.png"
+                            src="/webImages/customers/stockholms-stad-164x59.png"
                             className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
                             alt="Client logo: City of Stockholm"
                         />
@@ -41,7 +41,7 @@ export default function OurClients() {
                         <img
                             width="101"
                             height="59"
-                            src="webImages/customers/sfd-101x59.png"
+                            src="/webImages/customers/sfd-101x59.png"
                             className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
                             alt="Client logo: SFD"
                         />
@@ -51,7 +51,7 @@ export default function OurClients() {
                         <img
                             width="103"
                             height="59"
-                            src="webImages/customers/rfsu-103x59.png"
+                            src="/webImages/customers/rfsu-103x59.png"
                             className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
                             alt="Client logo: RFSU"
                         />
@@ -61,7 +61,7 @@ export default function OurClients() {
                         <img
                             width="322"
                             height="59"
-                            src="webImages/customers/midnattsloppet-322x59.png"
+                            src="/webImages/customers/midnattsloppet-322x59.png"
                             className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
                             alt="Client logo: Midnattsloppet"
                         />
@@ -71,7 +71,7 @@ export default function OurClients() {
                         <img
                             width="262"
                             height="59"
-                            src="webImages/customers/nvc-262x59.png"
+                            src="/webImages/customers/nvc-262x59.png"
                             className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
                             alt="Client logo: NVC"
                         />
@@ -81,7 +81,7 @@ export default function OurClients() {
                         <img
                             width="126"
                             height="165"
-                            src="webImages/customers/bauer-media.png"
+                            src="/webImages/customers/bauer-media.png"
                             className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
                             alt="Client logo: Bauer Media"
                         />
@@ -91,7 +91,7 @@ export default function OurClients() {
                         <img
                             width="183"
                             height="59"
-                            src="webImages/customers/avicii-183x59.png"
+                            src="/webImages/customers/avicii-183x59.png"
                             className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
                             alt="Client logo: Avicii"
                         />
@@ -101,7 +101,7 @@ export default function OurClients() {
                         <img
                             width="396"
                             height="51"
-                            src="webImages/customers/assistancekaren.png"
+                            src="/webImages/customers/assistancekaren.png"
                             className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
                             alt="Client logo: Assistancekåren"
                         />
@@ -111,7 +111,7 @@ export default function OurClients() {
                         <img
                             width="139"
                             height="59"
-                            src="webImages/customers/afv-139x59.png"
+                            src="/webImages/customers/afv-139x59.png"
                             className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
                             alt="Client logo: AFV"
                         />
@@ -121,7 +121,7 @@ export default function OurClients() {
                         <img
                             width="89"
                             height="59"
-                            src="webImages/customers/abba-the-museum-89x59.png"
+                            src="/webImages/customers/abba-the-museum-89x59.png"
                             className="object-contain max-w-[5rem] max-h-[2.5rem] md:max-w-[6rem] md:max-h-[2.925rem] xl:max-w-[6.5rem]"
                             alt="Client logo: ABBA The Museum"
                         />

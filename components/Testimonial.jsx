@@ -14,7 +14,7 @@ export default function Testimonial() {
                         viewBox="0 0 67 37"
                         aria-hidden="true"
                     >
-                        <use href="webImages/icons.svg#arrow-right-big"></use>
+                        <use href="/webImages/icons.svg#arrow-right-big"></use>
                     </svg>
                 </button>
 
@@ -49,7 +49,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -60,7 +60,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -71,7 +71,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -82,7 +82,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -93,7 +93,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                         </div>
@@ -137,7 +137,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -148,7 +148,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -159,7 +159,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -170,7 +170,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -181,7 +181,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                         </div>
@@ -224,7 +224,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -235,7 +235,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -246,7 +246,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -257,7 +257,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -268,7 +268,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                         </div>
@@ -310,7 +310,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -321,7 +321,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -332,7 +332,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -343,7 +343,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -354,7 +354,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                         </div>
@@ -395,7 +395,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -406,7 +406,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -417,7 +417,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -428,7 +428,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -439,7 +439,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                         </div>
@@ -481,7 +481,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -492,7 +492,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -503,7 +503,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -514,7 +514,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -525,7 +525,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                         </div>
@@ -567,7 +567,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -578,7 +578,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -589,7 +589,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -600,7 +600,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                             <span className="pr-0.5">
@@ -611,7 +611,7 @@ export default function Testimonial() {
                                                     viewBox="0 0 25 25"
                                                     aria-hidden="true"
                                                 >
-                                                    <use href="webImages/icons.svg#star"></use>
+                                                    <use href="/webImages/icons.svg#star"></use>
                                                 </svg>
                                             </span>
                                         </div>
@@ -641,7 +641,7 @@ export default function Testimonial() {
                         viewBox="0 0 67 37"
                         aria-hidden="true"
                     >
-                        <use href="webImages/icons.svg#arrow-right-big"></use>
+                        <use href="/webImages/icons.svg#arrow-right-big"></use>
                     </svg>
                 </button>
             </div>
