@@ -249,7 +249,7 @@ export default function ContactGravityForm() {
                                 className="gform-field-label gform-field-label--type-inline gfield_consent_label"
                                 htmlFor="input_1_7_1"
                             >
-                                I have read ITnnovator’s &nbsp;
+                                I have read Itnnovator’s &nbsp;
                                 <a className="underline" href="/privacy-policy">
                                     privacy policy
                                 </a>

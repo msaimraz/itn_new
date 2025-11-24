@@ -9,7 +9,7 @@ export default function CTA() {
                     height="296"
                     src="/webImages/3D_ITN.png"
                     className="w-full h-auto rounded-full"
-                    alt="ITnnovator — founder portrait"
+                    alt="Itnnovator — founder portrait"
                     decoding="async"
                     sizes="(max-width: 296px) 100vw, 296px"
                 />

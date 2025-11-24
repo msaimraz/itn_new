@@ -33,13 +33,13 @@ console.log("Receiver email:", process.env.CONTACT_RECEIVER_EMAIL);
 
     // Send thank you email to user
     await transporter.sendMail({
-      from: `"ITnnovator" <${process.env.SMTP_RECEIVER}>`,
+      from: `"Itnnovator" <${process.env.SMTP_RECEIVER}>`,
       to: input_4,
-      subject: "Thank you for contacting ITnnovator!",
+      subject: "Thank you for contacting Itnnovator!",
       html: `
         <h3>Hi ${input_1},</h3>
-        <p>Thanks for reaching out to ITnnovator! We’ll get back to you soon.</p>
-        <p>Best Regards,<br>ITnnovator Team</p>
+        <p>Thanks for reaching out to Itnnovator! We’ll get back to you soon.</p>
+        <p>Best Regards,<br>Itnnovator Team</p>
       `,
     });
 

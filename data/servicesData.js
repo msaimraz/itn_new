@@ -6,7 +6,7 @@ export const SERVICES = [
         title: "Strategy",
         slug: "strategy",
         icon: "/webImages/services/analys.svg",
-        alt: "ITnnovator Strategy, Analysis & Digital Planning",
+        alt: "Itnnovator Strategy, Analysis & Digital Planning",
         description:
             "Deep-dive analysis and outcome-driven planning that turn business goals into an actionable digital roadmap. We blend market research, analytics, and technical audits to prioritize high-impact work, define budgets and timelines, and align stakeholders—so execution is confident and measurable in Pakistan and beyond.",
         points: ["Market & competitor research", "Analytics & KPI framework", "Technical & SEO audit"],
@@ -87,7 +87,7 @@ export const SERVICES = [
         title: "Web Development",
         slug: "web-development",
         icon: "/webImages/services/webbutveckling.svg",
-        alt: "ITnnovator Custom Website Development",
+        alt: "Itnnovator Custom Website Development",
         description:
             "Modern, secure websites engineered for speed, stability, and search. We build with clean architecture, maintainable code, and intuitive CMS workflows—so marketing ships faster, developers scale safely, and customers enjoy a seamless experience on every device.",
         points: ["Modern frontend frameworks", "Secure backend & APIs", "CMS & headless architecture"],
@@ -98,7 +98,7 @@ export const SERVICES = [
         intro: {
             heading: "Engineered for performance",
             text:
-                "ITnnovator delivers production-ready code with CI/CD, automated testing, and robust observability. We obsess over Core Web Vitals, accessibility, and SEO-ready semantics. From corporate websites and portals to high-traffic content hubs, our builds are fast, secure, and simple to evolve as your business grows.",
+                "Itnnovator delivers production-ready code with CI/CD, automated testing, and robust observability. We obsess over Core Web Vitals, accessibility, and SEO-ready semantics. From corporate websites and portals to high-traffic content hubs, our builds are fast, secure, and simple to evolve as your business grows.",
             bullets: [
                 "Discovery & technical audit",
                 "Architecture & roadmap",
@@ -173,7 +173,7 @@ export const SERVICES = [
         title: "E-commerce",
         slug: "ecommerce",
         icon: "/webImages/services/e-handel.svg",
-        alt: "ITnnovator Online Store Development",
+        alt: "Itnnovator Online Store Development",
         description:
             "High-converting storefronts with instant-loading UX, secure checkout, and seamless ERP/PIM/payment integrations. We build Shopify, WooCommerce, and headless commerce that withstands peak traffic while growing AOV, LTV, and overall revenue.",
         points: ["Shopify & WooCommerce", "Headless commerce", "CRO for product & checkout"],
@@ -184,7 +184,7 @@ export const SERVICES = [
         intro: {
             heading: "Built to sell",
             text:
-                "From taxonomy to checkout, we remove friction at every step. ITnnovator optimizes discovery, PDP/PLP layouts, and payment flows, then enables analytics, automation, and experimentation to continually improve revenue across desktop and mobile.",
+                "From taxonomy to checkout, we remove friction at every step. Itnnovator optimizes discovery, PDP/PLP layouts, and payment flows, then enables analytics, automation, and experimentation to continually improve revenue across desktop and mobile.",
             bullets: ["Payment & shipping", "ERP/PIM integrations", "A/B testing & CRO"]
         },
         process: [
@@ -254,7 +254,7 @@ export const SERVICES = [
         title: "SEO",
         slug: "seo",
         icon: "/webImages/services/seo.svg",
-        alt: "ITnnovator Search Engine Optimization",
+        alt: "Itnnovator Search Engine Optimization",
         description:
             "Technical stability, intent-led content, and authority building that compound organic traffic. We tie SEO to pipeline and revenue—not vanity metrics—so your visibility is defensible and long-lasting in competitive markets.",
         points: ["Technical SEO", "On-page & content", "Link acquisition"],
@@ -265,7 +265,7 @@ export const SERVICES = [
         intro: {
             heading: "Search visibility that lasts",
             text:
-                "We restore crawl health, architect clean information structures, and build topical authority through interlinked content hubs. ITnnovator focuses on high-intent queries that convert, reinforcing entity and schema signals to win rich results and durable rankings.",
+                "We restore crawl health, architect clean information structures, and build topical authority through interlinked content hubs. Itnnovator focuses on high-intent queries that convert, reinforcing entity and schema signals to win rich results and durable rankings.",
             bullets: ["Audits & roadmaps", "Content clustering", "Entity & schema SEO"]
         },
         process: [
@@ -335,7 +335,7 @@ export const SERVICES = [
         title: "Product Design",
         slug: "product-design",
         icon: "/webImages/services/uiuxdesign.svg",
-        alt: "ITnnovator UX & UI Design Services",
+        alt: "Itnnovator UX & UI Design Services",
         description:
             "Intuitive UX and polished UI that turn complex workflows into simple, conversion-ready experiences. We design with accessibility and developer handoff in mind—reducing rework and shortening time-to-market for websites, SaaS, and mobile apps.",
         points: ["Wireframing & prototyping", "Design systems", "Usability testing"],
@@ -416,7 +416,7 @@ export const SERVICES = [
         title: "Brand Systems",
         slug: "brand-systems",
         icon: "/webImages/services/branding.svg",
-        alt: "ITnnovator Scalable Logos & Visual Identity",
+        alt: "Itnnovator Scalable Logos & Visual Identity",
         description:
             "Scalable identity systems—logos, color, type, and guidelines—that look sharp and stay consistent across web, mobile, and print. Built for digital first, your brand becomes easier to implement and harder to forget.",
         points: ["Logo & marks", "Design tokens", "Brand guidelines"],
@@ -497,7 +497,7 @@ export const SERVICES = [
         title: "Content",
         slug: "content",
         icon: "/webImages/services/content.svg",
-        alt: "ITnnovator Strategic Storytelling & Copywriting",
+        alt: "Itnnovator Strategic Storytelling & Copywriting",
         description:
             "Strategic storytelling and SEO copy that earn attention, build authority, and convert visitors into qualified leads. We publish consistently and measure relentlessly so your share of search and mind grows every month.",
         points: ["Editorial strategy", "SEO content hubs", "Website & ad copy"],
@@ -578,7 +578,7 @@ export const SERVICES = [
         title: "Growth",
         slug: "growth",
         icon: "/webImages/services/growth-1.svg",
-        alt: "ITnnovator Data-Driven Marketing & Lead Generation",
+        alt: "Itnnovator Data-Driven Marketing & Lead Generation",
         description:
             "Performance marketing that scales traffic, leads, and revenue with clear attribution. We combine PPC, paid social, and CRO to improve unit economics and accelerate ROI—backed by dashboards that everyone trusts.",
         points: ["PPC & paid social", "CRO & experiments", "Attribution & LTV"],
@@ -589,7 +589,7 @@ export const SERVICES = [
         intro: {
             heading: "Performance with purpose",
             text:
-                "Campaigns are hypothesis-led, tracked with precision, and optimized continuously. ITnnovator improves CAC and ROAS by fixing funnel friction, tuning offers and creative, and reallocating budget toward the channels and audiences that actually convert.",
+                "Campaigns are hypothesis-led, tracked with precision, and optimized continuously. Itnnovator improves CAC and ROAS by fixing funnel friction, tuning offers and creative, and reallocating budget toward the channels and audiences that actually convert.",
             bullets: ["Search & social ads", "Landing pages & CRO", "Dashboards & KPIs"]
         },
         process: [
@@ -659,7 +659,7 @@ export const SERVICES = [
         title: "Management",
         slug: "management",
         icon: "/webImages/services/forvaltning.svg",
-        alt: "ITnnovator Ongoing Management, Maintenance & Support",
+        alt: "Itnnovator Ongoing Management, Maintenance & Support",
         description:
             "Proactive maintenance and SLA-backed support that keep your site fast, secure, and reliable. We handle updates, uptime, and incident response so your team can focus on shipping features and serving customers.",
         points: ["Security & updates", "Monitoring & backups", "Performance care"],

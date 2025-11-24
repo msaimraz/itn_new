@@ -33,7 +33,7 @@ export default function Header() {
                         <img
                             className="w-full h-auto block"
                             src="/webImages/logo.png"
-                            alt="ITnnovator — Digital Solutions Logo"
+                            alt="Itnnovator — Digital Solutions Logo"
                             width="82"
                             height="47"
                         />

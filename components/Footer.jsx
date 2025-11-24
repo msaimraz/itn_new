@@ -10,7 +10,7 @@ export default function Footer() {
                     <Image
                         className="w-full h-auto block"
                         src="/webImages/footer_logo.png"
-                        alt="ITnnovator"
+                        alt="Itnnovator"
                         width="1216"
                         height="162"
                     />
@@ -19,7 +19,7 @@ export default function Footer() {
                     <Image
                         className="w-full h-auto block"
                         src="/webImages/footer_logo_slice.png"
-                        alt="ITnnovator"
+                        alt="Itnnovator"
                         width="1216"
                         height="162"
                     />
@@ -29,7 +29,7 @@ export default function Footer() {
                     <div className="w-full md:w-auto md:max-w-[33%] text-center md:text-left mb-12 md:mb-0">
                         <p className="text-white text-lg md:text-xl lg:text-2xl leading-relaxed mb-2">
                             <strong className="font-bold">
-                                ITnnovator — Reliable IT solutions to power your business
+                                Itnnovator — Reliable IT solutions to power your business
                             </strong>
                         </p>
                         <p className="text-white text-base md:text-lg leading-relaxed md:leading-relaxed lg:leading-relaxed md:mb-1.5">
@@ -61,7 +61,7 @@ export default function Footer() {
                                     className="hover-underline-animation inline-block relative"
                                     href="/about"
                                 >
-                                    About ITnnovator
+                                    About Itnnovator
                                 </a>
                             </li>
                             <li className="mb-1.5">
@@ -252,7 +252,7 @@ export default function Footer() {
                                     className="hover-underline-animation inline-block relative"
                                     href="#"
                                 >
-                                    About ITnnovator
+                                    About Itnnovator
                                 </Link>
                             </li>
                         </ul>

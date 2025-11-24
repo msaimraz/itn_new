@@ -13,13 +13,13 @@ export default function About() {
             </span>
             /
             <span className="breadcrumb_last" aria-current="page">
-              <strong>About ITnnovator</strong>
+              <strong>About Itnnovator</strong>
             </span>
           </span>
         </div>
 
         <h1 className="w-full mb-2 text-5xl font-bold md:mb-6 xl:mb-12 md:text-6xl xl:text-8xl">
-          About ITnnovator
+          About Itnnovator
         </h1>
 
         <div className="flex flex-col text-white md:flex-row justify-items-center md:gap-x-8 xl:gap-x-12">
@@ -29,7 +29,7 @@ export default function About() {
               <div>
                 <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
                   <p>
-                    ITnnovator isn’t just a vendor—we’re a partner invested in
+                    Itnnovator isn’t just a vendor—we’re a partner invested in
                     your success. We build long-term relationships, ship with
                     care and speed, and stay accountable to measurable outcomes.
                     Our success is defined by yours.
@@ -139,15 +139,15 @@ export default function About() {
               <img
                 width="750"
                 height="810"
-                src="/webImages/founder.jpg"
-                alt="ITnnovator — founder"
+                src="/webImages/3D_ITN.png"
+                alt="Itnnovator — founder"
                 className="w-full h-full lg:h-auto object-cover"
                 loading="eager"
                 decoding="async"
               />
             </picture>
-            <div className="image-shadow-top-hero"></div>
-            <div className="image-shadow-bottom-hero"></div>
+            {/* <div className="image-shadow-top-hero"></div>
+            <div className="image-shadow-bottom-hero"></div> */}
           </div>
         </div>
       </section>
@@ -169,7 +169,7 @@ export default function About() {
 
               <h4>A full-service offering</h4>
               <p>
-                From strategy to launch, ITnnovator covers the entire digital
+                From strategy to launch, Itnnovator covers the entire digital
                 stack. Need a new website, an online store, brand assets, or
                 performance marketing? We plan, design, build, and optimize—end
                 to end.
@@ -199,7 +199,7 @@ export default function About() {
                   <strong>Best regards,</strong>
                 </em>
                 <br />
-                The ITnnovator Team&nbsp;
+                The Itnnovator Team&nbsp;
                 <a href="/">digital agency</a>
               </p>
             </div>

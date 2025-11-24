@@ -69,12 +69,12 @@ export default function Home() {
         <div className="w-[94%] wider:max-w-[90rem] px-5 xl:px-8 mx-auto flex flex-wrap gap-10 justify-between">
           <div className="flex flex-col gap-y-6 w-full max-w-[50rem] md:gap-y-11">
             <h1 className="text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
-              Your End-to-End Digital Solutions Partner | ITnnovator
+              Your End-to-End Digital Solutions Partner | Itnnovator
             </h1>
 
             <div
               className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-              <p>ITnnovator is your dedicated team for <strong>comprehensive digital growth</strong>. We specialize in crafting results-driven online experiences, from <strong>custom web development</strong> and high-converting <strong>e-commerce stores on Shopify & WooCommerce</strong> to strategic <strong>SEO</strong> and <strong>data-driven digital marketing</strong> that generates qualified leads.</p>
+              <p>Itnnovator is your dedicated team for <strong>comprehensive digital growth</strong>. We specialize in crafting results-driven online experiences, from <strong>custom web development</strong> and high-converting <strong>e-commerce stores on Shopify & WooCommerce</strong> to strategic <strong>SEO</strong> and <strong>data-driven digital marketing</strong> that generates qualified leads.</p>
               <p>Our full-service approach means we handle your entire digital presence—<strong>strategy, design, development, and growth</strong>—ensuring a seamless, powerful, and scalable solution tailored to your business goals. Partner with us to build, launch, and grow your digital future.</p>
             </div>
 
@@ -106,7 +106,7 @@ export default function Home() {
           <ul className="flex flex-col gap-y-10 w-full max-w-[40rem] md:gap-y-11 lg:flex-1">
             <li className="flex items-start gap-x-6 md:gap-x-11">
               <img width="55" height="55" src="/webImages/branding-design-icon.svg"
-                className="block w-8 sm:w-[3.5rem]" alt="ITnnovator Branding and UI/UX Design Services - Create a memorable brand" decoding="async" />
+                className="block w-8 sm:w-[3.5rem]" alt="Itnnovator Branding and UI/UX Design Services - Create a memorable brand" decoding="async" />
               <div className="flex flex-col gap-y-2.5 md:pt-2.5">
                 <h2 className="text-xl md:text-2xl font-bold">Brand & Digital Design</h2>
                 <p className="md:text-lg">We build memorable brand identities and intuitive UI/UX designs that engage users and drive conversions for your business.</p>
@@ -115,7 +115,7 @@ export default function Home() {
 
             <li className="flex items-start gap-x-6 md:gap-x-11">
               <img width="55" height="55" src="/webImages/webbutveckling-ehandel-icon.svg"
-                className="block w-8 sm:w-[3.5rem]" alt="ITnnovator Web Development & E-commerce - Fast, secure websites and online stores" decoding="async" />
+                className="block w-8 sm:w-[3.5rem]" alt="Itnnovator Web Development & E-commerce - Fast, secure websites and online stores" decoding="async" />
               <div className="flex flex-col gap-y-2.5 md:pt-2.5">
                 <h2 className="text-xl md:text-2xl font-bold">Web & E-commerce Development</h2>
                 <p className="md:text-lg">Our developers build fast, secure, and scalable websites and e-commerce solutions on WordPress, Shopify, and modern stacks.</p>
@@ -124,7 +124,7 @@ export default function Home() {
 
             <li className="flex items-start gap-x-6 md:gap-x-11">
               <img width="56" height="56" src="/webImages/analys-seo-growth-icon.svg"
-                className="block w-8 sm:w-[3.5rem]" alt="ITnnovator SEO & Digital Marketing - Grow your traffic and leads" decoding="async" />
+                className="block w-8 sm:w-[3.5rem]" alt="Itnnovator SEO & Digital Marketing - Grow your traffic and leads" decoding="async" />
               <div className="flex flex-col gap-y-2.5 md:pt-2.5">
                 <h2 className="text-xl md:text-2xl font-bold">SEO & Digital Marketing</h2>
                 <p className="md:text-lg">We amplify your online visibility with expert SEO strategies and targeted digital marketing campaigns that deliver measurable growth and ROI.</p>
@@ -153,7 +153,7 @@ export default function Home() {
                 height="530"
                 src="/webImages/hemsidor-wordpress-900x530.png"
                 className="w-full h-auto rounded-xl"
-                alt="ITnnovator WordPress Development - Custom, fast, and scalable websites built by experts."
+                alt="Itnnovator WordPress Development - Custom, fast, and scalable websites built by experts."
               />
             </figure>
           </div>
@@ -165,7 +165,7 @@ export default function Home() {
               </h2>
 
               <div className="prose max-w-none text-base md:text-xl font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white">
-                <p>From strategy to launch, we build fast, secure, and scalable custom websites on WordPress, Shopify, and modern frameworks. Unlock your digital potential with ITnnovator as your technical partner.</p>
+                <p>From strategy to launch, we build fast, secure, and scalable custom websites on WordPress, Shopify, and modern frameworks. Unlock your digital potential with Itnnovator as your technical partner.</p>
               </div>
 
               <a
@@ -195,7 +195,7 @@ export default function Home() {
                 height="546"
                 src="/webImages/e-handel-woocomerce-900x546.png"
                 className="w-full h-auto rounded-xl"
-                alt="ITnnovator WooCommerce Development - Scalable online stores with secure payments and seamless WordPress integration."
+                alt="Itnnovator WooCommerce Development - Scalable online stores with secure payments and seamless WordPress integration."
               />
             </figure>
           </div>
@@ -237,7 +237,7 @@ export default function Home() {
                 height="553"
                 src="/webImages/laravel-applikationer-900x553.png"
                 className="w-full h-auto rounded-xl"
-                alt="ITnnovator Custom Application Development - Secure, scalable web applications and APIs built by experts."
+                alt="Itnnovator Custom Application Development - Secure, scalable web applications and APIs built by experts."
               />
             </figure>
           </div>
@@ -279,7 +279,7 @@ export default function Home() {
                 height="473"
                 src="/webImages/wordwide-seo.jpg"
                 className="w-full h-auto rounded-xl"
-                alt="ITnnovator SEO Services - Technical SEO, content strategy, and growth optimization for higher rankings"
+                alt="Itnnovator SEO Services - Technical SEO, content strategy, and growth optimization for higher rankings"
               />
             </figure>
           </div>
@@ -321,7 +321,7 @@ export default function Home() {
                 height="473"
                 src="/webImages/data-driven-website.jpg"
                 className="w-full h-auto rounded-xl"
-                alt="ITnnovator Data-Driven Digital Agency - Analytics, conversion optimization, and growth strategies"
+                alt="Itnnovator Data-Driven Digital Agency - Analytics, conversion optimization, and growth strategies"
               />
             </figure>
           </div>

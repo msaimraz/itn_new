@@ -14,7 +14,7 @@ export default function Contact() {
               </h1>
 
               <div className="prose text-base md:text-xl lg:text-[1.56rem] font-light leading-[1.4] md:leading-[1.4] lg:leading-[1.4] text-white/80 prose-a:text-malibu prose-a:no-underline prose-a:font-light hover:prose-a:underline prose-p:mb-[1.38em] prose-ul:text-inherit prose-ul:list-disc prose-ul:list-outside prose-strong:text-inherit">
-                We’d love to hear from you at <strong>ITnnovator</strong>.
+                We’d love to hear from you at <strong>Itnnovator</strong>.
                 Tell us about your goals and we’ll reply with the fastest
                 path to impact.
               </div>
@@ -259,7 +259,7 @@ export default function Contact() {
                               className="gform-field-label gform-field-label--type-inline gfield_consent_label"
                               htmlFor="input_1_7_1"
                             >
-                              I have read ITnnovator’s
+                              I have read Itnnovator’s
                               <a
                                 className="underline"
                                 href="/privacy-policy"

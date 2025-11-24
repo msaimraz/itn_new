@@ -45,7 +45,7 @@ export default function OurOffer() {
                                                 height="699"
                                                 src="/webImages/webbyra-ui-ux-design-950x699.jpg"
                                                 className="js-scroll-img-no-bg"
-                                                alt="ITnnovator Strategy & Analysis - Data-driven digital strategy and research services"
+                                                alt="Itnnovator Strategy & Analysis - Data-driven digital strategy and research services"
                                                 loading="lazy"
                                                 decoding="async"
                                             />
@@ -72,7 +72,7 @@ export default function OurOffer() {
                                                 height="699"
                                                 src="/webImages/webbyra-e-handel-950x699.jpg"
                                                 className="js-scroll-img-no-bg"
-                                                alt="ITnnovator Web Development - Custom websites and e-commerce solutions"
+                                                alt="Itnnovator Web Development - Custom websites and e-commerce solutions"
                                                 loading="lazy"
                                                 decoding="async"
                                             />
@@ -99,7 +99,7 @@ export default function OurOffer() {
                                                 height="699"
                                                 src="/webImages/webbyra-growth-950x699.jpg"
                                                 className="js-scroll-img-no-bg"
-                                                alt="ITnnovator Growth Marketing - SEO and conversion rate optimization services"
+                                                alt="Itnnovator Growth Marketing - SEO and conversion rate optimization services"
                                                 loading="lazy"
                                                 decoding="async"
                                             />
