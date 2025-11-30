@@ -92,7 +92,7 @@ export const SERVICES = [
             "Modern, secure websites engineered for speed, stability, and search. We build with clean architecture, maintainable code, and intuitive CMS workflows—so marketing ships faster, developers scale safely, and customers enjoy a seamless experience on every device.",
         points: ["Modern frontend frameworks", "Secure backend & APIs", "CMS & headless architecture"],
         cta: "Explore Web Development",
-        heroImg: "/webImages/servicedetail/webbyra-analys-1200x1296.jpg",
+        heroImg: "/webImages/servicedetail/s2.jpg",
         herotitle: "Explore Web Development",
         color: "#829dff",
         intro: {
@@ -178,7 +178,7 @@ export const SERVICES = [
             "High-converting storefronts with instant-loading UX, secure checkout, and seamless ERP/PIM/payment integrations. We build Shopify, WooCommerce, and headless commerce that withstands peak traffic while growing AOV, LTV, and overall revenue.",
         points: ["Shopify & WooCommerce", "Headless commerce", "CRO for product & checkout"],
         cta: "Explore E-commerce",
-        heroImg: "/webImages/servicedetail/webbyra-analys-1200x1296.jpg",
+        heroImg: "/webImages/servicedetail/s3.jpg",
         herotitle: "Explore E-commerce",
         color: "#9333ea",
         intro: {
@@ -259,7 +259,7 @@ export const SERVICES = [
             "Technical stability, intent-led content, and authority building that compound organic traffic. We tie SEO to pipeline and revenue—not vanity metrics—so your visibility is defensible and long-lasting in competitive markets.",
         points: ["Technical SEO", "On-page & content", "Link acquisition"],
         cta: "Explore SEO Services",
-        heroImg: "/webImages/servicedetail/webbyra-analys-1200x1296.jpg",
+        heroImg: "/webImages/servicedetail/s4.jpg",
         herotitle: "Explore SEO Services",
         color: "#10b981",
         intro: {
@@ -421,7 +421,7 @@ export const SERVICES = [
             "Scalable identity systems—logos, color, type, and guidelines—that look sharp and stay consistent across web, mobile, and print. Built for digital first, your brand becomes easier to implement and harder to forget.",
         points: ["Logo & marks", "Design tokens", "Brand guidelines"],
         cta: "Explore Brand Systems",
-        heroImg: "/webImages/servicedetail/webbyra-analys-1200x1296.jpg",
+        heroImg: "/webImages/servicedetail/s6.jpg",
         herotitle: "Explore Brand Systems",
         color: "#fb7185",
         intro: {
@@ -502,7 +502,7 @@ export const SERVICES = [
             "Strategic storytelling and SEO copy that earn attention, build authority, and convert visitors into qualified leads. We publish consistently and measure relentlessly so your share of search and mind grows every month.",
         points: ["Editorial strategy", "SEO content hubs", "Website & ad copy"],
         cta: "Explore Content Services",
-        heroImg: "/webImages/servicedetail/webbyra-analys-1200x1296.jpg",
+        heroImg: "/webImages/servicedetail/s7.jpg",
         herotitle: "Explore Content Services",
         color: "#16a34a",
         intro: {
@@ -583,7 +583,7 @@ export const SERVICES = [
             "Performance marketing that scales traffic, leads, and revenue with clear attribution. We combine PPC, paid social, and CRO to improve unit economics and accelerate ROI—backed by dashboards that everyone trusts.",
         points: ["PPC & paid social", "CRO & experiments", "Attribution & LTV"],
         cta: "Explore Growth Services",
-        heroImg: "/webImages/servicedetail/webbyra-analys-1200x1296.jpg",
+        heroImg: "/webImages/servicedetail/s8.jpg",
         herotitle: "Explore Growth Services",
         color: "#f59e0b",
         intro: {
@@ -664,7 +664,7 @@ export const SERVICES = [
             "Proactive maintenance and SLA-backed support that keep your site fast, secure, and reliable. We handle updates, uptime, and incident response so your team can focus on shipping features and serving customers.",
         points: ["Security & updates", "Monitoring & backups", "Performance care"],
         cta: "Explore Management",
-        heroImg: "/webImages/servicedetail/webbyra-analys-1200x1296.jpg",
+        heroImg: "/webImages/servicedetail/s9.jpg",
         herotitle: "Explore Management",
         color: "#64748b",
         intro: {
