@@ -67,7 +67,7 @@ export default function Footer() {
                             <li className="mb-1.5">
                                 <a
                                     className="hover-underline-animation inline-block relative"
-                                    href="#"
+                                    href="/careers"
                                 >
                                     Careers
                                 </a>
@@ -75,7 +75,7 @@ export default function Footer() {
                             <li className="mb-1.5">
                                 <a
                                     className="hover-underline-animation inline-block relative"
-                                    href="#"
+                                    href="/blog"
                                 >
                                     Blog
                                 </a>
@@ -261,7 +261,7 @@ export default function Footer() {
                     <p>&copy; {currentYear}, <a href="https://itnnovator.com/" target="_blank">Itnnovator</a>, All Rights Reserved.</p>
 
                     {/* Optional award badges — replace/remove as needed */}
-                    <div className="flex items-center justify-end flex-wrap gap-y-6 gap-x-5 md:gap-x-6 mt-10 lg:mt-0">
+                    <div className="flex items-center justify-end flex-wrap gap-y-6 gap-x-5 md:gap-x-6 mt-10 lg:mt-0 hidden">
                         <img
                             width="80"
                             height="80"

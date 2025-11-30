@@ -101,7 +101,7 @@ export default function CaseDetail({ params }) {
           <picture className="flex items-end w-full relative z-0 rounded-xl mx-auto overflow-hidden aspect-[15/12] md:aspect-[9/4] xl:max-h-[calc(100vh_-_150px)]">
             <div className="block md:text-lg text-black absolute text-black left-4 top-4 z-20 md:top-8 md:left-10">
               <span>
-                <a href="/">Home</a> / <a href="/cases">Case</a> /
+                <a href="/"> Home </a> / <a href="/cases"> Case</a> /
                 <span className="breadcrumb_last" aria-current="page">
                   <strong>{caseData.title}</strong>
                 </span>
@@ -263,7 +263,7 @@ export default function CaseDetail({ params }) {
             >
               <use href="/webImages/icons.svg#case-icon"></use>
             </svg>
-            <span>Alla Case</span>
+            <span>All Case</span>
           </a>
 
           {nextCase && (

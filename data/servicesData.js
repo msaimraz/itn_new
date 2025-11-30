@@ -172,7 +172,7 @@ export const SERVICES = [
     {
         title: "E-commerce",
         slug: "ecommerce",
-        icon: "/webImages/services/e-handel.svg",
+        icon: "/webImages/services/e-commerce.svg",
         alt: "Itnnovator Online Store Development",
         description:
             "High-converting storefronts with instant-loading UX, secure checkout, and seamless ERP/PIM/payment integrations. We build Shopify, WooCommerce, and headless commerce that withstands peak traffic while growing AOV, LTV, and overall revenue.",

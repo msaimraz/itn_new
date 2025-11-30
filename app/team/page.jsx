@@ -7,11 +7,11 @@ export default function team() {
           <div className="block md:text-lg mb-6">
             <span>
               <span>
-                <a href="/">Home</a>
+                <a href="/"> Home </a>
               </span>
               /
               <span className="breadcrumb_last" aria-current="page">
-                <strong>Our Team</strong>
+                <strong> Our Team</strong>
               </span>
             </span>
           </div>
@@ -32,7 +32,7 @@ export default function team() {
                 <a href="mailto:info@itnnovator.com"> info@itnnovator.com</a>
                 <br />
                 Support:
-                <a href="mailto:info@itnnovator.com"> info@itnnovator.com</a>
+                <a href="mailto:support@itnnovator.com"> support@itnnovator.com</a>
               </p>
             </div>
           </div>
@@ -56,10 +56,10 @@ export default function team() {
                     <span className="absolute w-full bottom-0 h-[82px] left-0 bg-gradient-to-t from-black"></span>
                   </div>
                   <div className="relative z-10 pb-6 md:pb-7 lg:pb-8 xl:pb-10 px-2 -mt-[68px]">
-                    <h2 className="mb-0.5 text-2xl font-bold text-white">Saim Raza</h2>
+                    <h2 className="mb-0.5 text-2xl font-bold text-white">M Saim Raza</h2>
                     <span className="text-lg xl:text-xl block mb-4 md:mb-6 lg:mb-8">CEO</span>
                     <span className="block text-lg">
-                      <a href="mailto:info@itnnovator.com" className="text-malibu">
+                      <a href="mailto:saim@itnnovator.com" className="text-malibu">
                         saim@itnnovator.com
                       </a>
                     </span>
@@ -86,7 +86,7 @@ export default function team() {
                     <h2 className="mb-0.5 text-2xl font-bold text-white">Sanjay Andani</h2>
                     <span className="text-lg xl:text-xl block mb-4 md:mb-6 lg:mb-8">COO</span>
                     <span className="block text-lg">
-                      <a href="mailto:info@itnnovator.com" className="text-malibu">
+                      <a href="mailto:sanjay@itnnovator.com" className="text-malibu">
                         sanjay@itnnovator.com
                       </a>
                     </span>
@@ -113,7 +113,7 @@ export default function team() {
                     <h2 className="mb-0.5 text-2xl font-bold text-white">Arish Ali</h2>
                     <span className="text-lg xl:text-xl block mb-4 md:mb-6 lg:mb-8">Managing Director</span>
                     <span className="block text-lg">
-                      <a href="mailto:info@itnnovator.com" className="text-malibu">
+                      <a href="mailto:arish@itnnovator.com" className="text-malibu">
                         arish@itnnovator.com
                       </a>
                     </span>
@@ -140,7 +140,7 @@ export default function team() {
                     <h2 className="mb-0.5 text-2xl font-bold text-white">Muhammad Saif</h2>
                     <span className="text-lg xl:text-xl block mb-4 md:mb-6 lg:mb-8">Business Development Representative</span>
                     <span className="block text-lg">
-                      <a href="mailto:info@itnnovator.com" className="text-malibu">
+                      <a href="mailto:saif@itnnovator.com" className="text-malibu">
                         saif@itnnovator.com
                       </a>
                     </span>

@@ -40,7 +40,7 @@ export default function Contact() {
                 </p>
               </div>
 
-              <div>
+              {/* <div>
                 <h3 className="mb-[0.875rem] text-2xl md:text-3xl leading-tight md:leading-[1.4] font-bold text-white">
                   New project
                 </h3>
@@ -60,7 +60,7 @@ export default function Contact() {
                     info@itnnovator.com
                   </a>
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -288,7 +288,7 @@ export default function Contact() {
       </div>
 
       {/* Locations */}
-      <div>
+      <div className="hidden">
         <h2 className="mb-12 lg:mb-[4.25rem] text-3xl md:text-[2.62rem] lg:text-[3.25rem] leading-[1.28] md:leading-[1.1] font-bold text-white">
           Where we work
         </h2>

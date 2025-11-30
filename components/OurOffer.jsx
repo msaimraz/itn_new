@@ -70,7 +70,7 @@ export default function OurOffer() {
                                             <img
                                                 width="950"
                                                 height="699"
-                                                src="/webImages/webbyra-e-handel-950x699.jpg"
+                                                src="/webImages/webbyra-e-commerce-950x699.jpg"
                                                 className="js-scroll-img-no-bg"
                                                 alt="Itnnovator Web Development - Custom websites and e-commerce solutions"
                                                 loading="lazy"
@@ -122,15 +122,15 @@ export default function OurOffer() {
                     <div className="w-screen h-screen z-[-2]">
                         <span
                             className="js-scroll-block-bg-color"
-                            style={{ background: "#c1006d" }}
+                            style={{ background: "rgba(130, 157, 255, var(--tw-text-opacity))" }}
                         ></span>
                         <span
                             className="js-scroll-block-bg-color"
-                            style={{ background: "#55219e" }}
+                            style={{ background: "rgba(130, 157, 255, var(--tw-text-opacity))" }}
                         ></span>
                         <span
                             className="js-scroll-block-bg-color"
-                            style={{ background: "#93219e" }}
+                            style={{ background: "rgba(130, 157, 255, var(--tw-text-opacity))" }}
                         ></span>
                     </div>
                 </div>
@@ -164,16 +164,16 @@ export default function OurOffer() {
                                 </div>
                             </div>
 
-                            <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: "#b2fdd8" }}>
+                            <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: "#fff" }}>
                                 01<span className="opacity-50">/03</span>
                             </div>
-                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[3rem]" style={{ color: "#b2fdd8" }}>
+                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[3rem]" style={{ color: "#fff" }}>
                                 Complete Web Solution with Company Presentation
                             </h3>
-                            <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: "#b2fdd8" }}>
+                            <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: "#fff" }}>
                                 We offer comprehensive web solutions that not only provide a sleek and functional website but also effectively showcase your company’s identity. From brand presentation to seamless navigation, we craft a user-friendly experience that speaks to your target audience.
                             </p>
-                            <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: "#b2fdd8" }}>
+                            <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: "#fff" }}>
                                 <a href="/complete-web-solution" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
                                     <span>Learn More about Our Web Solutions</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
@@ -194,7 +194,7 @@ export default function OurOffer() {
                                     <img
                                         width="950"
                                         height="699"
-                                        src="/webImages/webbyra-e-handel-950x699.jpg"
+                                        src="/webImages/webbyra-e-commerce-950x699.jpg"
                                         className="w-full h-auto rounded-[0.9rem] md:rounded-[1.25rem] lg:rounded-[1.75rem]"
                                         alt="Interactive Webshops"
                                         loading="lazy"
@@ -203,16 +203,16 @@ export default function OurOffer() {
                                 </div>
                             </div>
 
-                            <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: "#b2fdd8" }}>
+                            <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: "#fff" }}>
                                 02<span className="opacity-50">/03</span>
                             </div>
-                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[3rem]" style={{ color: "#b2fdd8" }}>
+                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[3rem]" style={{ color: "#fff" }}>
                                 Interactive Webshops
                             </h3>
-                            <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: "#b2fdd8" }}>
+                            <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: "#fff" }}>
                                 We build interactive and high-performing e-commerce platforms that engage customers and drive conversions. Whether you're starting an online store or expanding your product offerings, we deliver secure, scalable, and user-friendly webshops designed to maximize your business potential.
                             </p>
-                            <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: "#b2fdd8" }}>
+                            <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: "#fff" }}>
                                 <a href="/webshops" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
                                     <span>Explore Our Webshop Solutions</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
@@ -242,16 +242,16 @@ export default function OurOffer() {
                                 </div>
                             </div>
 
-                            <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: "#b2fdd8" }}>
+                            <div className="mt-4 mb-2 md:mb-8 text-base md:text-lg" style={{ color: "#fff" }}>
                                 03<span className="opacity-50">/03</span>
                             </div>
-                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[3rem]" style={{ color: "#b2fdd8" }}>
+                            <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[3rem]" style={{ color: "#fff" }}>
                                 Advertising that Captures Customers with META and GOOGLE
                             </h3>
-                            <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: "#b2fdd8" }}>
+                            <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: "#fff" }}>
                                 We specialize in creating targeted advertising campaigns through META (Facebook, Instagram) and Google Ads that drive high-quality traffic to your website. With data-driven strategies, we ensure your business captures the attention of potential customers and converts them into loyal clients.
                             </p>
-                            <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: "#b2fdd8" }}>
+                            <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: "#fff" }}>
                                 <a href="/advertising" target="_self" className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-inherit">
                                     <span>Learn More about Our Advertising Services</span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">

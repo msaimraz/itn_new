@@ -11,7 +11,7 @@ export default function Home() {
     <>
       {/* Video Banner */}
       <section className="js-animate-fadein js-hero-block flex items-end min-h-[calc(100svh-5rem)] py-[5.125rem] md:min-h-screen md:h-full md:pt-[6.5rem] md:pb-[8.5rem] lg:pb-[8.5rem] 2xl:pb-[14.5rem]">
-        <div className="js-hero-block--content relative w-full max-w-7xl wider:max-w-[90rem] px-5 xl:px-8 mx-auto">
+        <div className="js-hero-block--content relative w-[94%] wider:max-w-[90rem] wider:max-w-[90rem] px-5 xl:px-8 mx-auto">
           {/* Hero headline */}
           <h2
             className="w-full leading-none tracking-tight text-[4.375rem] font-[900] mb-4 -ml-[4px] md:mb-6 md:text-[5rem] lg:[font-size:_clamp(16px,calc(12vw),15.5rem)] lg:-ml-[9px]"
@@ -79,7 +79,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-wrap gap-x-10 gap-y-2 lg:gap-x-[4.25rem] xl:pt-4">
-              <a href="/contact.php" target="_self"
+              <a href="/contact" target="_self"
                 className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                 <span> Start Your Project </span>
                 <span
@@ -90,7 +90,7 @@ export default function Home() {
                 </span>
               </a>
 
-              <a href="/services.php" target="_self"
+              <a href="/services" target="_self"
                 className="js-hover-circle-animation group/link-has-arrow w-max inline-block text-base md:text-lg text-malibu">
                 <span> Explore Our Services </span>
                 <span
@@ -193,7 +193,7 @@ export default function Home() {
               <img
                 width="900"
                 height="546"
-                src="/webImages/e-handel-woocomerce-900x546.png"
+                src="/webImages/e-commerce-woocomerce-900x546.png"
                 className="w-full h-auto rounded-xl"
                 alt="Itnnovator WooCommerce Development - Scalable online stores with secure payments and seamless WordPress integration."
               />

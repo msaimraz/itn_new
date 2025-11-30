@@ -8,7 +8,7 @@ export default function OurServices() {
             <div className="flex [@media(min-width:375px)]:flex-row w-full rounded-2xl border border-[#151515] overflow-hidden mt-8 flex-wrap">
                 <a
                     className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-                    href="#"
+                    href="/services/web-development"
                 >
                     <div className="flex items-center w-full px-[7%] md:px-[10%]">
                         <div className="js-hover-circle-animation flex flex-row items-center justify-center">
@@ -19,18 +19,18 @@ export default function OurServices() {
 
                 <a
                     className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-                    href="#"
+                    href="/services/ecommerce"
                 >
                     <div className="flex items-center w-full px-[7%] md:px-[10%]">
                         <div className="js-hover-circle-animation flex flex-row items-center justify-center">
-                            E-commerce Stores
+                            E-commerce
                         </div>
                     </div>
                 </a>
 
                 <a
                     className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-                    href="#"
+                    href="/services/seo"
                 >
                     <div className="flex items-center w-full px-[7%] md:px-[10%]">
                         <div className="js-hover-circle-animation flex flex-row items-center justify-center">
@@ -41,7 +41,7 @@ export default function OurServices() {
 
                 <a
                     className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-                    href="#"
+                    href="/services/product-design"
                 >
                     <div className="flex items-center w-full px-[7%] md:px-[10%]">
                         <div className="js-hover-circle-animation flex flex-row items-center justify-center">
@@ -52,7 +52,7 @@ export default function OurServices() {
 
                 <a
                     className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-                    href="#"
+                    href="/services/brand-systems"
                 >
                     <div className="flex items-center w-full px-[7%] md:px-[10%]">
                         <div className="js-hover-circle-animation flex flex-row items-center justify-center">
@@ -63,7 +63,7 @@ export default function OurServices() {
 
                 <a
                     className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-                    href="#"
+                    href="/services/strategy"
                 >
                     <div className="flex items-center w-full px-[7%] md:px-[10%]">
                         <div className="js-hover-circle-animation flex flex-row items-center justify-center">
@@ -74,7 +74,7 @@ export default function OurServices() {
 
                 <a
                     className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-                    href="#"
+                    href="/services/content"
                 >
                     <div className="flex items-center w-full px-[7%] md:px-[10%]">
                         <div className="js-hover-circle-animation flex flex-row items-center justify-center">
@@ -85,7 +85,7 @@ export default function OurServices() {
 
                 <a
                     className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-                    href="#"
+                    href="/services/growth"
                 >
                     <div className="flex items-center w-full px-[7%] md:px-[10%]">
                         <div className="js-hover-circle-animation flex flex-row items-center justify-center">
@@ -96,7 +96,7 @@ export default function OurServices() {
 
                 <a
                     className="services-list heart-svg-left border-b -mb-px flex text-base hyphens-auto break-all text-[1.175rem] border-[#151515] odd:border-r md:border-r-0 md:odd:border-r-0 md:[&:nth-child(3n+2)]:border-x md:text-[1rem] lg:text-[1.375rem] py-3 md:py-8 w-full [@media(min-width:375px)]:max-w-[50%] md:w-1/3 text-white"
-                    href="#"
+                    href="/services/management"
                 >
                     <div className="flex items-center w-full px-[7%] md:px-[10%]">
                         <div className="js-hover-circle-animation flex flex-row items-center justify-center">

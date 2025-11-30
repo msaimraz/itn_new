@@ -233,10 +233,10 @@ export default function Header() {
                                     <li className="js-menu-item flex py-2 mt-0 last:text-2xl last:mt-5">
                                         <div className="js-menu-item--wrapper flex w-full">
                                             <a
-                                                href="/promise"
+                                                href="/about"
                                                 className="hover:text-white text-white md:text-silver-chalice group-[.hover]:text-white"
                                             >
-                                                Our Promise
+                                                About Us
                                             </a>
                                         </div>
                                     </li>
@@ -281,7 +281,7 @@ export default function Header() {
                                             <a
                                                 target="_blank"
                                                 className="js-hover-circle-animation inline-flex items-center hover-child-underline-animation text-inherit"
-                                                href="https://www.facebook.com/"
+                                                href="https://www.facebook.com/itnnovator"
                                             >
                                                 <span className="child relative inline-block">
                                                     Facebook
@@ -303,7 +303,7 @@ export default function Header() {
                                             <a
                                                 target="_blank"
                                                 className="js-hover-circle-animation inline-flex items-center hover-child-underline-animation text-inherit"
-                                                href="https://www.linkedin.com/company/"
+                                                href="https://www.linkedin.com/company/itnnovator"
                                             >
                                                 <span className="child relative inline-block">
                                                     LinkedIn
@@ -325,7 +325,7 @@ export default function Header() {
                                             <a
                                                 target="_blank"
                                                 className="js-hover-circle-animation inline-flex items-center hover-child-underline-animation text-inherit"
-                                                href="https://www.instagram.com"
+                                                href="https://www.instagram.com/itnnovator"
                                             >
                                                 <span className="child relative inline-block">
                                                     Instagram

@@ -16,15 +16,15 @@ export default async function ServiceDetail({ params }) {
         <div className="block md:text-lg mb-6">
           <span>
             <span>
-              <a href="/">Home</a>
+              <a href="/">Home </a>
             </span>
             /
             <span>
-              <a href="/services">Services</a>
+              <a href="/services"> Services </a>
             </span>
             /
             <span className="breadcrumb_last" aria-current="page">
-              <strong>{service.title}</strong>
+              <strong> {service.title}</strong>
             </span>
           </span>
         </div>

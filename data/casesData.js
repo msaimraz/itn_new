@@ -1,9 +1,9 @@
 export const CATEGORIES = [
-  { id: "cases_all", label: "Alla" },
+  { id: "cases_all", label: "All" },
   { id: "cases_api", label: "API" },
   { id: "cases_backend", label: "Backend" },
   { id: "cases_branding", label: "Branding" },
-  { id: "cases_e-handel", label: "E-Handel" },
+  { id: "cases_e-commerce", label: "E-Commerce" },
   { id: "cases_frontend", label: "Frontend" },
   { id: "cases_laravel", label: "Laravel" },
   { id: "cases_payload", label: "Payload" },
@@ -14,8 +14,8 @@ export const CASES = [
     slug: "brasaochbasilika",
     title: "Brasa & Basilika",
 
-    tags: ["API", "Backend", "E-Handel", "Frontend", "UX & UI-Design"],
-    categories: ["api", "backend", "e-handel", "frontend", "ux-ui-design"],
+    tags: ["API", "Backend", "E-Commerce", "Frontend", "UX & UI-Design"],
+    categories: ["api", "backend", "e-commerce", "frontend", "ux-ui-design"],
     topImg: "/webImages/cases-new/brasaochbasilika/brasaochbasilika.png",
     innerImg: "/webImages/cases-new/brasaochbasilika/brasaochbasilikatop.png",
     hero: "/webImages/cases-new/brasaochbasilika/brasaochbasilika-banner.png",
@@ -67,10 +67,10 @@ export const CASES = [
   },
   {
     slug: "tallcohtimjan",
-    title: "Pine & Thyme",
+    title: "Tall & Timjan",
 
-    tags: ["API", "Backend", "E-Handel", "Frontend", "UX & UI-Design"],
-    categories: ["api", "backend", "e-handel", "frontend", "ux-ui-design"],
+    tags: ["API", "Backend", "E-Commerce", "Frontend", "UX & UI-Design"],
+    categories: ["api", "backend", "e-commerce", "frontend", "ux-ui-design"],
     topImg: "/webImages/cases-new/tallcohtimjan/tallcohtimjan1.png",
     innerImg: "/webImages/cases-new/tallcohtimjan/tallcohtimjantop.png",
     hero: "/webImages/cases-new/tallcohtimjan/tallcohtimjan-banner.png",
@@ -122,8 +122,8 @@ export const CASES = [
     slug: "mato-mojo",
     title: "Mato Mojo",
 
-    tags: ["API", "Backend", "E-Handel", "Frontend", "UX & UI-Design"],
-    categories: ["api", "backend", "e-handel", "frontend", "ux-ui-design"],
+    tags: ["API", "Backend", "E-Commerce", "Frontend", "UX & UI-Design"],
+    categories: ["api", "backend", "e-commerce", "frontend", "ux-ui-design"],
     topImg: "/webImages/cases-new/Mato-Mojo/Mato-Mojo-banner.png",
     innerImg: "/webImages/cases-new/Mato-Mojo/matomojotop.png",
     hero: "/webImages/cases-new/Mato-Mojo/Mato-Mojo-banner.png",
@@ -176,8 +176,8 @@ export const CASES = [
     slug: "mindwell-psykologi",
     title: "MindWell Psychology",
 
-    tags: ["API", "Backend", "E-Handel", "Frontend", "UX & UI-Design"],
-    categories: ["api", "backend", "e-handel", "frontend", "ux-ui-design"],
+    tags: ["API", "Backend", "E-Commerce", "Frontend", "UX & UI-Design"],
+    categories: ["api", "backend", "e-commerce", "frontend", "ux-ui-design"],
     topImg: "/webImages/cases-new/MindWell/mindwell-banner.png",
     innerImg: "/webImages/cases-new/MindWell/mindwelltop.png",
     hero: "/webImages/cases-new/MindWell/mindwell-banner.png",
@@ -230,8 +230,8 @@ export const CASES = [
     slug: "talentra-hr-konsult-ab",
     title: "Talentera HR Consultant AB",
 
-    tags: ["API", "Backend", "E-Handel", "Frontend", "UX & UI-Design"],
-    categories: ["api", "backend", "e-handel", "frontend", "ux-ui-design"],
+    tags: ["API", "Backend", "E-Commerce", "Frontend", "UX & UI-Design"],
+    categories: ["api", "backend", "e-commerce", "frontend", "ux-ui-design"],
     topImg: "/webImages/cases-new/talentra/talentra-banner.png",
     innerImg: "/webImages/cases-new/talentra/talentratop.png",
     hero: "/webImages/cases-new/talentra/talentra-banner.png",
@@ -261,7 +261,7 @@ export const CASES = [
       },
       {
         title: "Visit",
-        link: "https://talentera.se/",
+        link: "https://talentera.se",
       },
     ],
 
@@ -282,10 +282,10 @@ export const CASES = [
 
   {
     slug: "tryggahjulet",
-    title: "Safe Wheel Car & Tires AB",
+    title: "Trygga Hjulet Bil & Däck AB",
 
-    tags: ["API", "Backend", "E-Handel", "Frontend", "UX & UI-Design"],
-    categories: ["api", "backend", "e-handel", "frontend", "ux-ui-design"],
+    tags: ["API", "Backend", "E-Commerce", "Frontend", "UX & UI-Design"],
+    categories: ["api", "backend", "e-commerce", "frontend", "ux-ui-design"],
     topImg: "/webImages/cases-new/tryggahjulet/tryggahjulet-banner.png",
     innerImg: "/webImages/cases-new/tryggahjulet/tryggahjulet-top.png",
     hero: "/webImages/cases-new/tryggahjulet/tryggahjulet-banner.png",
@@ -296,7 +296,7 @@ export const CASES = [
     sectionone: {
       type: "intro",
       heading:
-        "Talentera HR Konsult AB opens the doors to its new unique website",
+        "Trygga Hjulet Bil & Däck AB opens the doors to its new unique website",
       text: `
         Trygga Hjulet Bil & Däck AB – Full-service workshop that offers tires, rims and car accessories for both private individuals and companies. We designed a new website with an integrated booking function that makes it easy for customers to book service, tire changes and other workshop services – quickly and easily, all year round. `,
     },
@@ -315,7 +315,7 @@ export const CASES = [
       },
       {
         title: "Visit",
-        link: "https://tryggahjulet.se/",
+        link: "https://tryggahjulet.se",
       },
     ],
 
@@ -338,8 +338,8 @@ export const CASES = [
     slug: "norlux-gear",
     title: "Norlux Gear",
 
-    tags: ["API", "Backend", "E-Handel", "Frontend", "UX & UI-Design"],
-    categories: ["api", "backend", "e-handel", "frontend", "ux-ui-design"],
+    tags: ["API", "Backend", "E-Commerce", "Frontend", "UX & UI-Design"],
+    categories: ["api", "backend", "e-commerce", "frontend", "ux-ui-design"],
     topImg: "/webImages/cases-new/norlux-gear/norluxgear-banner.png",
     innerImg: "/webImages/cases-new/norlux-gear/norluxgear-top.png",
     hero: "/webImages/cases-new/norlux-gear/norluxgear-banner.png",
@@ -368,7 +368,7 @@ export const CASES = [
       },
       {
         title: "Visit",
-        link: "https://norluxgear.se/",
+        link: "https://norluxgear.se",
       },
     ],
 

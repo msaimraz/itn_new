@@ -230,14 +230,14 @@ export default function HomeCases() {
                                                 <div className="chrome-icon"></div>
                                             </div>
                                             <div className="bm-viewport desktop">
-                                                <img src="/webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/cases-new/brasaochbasilika/brasaochbasilika-3sec.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                         {/* Mobile */}
                                         <figure className="bm-phone">
                                             <div className="bm-phone-notch"></div>
                                             <div className="bm-viewport mobile">
-                                                <img src="/webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/cases-new/brasaochbasilika/brasaochbasilika.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                     </div>
@@ -250,17 +250,16 @@ export default function HomeCases() {
                             <h3
                                 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]"
                                 style={{ color: '#ffffff' }}>
-                                OnlineGoodies
+                                Brasa & Basilika
                             </h3>
                             <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: '#ffffff' }}>
-                                Swedish-owned confectionery and grocery store in Spain. We launched a modern storefront with multilingual checkout and EU payments—ready to serve customers across Europe.
-                            </p>
+                                Brasa & Basilika – A restaurant that combines the raw flavors of the fire with the fresh herbs of the Mediterranean. We developed a modern, tasteful design and created a vibrant menu with a focus on grilled ingredients, wood-fired pizza and hand-picked wines. The result was a digital presence that matches the restaurant’s warm atmosphere and culinary experience.                            </p>
                             <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: '#ffffff' }}>
                                 <a
-                                    href="case_inner.php?slug=onlinegoodies"
+                                    href="/cases/brasaochbasilika"
                                     target="_self"
                                     className="js-hover-circle-animation group/link-has-arrow w-fit inline-block text-base md:text-lg text-inherit">
-                                    <span> View our case on OnlineGoodies </span>
+                                    <span> View our case on Brasa & Basilika </span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                                             <use href="/webImages/icons.svg#arrow-right"></use>
@@ -287,14 +286,14 @@ export default function HomeCases() {
                                                 <div className="chrome-icon"></div>
                                             </div>
                                             <div className="bm-viewport desktop">
-                                                <img src="/webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/cases-new/tallcohtimjan/tallcohtimjan3.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                         {/* Mobile */}
                                         <figure className="bm-phone">
                                             <div className="bm-phone-notch"></div>
                                             <div className="bm-viewport mobile">
-                                                <img src="/webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/cases-new/tallcohtimjan/tallcohtimjan1.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                     </div>
@@ -307,17 +306,16 @@ export default function HomeCases() {
                             <h3
                                 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]"
                                 style={{ color: '#ffffff' }}>
-                                Parfymbutiken
+                                Tall & Timjan
                             </h3>
                             <p className="mt-3 md:mt-4 text-base text-100 md:text-xl">
-                                Minimalist e-commerce for premium fragrances. We rebuilt the shop from scratch, refined the brand, and optimized product pages and campaigns to showcase each scent.
-                            </p>
+                                Tall & Timjan – A restaurant where Nordic ingredients meet Mediterranean flair in a seasonal menu shaped by the chef’s personality. We created a website design that reflects the warm atmosphere, the open fireplace and the culinary care – with a vibrant menu that highlights game, sea and grill in harmony.                            </p>
                             <div className="mt-4 mb-5 md:mb-0 md:mt-10">
                                 <a
-                                    href="case_inner.php?slug=parfymbutiken"
+                                    href="/cases/tallcohtimjan"
                                     target="_self"
                                     className="js-hover-circle-animation group/link-has-arrow w-fit inline-block text-base md:text-lg text-inherit">
-                                    <span> View our case on Lillebil &amp; Parfymbutiken </span>
+                                    <span> View our case on Tall & Timjan </span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                                             <use href="/webImages/icons.svg#arrow-right"></use>
@@ -344,14 +342,14 @@ export default function HomeCases() {
                                                 <div className="chrome-icon"></div>
                                             </div>
                                             <div className="bm-viewport desktop">
-                                                <img src="/webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/cases-new/Mato-Mojo/matomojo3.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                         {/* Mobile */}
                                         <figure className="bm-phone">
                                             <div className="bm-phone-notch"></div>
                                             <div className="bm-viewport mobile">
-                                                <img src="/webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/cases-new/Mato-Mojo/matomojo.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                     </div>
@@ -364,17 +362,17 @@ export default function HomeCases() {
                             <h3
                                 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]"
                                 style={{ color: '#ffffff' }}>
-                                Brasa &amp; Basilika
+                                Mato Mojo
                             </h3>
                             <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: '#ffffff' }}>
-                                A restaurant blending fire-cooked flavors with Mediterranean herbs. We designed a warm, modern site and a living menu for charcoal grills, wood-fired pizza, and curated wines—capturing the in-house atmosphere online.
+                                Mato Mojo – A modern food concept where street food meets the flavors of the world. We created a colorful and energetic design that matches the menu's bowls, wraps, dumplings and hot sauces. The result? A digital identity that conveys the feeling of speed, flavor explosions and a really good vibe.
                             </p>
                             <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: '#ffffff' }}>
                                 <a
-                                    href="case_inner.php?slug=brasa-%26-basilika"
+                                    href="/cases/mato-mojo"
                                     target="_self"
                                     className="js-hover-circle-animation group/link-has-arrow w-fit inline-block text-base md:text-lg text-inherit">
-                                    <span> View our case on Brasa &amp; Basilika </span>
+                                    <span> View our case on Mato Mojo </span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                                             <use href="/webImages/icons.svg#arrow-right"></use>
@@ -401,14 +399,14 @@ export default function HomeCases() {
                                                 <div className="chrome-icon"></div>
                                             </div>
                                             <div className="bm-viewport desktop">
-                                                <img src="/webImages/site-desktop.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/cases-new/MindWell/mindwell3.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                         {/* Mobile */}
                                         <figure className="bm-phone">
                                             <div className="bm-phone-notch"></div>
                                             <div className="bm-viewport mobile">
-                                                <img src="/webImages/site-mobile.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
+                                                <img src="/webImages/cases-new/MindWell/mindwell.png" alt="" className="bm-img" data-auto-scroll loading="lazy" />
                                             </div>
                                         </figure>
                                     </div>
@@ -419,17 +417,17 @@ export default function HomeCases() {
                                 04<span className="opacity-50">/04</span>
                             </div>
                             <h3 className="leading-[1.28] md:leading-[1.1] break-words hyphens-auto text-3xl md:text-[2.5rem] lg:text-[3rem] xl:text-[4rem]">
-                                Tall &amp; Timjan
+                                MindWell Psychology
                             </h3>
                             <p className="mt-3 md:mt-4 text-base text-100 md:text-xl" style={{ color: '#ffffff' }}>
-                                Nordic ingredients meet Mediterranean warmth in a seasonal menu. We crafted a site that mirrors the open fire, cozy interior, and chef-led care—highlighting wild game, seafood, and grill in harmony.
+                                MindWell Psykologi AB – A private psychology practice in central Gothenburg that offers CBT for both individuals and couples. We created a calm and trust-building design that reflects the professionalism and warmth of the business. With a focus on clear information and a secure structure, we highlighted both the therapeutic offering and business services such as supervision and organizational development.
                             </p>
                             <div className="mt-4 mb-5 md:mb-0 md:mt-10" style={{ color: '#ffffff' }}>
                                 <a
-                                    href="case_inner.php?slug=tall-%26-timjan"
+                                    href="/cases/mindwell-psykologi"
                                     target="_self"
                                     className="js-hover-circle-animation group/link-has-arrow w-fit inline-block text-base md:text-lg text-inherit">
-                                    <span> View our case on Tall &amp; Timjan </span>
+                                    <span> View our case on MindWell Psychology </span>
                                     <span className="pl-1 pr-1 group-hover/link-has-arrow:pl-2 group-hover/link-has-arrow:pr-0 transition-all duration-200 ease-linear">
                                         <svg className="inline-block" preserveAspectRatio="none" width="22" height="15" aria-hidden="true">
                                             <use href="/webImages/icons.svg#arrow-right"></use>

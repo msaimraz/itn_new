@@ -9,7 +9,7 @@ export default function About() {
         <div className="block md:text-lg mb-6">
           <span>
             <span>
-              <a href="/">Home</a>
+              <a href="/"> Home </a>
             </span>
             /
             <span className="breadcrumb_last" aria-current="page">
